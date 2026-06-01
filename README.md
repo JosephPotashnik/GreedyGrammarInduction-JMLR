@@ -89,8 +89,19 @@ The command should print a `10.x` SDK version. Install the SDK, not only the
 
 ## Quick Start
 
-Run these commands from the repository root, which is the directory containing
-`GreedyGrammarInduction.sln`:
+Clone the review artifact and check out the submitted tag:
+
+```bash
+git clone https://github.com/JosephPotashnik/GreedyGrammarInduction-JMLR.git
+cd GreedyGrammarInduction-JMLR
+git checkout jmlr-submission-2026-06-01
+```
+
+If using the submitted ZIP archive instead of Git, unpack it and change into the
+unpacked repository root. The repository root is the directory containing
+`GreedyGrammarInduction.sln`.
+
+Build from the repository root:
 
 ```bash
 dotnet build --configuration Release
