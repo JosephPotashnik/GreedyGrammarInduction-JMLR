@@ -1,0 +1,58 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  "POSwithPossibleWords": {
+    "D": [
+      "the",
+      "a"
+    ],
+    "N": [
+      "man",
+      "woman",
+      "girl",
+      "child",
+      "bells"
+    ],
+    "C": [
+      "that"
+    ],
+    "V0": [
+      "fell",
+      "cried",
+      "ran"
+    ],
+    "V1": [
+      "kissed",
+      "loved",
+      "hated"
+    ],
+    "V2": [
+      "went",
+      "arrived",
+      "toll"
+    ],
+    "V3": [
+      "knows",
+      "says"
+    ],
+    "PN": [
+      "John",
+      "Mary",
+      "David",
+      "Who"
+    ],
+    "P": [
+      "to",
+      "from",
+      "for"
+    ],
+    "A": [
+      "pretty",
+      "big",
+      "cheap"
+    ],
+    "CONJ": [
+      "and",
+      "or"
+    ]
+  }
+}

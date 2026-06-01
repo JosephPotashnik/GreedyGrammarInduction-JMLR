@@ -1,0 +1,41 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  "POSwithPossibleWords": {
+    "A": [
+      "a"
+    ],
+    "B": [
+      "b"
+    ],
+    "C": [
+      "c"
+    ],
+    "D": [
+      "d"
+    ],
+    "LP1": [
+      "("
+    ],
+    "LP2": [
+      "["
+    ],
+    "LP3": [
+      "{"
+    ],
+    "LP4": [
+      "<"
+    ],
+    "RP1": [
+      ")"
+    ],
+    "RP2": [
+      "]"
+    ],
+    "RP3": [
+      "}"
+    ],
+    "RP4": [
+      ">"
+    ]
+  }
+}

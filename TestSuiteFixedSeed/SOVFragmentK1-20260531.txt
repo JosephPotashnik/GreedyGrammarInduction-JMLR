@@ -1,0 +1,178 @@
+2026-05-31T10:04:31.5064845+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "SOVFragment.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "Lexicon.json",
+    "MaxSentenceLength": 10,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.001,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/SOVFragmentSamples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 10,
+    "MaxNumberOfRules": 20,
+    "MaxDepthBetweenSubSolutions": 1,
+    "MaxDepthAfterMinimalGlobal": 1,
+    "MinSizeOfOptimalSubSolution": 2,
+    "ParetoRibbonThickness": 0.001,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "SOVFragment.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": "SOVFragmentK1Target.txt",
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (6a44f0b3)
+2026-05-31T10:04:31.5160216+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:04:31.5160286+01:00  [INF] START -> NP VP (e72b7591)
+2026-05-31T10:04:31.5160298+01:00  [INF] VP -> V0 (bec5c692)
+2026-05-31T10:04:31.5160307+01:00  [INF] VP -> NP V1 (37d2cbff)
+2026-05-31T10:04:31.5160320+01:00  [INF] VP -> PP V2 (47df22a7)
+2026-05-31T10:04:31.5160332+01:00  [INF] VP -> START V3 (690a890f)
+2026-05-31T10:04:31.5160341+01:00  [INF] PP -> NP P (d3563cf9)
+2026-05-31T10:04:31.5160351+01:00  [INF] NP -> D N (dc5a21f8)
+2026-05-31T10:04:31.5160367+01:00  [INF] NP -> PN (100c2dad)
+2026-05-31T10:04:31.5179303+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:04:31.5179357+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:04:31.5179405+01:00  [INF] 36 sentences of length 2 (60b1ba06)
+2026-05-31T10:04:31.5179418+01:00  [INF] 54 sentences of length 3 (a4b9bab5)
+2026-05-31T10:04:31.5179428+01:00  [INF] 76 sentences of length 4 (9099d520)
+2026-05-31T10:04:31.5179436+01:00  [INF] 84 sentences of length 5 (c000b8cd)
+2026-05-31T10:04:31.5179446+01:00  [INF] 102 sentences of length 6 (24803d5a)
+2026-05-31T10:04:31.5179454+01:00  [INF] 132 sentences of length 7 (0fa14dd1)
+2026-05-31T10:04:31.5179461+01:00  [INF] 154 sentences of length 8 (5c6bfe00)
+2026-05-31T10:04:31.5179476+01:00  [INF] 165 sentences of length 9 (3e369a88)
+2026-05-31T10:04:31.5179485+01:00  [INF] 197 sentences of length 10 (08495a9f)
+2026-05-31T10:04:31.5179497+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:04:31.5179513+01:00  [INF] 1 unique sentences types of length 2 (ca38798c)
+2026-05-31T10:04:31.5179521+01:00  [INF] 2 unique sentences types of length 3 (c89b3c1d)
+2026-05-31T10:04:31.5179530+01:00  [INF] 4 unique sentences types of length 4 (ce82c24a)
+2026-05-31T10:04:31.5179545+01:00  [INF] 6 unique sentences types of length 5 (7a173261)
+2026-05-31T10:04:31.5179553+01:00  [INF] 7 unique sentences types of length 6 (58602455)
+2026-05-31T10:04:31.5179562+01:00  [INF] 10 unique sentences types of length 7 (0baeb190)
+2026-05-31T10:04:31.5179571+01:00  [INF] 13 unique sentences types of length 8 (af175795)
+2026-05-31T10:04:31.5179580+01:00  [INF] 17 unique sentences types of length 9 (c4983425)
+2026-05-31T10:04:31.5179588+01:00  [INF] 23 unique sentences types of length 10 (29def8a4)
+2026-05-31T10:04:31.5179610+01:00  [INF] Total samples: 803 (68a3a3a7)
+2026-05-31T10:04:31.5179635+01:00  [INF] Actual missing probability mass: 0.0000 (c364fef1)
+2026-05-31T10:04:31.5179654+01:00  [INF] Generation time: 1ms (f67c8201)
+2026-05-31T10:04:31.5183563+01:00  [INF] Wrote 83 unique sampled sentences to "Samples/SOVFragmentSamples.txt" (23ac6b34)
+2026-05-31T10:04:31.5184381+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from SOVFragment.txt (5f448b7b)
+2026-05-31T10:04:31.5242438+01:00  [INF] Oracle : Loaded 1 strongly equivalent grammar(s) from SOVFragmentK1Target.txt (32713add)
+2026-05-31T10:04:31.5567371+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:04:31.5567652+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:04:31.5575906+01:00  [INF] Considering 1 Local Optima in depth 2 (b3a5d2ec)
+2026-05-31T10:04:31.5579025+01:00  [INF] Considering 2 Local Optima in depth 3 (3e00733a)
+2026-05-31T10:04:31.5584223+01:00  [INF] Considering 2 Local Optima in depth 4 (3043d7c1)
+2026-05-31T10:04:31.5589643+01:00  [INF] Considering 2 Local Optima in depth 5 (2075b825)
+2026-05-31T10:04:31.5597448+01:00  [INF] ---- 2 Global Solutions Found ------ (17688456)
+2026-05-31T10:04:31.5598103+01:00  [INF] 
+1. Global Optimum (Depth 6) Growth Rate: 1.595 [Indices: 8]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> X1 V3
+X3 -> X2 X4
+X3 -> V0
+X4 -> P V2
+X4 -> V1
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 5 (3b276686)
+2026-05-31T10:04:31.5598165+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 5]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> X2 X4
+X3 -> V0
+X4 -> P V2
+X4 -> V1
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 3 (2bf1620c)
+2026-05-31T10:04:31.5598214+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 3]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> X2 V1
+X3 -> V0
+Count: 6
+Grammar counts vector: [0, 0, 1, 2], total strings: 3, Rule coverage length: 3
+Solution was obtained from the following solutions: 1, 2 (97a1c724)
+2026-05-31T10:04:31.5598252+01:00  [INF] 
+Local Optimum (Depth 3) [Indices: 1, 2]:
+START -> X1
+X1 -> PN X3
+X3 -> PN V1
+X3 -> V0
+Count: 4
+Grammar counts vector: [0, 0, 1, 1], total strings: 2, Rule coverage length: 3
+Solution was obtained from the following solutions: 0 (aa62b3c4)
+2026-05-31T10:04:31.5598283+01:00  [INF] 
+Local Optimum (Depth 2) [Indices: 0]:
+START -> X1
+X1 -> PN V0
+Count: 2
+Grammar counts vector: [0, 0, 1], total strings: 1, Rule coverage length: 2 (25cf6566)
+2026-05-31T10:04:31.5598801+01:00  [INF] 
+2. Global Optimum (Depth 6) Growth Rate: 1.597 [Indices: 9]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> X2 X4
+X3 -> V0
+X4 -> P V2
+X4 -> X3 V3
+X4 -> V1
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 5 (f9b4ba23)
+2026-05-31T10:04:31.5598821+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T10:04:31.5598833+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T10:04:31.5653196+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (61fa71cc)
+2026-05-31T10:04:31.5653618+01:00  [INF] Oracle: Global #1 is strongly equivalent to target grammar #1 (cf5825f5)
+2026-05-31T10:04:31.5707379+01:00  [INF] Oracle: Global #2: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (05b8f66f)
+2026-05-31T10:04:31.5707771+01:00  [INF] Oracle: Weakly equivalent grammar indices: 1, 2 (c0422206)
+2026-05-31T10:04:31.5707786+01:00  [INF] Oracle: Strongly equivalent grammar indices: 1 (7fd3d6cd)
+2026-05-31T10:04:31.5707895+01:00  [INF] Overall session RunTime 00:00:00.06 (1087c92f)

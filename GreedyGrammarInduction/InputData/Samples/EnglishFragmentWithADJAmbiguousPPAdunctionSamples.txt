@@ -1,0 +1,1387 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target EnglishFragmentWithADJAmbiguousPPAdunction.txt #
+Count	Sentence
+20	Who cried
+13	the bells fell
+13	David kissed John
+12	Who for John ran
+11	Mary knows Who fell
+9	Mary went from Who
+10	Mary fell for Mary
+10	a child hated Who
+13	David kissed the child
+10	a cheap bells fell
+14	David says Mary kissed John
+7	the big pretty woman ran
+5	Mary fell to a child
+6	Who arrived for the child
+6	John says the bells fell
+10	Who from Who loved David
+8	the woman from Who fell
+9	John for a girl fell
+10	Mary kissed Mary from Mary
+15	a child toll from Who
+12	the pretty child kissed Who
+15	David loved the pretty man
+9	a man kissed a woman
+7	a man knows John ran
+8	a child cried for John
+6	David fell from a pretty girl
+15	John from David kissed a woman
+8	Mary says the girl loved David
+7	Mary kissed a cheap cheap man
+15	David says John cried for John
+6	Mary from Who arrived to Who
+7	the girl toll for the woman
+4	David knows John for Who cried
+3	the big pretty cheap man fell
+6	the man for Mary kissed John
+7	the pretty woman for John cried
+18	John toll to Mary for Who
+9	Who from Who knows Mary cried
+5	Mary knows Who went from John
+7	a woman to a child fell
+8	a big bells ran for Mary
+6	the pretty bells knows Who ran
+9	John hated the woman from David
+8	the child knows the woman fell
+7	a girl hated a big child
+19	John for Mary to John fell
+9	the girl ran from the bells
+20	Who loved David for the woman
+13	John went to the pretty girl
+8	Who says John knows John ran
+11	a bells kissed Mary from David
+7	David knows a cheap girl ran
+7	Who to a bells kissed Mary
+11	Who says David hated a bells
+5	a pretty girl went to Mary
+6	a cheap big bells loved John
+8	the child knows John loved Who
+11	Who cried for Who to David
+12	David to the cheap bells fell
+3	the cheap bells loved the girl
+3	John from Mary cried from Mary
+11	Who from the woman from John ran
+13	John ran to David from a man
+9	John knows Mary to a child cried
+15	John says Who ran for the bells
+10	the pretty cheap man fell to David
+5	Mary to David knows Who loved Mary
+10	a child says John says John cried
+5	Mary says Mary says Who kissed John
+7	Mary kissed Mary to the pretty man
+12	the woman toll from Who for Mary
+8	a big man fell from a bells
+9	a cheap pretty bells says John fell
+2	John says the woman says David fell
+14	John for Mary kissed John for David
+6	Who says a bells went for David
+33	David kissed Who from John for Who
+14	Mary went for David to a man
+8	David from David knows a child fell
+10	Mary went for the cheap pretty girl
+14	a man kissed a girl from David
+3	the woman fell to a pretty girl
+5	the pretty girl toll from the woman
+3	the big big bells to Who fell
+9	the girl loved David for a child
+7	a cheap man kissed a cheap man
+2	the pretty cheap big big girl cried
+11	Mary for John loved a cheap child
+7	Who to the child loved a woman
+12	Mary toll for the man from David
+6	John says a man loved a girl
+7	John says the man for David fell
+6	Mary for the cheap pretty man fell
+6	the pretty bells from the bells cried
+7	a pretty cheap bells hated the child
+10	Mary kissed the pretty man for John
+5	David ran to a big pretty child
+7	the woman cried to Who to Who
+11	a cheap girl kissed John to David
+13	John hated the woman from a child
+4	the cheap pretty cheap child loved John
+20	Mary knows Who loved David from David
+2	a man says Who loved a man
+5	Who to John ran for a bells
+9	the pretty child to David loved John
+13	Who to a pretty man hated John
+7	Who says David arrived for the child
+5	the cheap girl says David kissed Who
+6	a big bells says the girl fell
+7	a child kissed a cheap cheap man
+10	John from a girl cried to David
+5	David for Mary went from a woman
+6	Mary says David loved the cheap bells
+11	the girl to a big woman ran
+6	a woman to Mary kissed the man
+5	the cheap cheap child arrived from John
+6	John knows a pretty pretty bells fell
+5	John to Who from Who hated John
+6	David knows a man ran to Mary
+16	Mary knows a pretty girl hated Who
+6	John knows Who says the woman cried
+8	Mary to a child says Mary ran
+10	the man for Who toll to Mary
+9	Who for a bells toll to David
+13	David for Who for the girl ran
+2	a man for Mary knows Mary fell
+17	Mary ran to the man for John
+8	a girl says the girl kissed Who
+5	the child to the child kissed David
+3	the woman knows David toll for Mary
+7	the man arrived from a pretty girl
+14	a woman from Mary to Mary fell
+5	a woman from Mary cried to John
+6	Mary says John from David loved John
+6	a woman says David from John ran
+15	the child knows David cried from Mary
+5	Mary hated the pretty pretty pretty child
+5	the woman knows the pretty girl fell
+11	the man for the big child loved John
+3	David says Who toll to the big man
+8	Mary says Mary knows Who kissed the bells
+10	David knows John knows Who went from Mary
+9	the child knows the child loved the child
+7	a big man cried for the big woman
+10	Mary from a cheap man kissed the child
+10	Who knows David for Who fell to Mary
+22	the pretty girl fell for Who for John
+8	Who knows David says a child kissed Who
+15	David from a man to Who loved John
+23	Mary hated John from David for a bells
+14	Who cried from the man to a woman
+8	Mary fell for John to the pretty woman
+7	a cheap bells for the cheap girl cried
+8	the big cheap cheap cheap girl hated John
+4	the woman from the woman ran to John
+3	a cheap pretty cheap child cried for David
+15	John says John for David for David ran
+11	the child went from the girl for Who
+15	the child hated the pretty child from Who
+6	Mary for the girl cried to a girl
+7	the cheap girl from a child hated David
+7	a cheap woman knows a cheap woman fell
+6	John from the man knows a bells fell
+11	the woman arrived for David to the bells
+16	a big child from Mary for John cried
+2	John knows a child from John loved John
+8	the big bells says David for Who fell
+9	a woman says a child fell for Mary
+12	Mary loved a child to a pretty man
+11	Mary arrived to the woman for a girl
+5	the woman says Who hated the big child
+11	Mary for the child loved Who to John
+8	David says a big woman to Mary cried
+20	Mary knows Who loved the bells for David
+15	Mary to John for John fell to John
+8	the big cheap child went from a girl
+5	a cheap girl toll for David from David
+9	the cheap girl to David cried from Mary
+3	John from Who hated a big big man
+7	Mary says the girl to the bells fell
+27	Who loved Mary from a child from Mary
+5	Who for John toll for Mary from David
+11	John says the child loved Who for John
+12	John for a child loved the big man
+7	the bells says Mary says Who loved John
+6	Mary to Who fell for a cheap bells
+7	the man knows Mary arrived from the child
+8	the big cheap big woman went for Who
+11	Who says Mary from David toll to Mary
+7	David to John says Who arrived for David
+14	Mary says a girl cried to the girl
+7	the cheap big child says David loved David
+9	Mary went from the cheap girl from John
+8	the girl says a pretty cheap woman ran
+9	David kissed the cheap big big big girl
+12	John loved David for a cheap big child
+15	the man from David from the girl cried
+11	David from John says Who ran from David
+7	the man toll from a cheap cheap girl
+3	David knows David to John kissed a child
+9	a child says David to David loved Who
+6	the bells to Who fell for a girl
+10	a man loved John to a cheap woman
+7	a big child arrived for a pretty bells
+6	a woman for the girl loved the child
+12	John for the pretty girl knows David ran
+6	the man from Mary toll from a woman
+10	Mary for a girl toll from the child
+3	a pretty man knows John loved the bells
+12	the woman from Who from Mary kissed Mary
+5	a cheap bells says David went for Mary
+12	David from Mary to David went for Mary
+13	the child for John loved John to David
+14	John from Mary from a bells hated John
+37	John ran to John to Who for Mary
+4	a child for Mary kissed a big child
+9	Who fell from a big bells to David
+5	a big pretty man ran from the woman
+7	Mary knows a big child fell for Who
+14	David to a big child to Who ran
+13	Who to a woman from the man ran
+14	a girl fell from the woman for John
+29	Mary loved the woman from David for David
+13	John from Who kissed the man to David
+10	a big bells knows John says Mary fell
+5	David for John toll to the pretty bells
+7	the big bells loved the big big bells
+4	Mary says a big big child loved Who
+4	Who says the big bells knows John fell
+2	a bells says a man arrived from John
+8	a cheap man for John knows John cried
+5	Who knows John for David knows Mary ran
+5	the cheap cheap big woman for Who cried
+7	a man ran to a big pretty child
+5	the man from a big pretty woman cried
+3	the girl kissed the pretty pretty cheap child
+9	Mary to Mary from David kissed a man
+30	Who to David to Mary for Who fell
+4	Mary knows John to a big child fell
+6	Who says Mary knows Who knows David fell
+5	the cheap pretty woman for David hated Mary
+21	Who knows Who kissed Mary for a child
+9	Who for Mary knows Who says David cried
+18	Mary for David kissed David to a woman
+3	Who from the child knows John loved Who
+12	a bells from the bells to Who fell
+16	David says Who ran to the pretty girl
+17	Mary says John arrived for Mary for Mary
+9	Mary from Who cried from Who to David
+7	John went from a big pretty cheap child
+6	a man says Who for a bells fell
+28	a girl loved David from David for Mary
+13	a girl hated the child to a woman
+19	the pretty pretty bells hated David for Mary
+15	David from Who for Who knows David cried
+7	a girl says Who cried for a child
+7	a child says the pretty bells kissed Mary
+5	John says the cheap big big man cried
+5	John says the girl knows Who kissed Mary
+4	Who knows a pretty girl arrived for Who
+2	the girl for a man arrived to David
+4	a girl for the bells knows John ran
+11	a cheap bells kissed the child to Who
+5	Mary to a pretty pretty pretty child ran
+14	the child fell for David from a bells
+10	David went for David from a big girl
+13	a girl says John kissed Mary to John
+8	a big big big man says Who ran
+23	David went to David from Who for David
+4	Who to David says a pretty girl fell
+8	a big pretty girl knows the woman fell
+4	a girl from David knows David loved Mary
+5	a big child knows the girl hated David
+7	Who knows the big child hated a man
+9	Mary for Who says Who for Mary cried
+2	the pretty big pretty girl kissed a bells
+7	Mary knows a bells went to a man
+9	John loved a big child for the woman
+3	David knows John knows the big man fell
+4	a pretty big cheap pretty big girl cried
+4	John says Who kissed a cheap big bells
+10	a big big woman hated the cheap woman
+2	John says Who from the girl hated Who
+3	David for Mary knows Who kissed the bells
+5	the cheap big child for a man fell
+11	John loved a big pretty woman from Mary
+8	the bells knows the bells to Who ran
+7	a child says John says a man fell
+5	Who says the woman knows a bells ran
+5	Who ran to a pretty pretty cheap girl
+19	Mary knows Mary knows Who ran from Mary
+6	John from a cheap man went to Mary
+9	the child says the bells says David ran
+13	Who to John for a cheap woman ran
+8	David knows the girl hated the big girl
+17	the pretty bells knows David fell for John
+6	John for the pretty girl ran to John
+5	the big man for Mary went for Mary
+26	David says Who cried to John for Mary
+3	a big man to Who hated a bells
+8	a pretty bells hated Who from a man
+7	David for Mary says a child hated John
+9	Who to the pretty big bells loved John
+11	the man from Who says a girl cried
+4	John knows David says David for David cried
+19	Mary to the girl from Mary to Who fell
+5	the child knows Who toll to a cheap man
+8	a child for the big man for Mary cried
+4	the cheap bells from Mary says Mary loved John
+4	David knows the girl knows the cheap child fell
+10	Who for Mary knows John knows Who kissed John
+6	Who for Mary cried from David to a bells
+13	Mary says Who kissed a man for a girl
+3	John knows John knows Mary toll to the man
+12	Who says Who to John fell to the man
+6	a bells says Who says Mary for Who cried
+3	Who from Who says David for a child cried
+5	Who for Who says the woman kissed the woman
+12	John to the cheap woman hated David to David
+4	John from the child knows David hated the man
+5	a bells knows Mary knows the big bells cried
+7	a child says the bells from John hated John
+14	the pretty child went to a woman to John
+3	a cheap woman from a man ran to Mary
+6	Mary to a big pretty woman arrived from David
+3	the pretty big woman for Mary kissed a child
+10	the pretty cheap girl kissed a woman to John
+3	John knows a cheap man knows John hated David
+7	David arrived for a pretty big big cheap child
+12	John hated the big man from the cheap woman
+5	the man from the pretty man loved the woman
+8	John says a cheap girl from Who hated Mary
+10	the pretty big woman says Mary went for David
+4	Who ran for a cheap big big big woman
+4	a man knows a pretty bells arrived for Mary
+12	Mary knows the cheap child loved David to David
+4	a child to a girl knows a girl fell
+9	the pretty child knows a man to Who cried
+7	the cheap man to a bells hated the man
+6	a big pretty girl knows David says Mary ran
+4	the child for a bells arrived to the child
+10	Mary for John arrived for a child for Mary
+4	Mary knows John to a bells hated a man
+7	a woman for a cheap woman says Mary ran
+7	John from the cheap cheap bells knows Who ran
+3	the pretty cheap cheap pretty big cheap woman cried
+5	Mary to Mary says John toll from a woman
+4	a pretty big child from David fell from John
+4	a pretty man to John knows a man fell
+6	the bells for a cheap child arrived for Who
+6	a big big pretty cheap man to John cried
+8	John says Mary says the cheap child hated Mary
+16	David knows David knows Mary fell from a man
+13	the bells for the child kissed Mary for David
+5	a pretty pretty girl to a big girl fell
+4	a big big woman says Who kissed the bells
+6	Mary from John says a woman to David ran
+21	the child says Who arrived from Mary to John
+7	David knows the bells knows John for Mary fell
+9	a pretty girl to David to the bells fell
+4	Mary to David knows the woman arrived from Who
+5	Who says a bells knows Mary hated the woman
+23	David hated a woman for John for the woman
+1	David for the bells knows Who went from Mary
+4	the child says David says a bells loved John
+5	John from a woman arrived to a cheap woman
+6	a cheap big big girl loved the cheap bells
+10	David for a man for Mary toll to Mary
+3	Who knows Who to the girl to David ran
+3	David from the pretty girl kissed a cheap woman
+6	Who from the big big bells loved a bells
+21	John kissed the big big bells from a child
+14	David to David for a woman went to Mary
+5	David says a man hated the cheap pretty woman
+6	Who knows the child from a woman loved John
+6	John says a girl says David knows David ran
+4	a pretty pretty woman cried for a pretty woman
+12	Who says the pretty child ran from the child
+12	David for a cheap cheap man to David fell
+3	a cheap pretty man for Mary says Who ran
+4	the bells for a girl cried to the girl
+13	a man kissed the cheap child to a child
+11	the woman says the cheap man ran to Who
+4	the cheap woman says David kissed a pretty man
+1	a cheap big child knows the bells hated Who
+3	Mary knows the child from John knows David fell
+15	a bells toll for a pretty bells for John
+2	the child says John from Who kissed the bells
+9	John kissed a bells to a big cheap girl
+6	Mary knows Mary kissed the pretty cheap pretty man
+6	the woman from David says John went from Who
+4	John says David to John knows David kissed Who
+18	David for David says David kissed David for Who
+4	a bells knows a girl knows the bells cried
+14	David from David kissed the girl for a woman
+4	Mary knows Mary says the woman loved a woman
+4	a child says Mary for Mary says Who fell
+4	the big woman knows Who to David loved Mary
+8	John fell for a man to a big man
+4	a child to Who knows the pretty man ran
+3	David says David for a girl toll to John
+5	Who knows John ran for a big cheap man
+11	David knows David for Who from a girl fell
+4	the cheap child to Mary hated the big woman
+2	a cheap woman for a child says David ran
+9	David for a child knows Mary to Who fell
+11	Who for Who cried to a man from David
+4	John to a man hated the cheap big woman
+4	a big girl knows a woman knows David fell
+5	the girl says Who knows Who kissed a child
+2	a man cried from a big big big woman
+4	the cheap girl says David knows John hated Mary
+10	John says Who knows the big big man ran
+5	the bells knows the big child loved a man
+3	David knows Who for Mary loved a cheap girl
+5	David knows Mary says Mary says a child cried
+3	Who says a cheap cheap woman toll to Who
+9	a cheap child knows David loved Mary to Mary
+2	Mary says a man says David arrived for David
+12	Who from the big girl for David loved Who
+6	the girl says the pretty cheap big bells cried
+22	Mary knows a child hated Who to the man
+6	John says David knows the bells went for Who
+3	David from David arrived to the pretty big woman
+9	the big big man from David to John fell
+6	a man to Mary arrived from a pretty child
+6	a big bells says a child kissed a child
+10	David for a pretty big big big girl fell
+11	Mary to a girl to John knows John fell
+5	David from the girl knows the bells hated John
+15	Mary from Who for Who loved Mary for Mary
+5	Who says a big child from a child cried
+14	a bells for John loved the woman for David
+4	a girl says a big cheap man hated Mary
+7	David says a man fell for a cheap child
+7	the cheap cheap cheap girl for a woman ran
+5	the cheap big cheap pretty man went for John
+17	David from a girl fell for Who to Mary
+8	a cheap bells to David hated David from Mary
+6	John for Who knows Mary fell to the girl
+8	the man loved a cheap cheap cheap pretty child
+8	Mary from the woman ran for the big girl
+8	a woman went for Mary to the big girl
+3	Mary says Who to the pretty bells kissed David
+7	a pretty man knows a woman went for Who
+8	a child from the woman for Who hated John
+5	John knows a bells arrived from a pretty child
+13	the woman hated Mary from a cheap cheap bells
+8	Mary knows David says John kissed the big girl
+3	a woman to Who knows Who from David fell
+4	a man knows David kissed a pretty cheap girl
+5	Mary kissed a cheap pretty cheap big cheap girl
+6	the cheap bells knows a big child loved Who
+6	Mary says the child from Mary loved the girl
+8	the child from Who for a pretty girl ran
+5	John for David loved the big big cheap woman
+6	the cheap bells fell for the big big bells
+8	a woman for the big woman fell from David
+4	John says John says John to a bells fell
+6	Mary knows Mary knows John to David hated David
+8	the big man for a big child loved Who
+8	Who to Who kissed the pretty bells from Who
+3	the bells from Who cried from a big girl
+29	John loved Who to David to the cheap child
+10	the man from Who for Mary arrived to Mary
+4	a bells to Who says the girl kissed John
+3	the child says a man toll for the woman
+7	a bells for the bells says Mary hated David
+7	the big bells hated the pretty cheap big girl
+3	David says a cheap man loved a big bells
+3	Mary knows John for Mary says a woman cried
+3	a woman says the woman loved the big woman
+8	David from a cheap cheap pretty girl loved John
+6	John says Who to the man says John ran
+2	the big big big girl says a child ran
+4	the bells knows the pretty girl to Who cried
+5	the girl knows David knows Mary arrived from Who
+4	Mary from Who knows David kissed the big girl
+3	a pretty child to a bells went to Mary
+14	a big child kissed the girl for a bells
+13	Who from the woman for the woman loved Who
+8	Who says a woman to a cheap man fell
+4	Who knows Mary went to the big big man
+6	Who knows the child to Who went from Mary
+13	a big woman fell for the bells for John
+7	a big pretty man knows John ran to David
+7	a cheap pretty man to a child kissed Who
+5	the girl says the bells for a man fell
+6	Mary says John says John knows John kissed John
+3	a cheap big big pretty pretty bells loved Who
+5	a child to Mary loved a pretty big child
+5	a girl from John says Mary ran from David
+6	the big cheap pretty pretty woman loved the child
+6	John says the cheap cheap woman for Mary ran
+11	Who to Mary from the cheap man hated David
+8	David ran from the pretty pretty child to Mary
+4	David says the cheap pretty child knows Mary ran
+23	Who hated Who for a woman from the child
+6	Who to David knows a woman knows Who fell
+8	John to a girl went for Mary from Mary
+9	the pretty big cheap woman loved John to Mary
+4	the pretty big pretty girl went for a woman
+10	a girl kissed a bells to the pretty man
+5	Mary to the girl says David knows John fell
+10	Mary for Mary for Mary cried from the man
+6	a big cheap girl for David toll to Mary
+7	David went to John to the cheap cheap girl
+10	a child to David loved Who to a man
+15	John cried for Mary from Who for the man
+9	David for John from a child loved a child
+9	David fell from Mary for a cheap pretty girl
+13	John to Mary knows the child cried for Mary
+6	the big child knows John says a girl ran
+11	Mary for John for Who loved a big child
+6	John knows David to a big pretty girl ran
+6	Mary to Who fell for a cheap big bells
+9	David to a bells kissed a man from Mary
+8	a man says David for a girl loved Mary
+10	a cheap big girl ran for David from Mary
+9	the pretty man to Who for David kissed John
+11	John for the pretty man from a child fell
+4	a cheap man to Who went to the bells
+6	John from Mary knows a big cheap bells cried
+7	Who from John knows David knows a woman fell
+7	John knows a cheap pretty cheap woman kissed John
+10	a woman from David from John says Who cried
+13	a child says John for John fell for John
+1	a child says Who says Mary says John ran
+4	a cheap cheap woman says the big girl cried
+7	John from the cheap cheap bells cried for Who
+15	the man arrived to a child from the woman
+9	John to David from the girl ran to John
+8	the cheap child says Mary to a girl ran
+8	the woman for John knows David says John fell
+25	Mary for John to John for a girl fell
+20	Mary knows David to Mary kissed John from Mary
+20	John says the woman says Mary ran from Mary
+6	a cheap cheap woman knows David for David fell
+10	a child knows Who for John from David cried
+16	Mary from John for a big cheap child ran
+8	the bells for David arrived from Mary for David
+11	John toll for the woman for a cheap girl
+32	David says David cried for John from a bells
+3	a cheap woman says the big cheap woman fell
+10	the man from Who fell to David to John
+14	the child knows a girl hated Mary to Who
+12	the man fell from a woman from the man
+8	a girl kissed a big cheap woman to Who
+8	John from a bells to Who ran for David
+10	the cheap man loved Mary from a big child
+7	the cheap cheap pretty cheap child says John cried
+14	John ran from a cheap child to a man
+16	Mary from Mary for Mary knows a bells cried
+31	David ran to the child from David from Who
+8	the bells to Who knows David kissed a girl
+5	a girl says Mary to the pretty child ran
+30	Mary toll to David to the woman for Who
+8	the child knows David cried from the cheap woman
+6	a big pretty pretty bells fell for a girl
+27	a child cried to Mary for John from Mary
+14	a bells from Mary for a girl kissed John
+20	Who loved Who from the big cheap cheap girl
+5	Who says a pretty bells went from a man
+11	David says the girl for David ran from David
+12	Mary from John to a girl says David ran
+15	John went to the cheap man from a girl
+5	a big woman knows David toll for the bells
+14	Mary says a man kissed a child for David
+6	Who to a pretty child knows a woman cried
+12	David arrived from a big pretty girl to David
+12	Mary says Mary went to Who for a child
+25	a bells went for Who for John from John
+3	John to a big child knows John hated Mary
+31	John toll to the girl to David from John
+6	a pretty cheap bells went to the cheap bells
+8	Who says the big cheap big pretty child cried
+22	a girl for Who to John from Who cried
+7	the girl knows Who for Who went from Mary
+3	Mary says the child says the bells kissed Mary
+15	the woman says John says Mary cried for John
+21	David knows the man toll from Who for John
+9	a bells cried from the big man for Mary
+19	John knows Who says John loved John to Mary
+14	Mary to John hated John from the cheap man
+15	John for a woman hated David to a girl
+33	a child loved a girl to David for Who
+7	the bells to Mary for John loved a child
+6	David to Who says a pretty man hated Who
+2	the girl from the cheap big girl kissed David
+30	David loved the girl for the child for John
+7	Who for a pretty girl cried from the woman
+5	a child for the big big cheap man fell
+6	a bells from the bells to a woman cried
+8	a man toll to the pretty cheap big girl
+5	Who knows John knows a man from John ran
+29	John says a woman cried from David from David
+7	the pretty child for the bells from Mary cried
+24	John loved Who to a cheap man from Who
+31	Who knows Mary cried to a girl to Mary
+12	David says the cheap pretty bells fell to David
+4	David says Who knows the girl knows Mary fell
+71	Mary hated Mary from David to Mary from Mary
+10	the big woman ran to David from the woman
+9	the big bells to Who fell to a bells
+10	Mary says David from Mary from David kissed David
+11	David to the bells to the cheap girl fell
+8	Mary knows Who from John toll to a girl
+21	Who knows David kissed David from a big bells
+11	David to the bells for Mary loved a child
+11	Who says a cheap big child kissed a girl
+14	John for John went to Mary to a man
+13	Who for David from Who toll to a girl
+7	Mary from David says David for John kissed Who
+11	Mary for a girl knows Who cried to Mary
+38	Who for Mary from Who to John kissed Mary
+15	David knows John toll from a man from Mary
+6	a pretty big cheap woman says Who kissed Mary
+7	John knows David to a woman cried to Who
+13	a big big child kissed Mary from the bells
+5	Mary for the big man arrived to the bells
+13	a man knows a girl cried from a bells
+47	John knows Who hated Who to Who from Mary
+11	the big bells arrived to David to the man
+28	Who from David to a bells for John cried
+6	a cheap cheap big girl for David kissed Mary
+17	David arrived from Mary from John to the bells
+14	a girl knows Who hated the bells from David
+12	the big cheap cheap big man cried from John
+17	a woman kissed David to a bells for Mary
+20	Mary loved a pretty bells for David to Who
+8	Mary says the big man knows a bells cried
+7	the big woman went from the cheap cheap child
+15	Mary for John for David knows Mary hated Who
+15	the man knows David loved Who for a child
+13	a pretty big child toll from Who for David
+11	a pretty child knows a girl cried for David
+8	a girl knows the cheap child knows Mary cried
+12	a man fell for Who to the pretty girl
+6	a pretty pretty girl kissed the pretty big woman
+9	the cheap woman says Who cried to the girl
+24	David for Who loved Who for Who from David
+31	John cried from John from a woman for Who
+27	the child hated Who for John from the girl
+4	a big man for the cheap pretty child cried
+2	the man knows a bells knows Who kissed Who
+6	Who from a bells knows the cheap woman fell
+7	a girl from a girl hated the cheap man
+26	a man says Mary fell to John to John
+21	Who knows John says a girl ran to David
+26	a pretty bells kissed Who to David to Who
+5	Mary knows a bells for Mary to Mary ran
+10	a bells to Mary to Who ran to Mary
+9	Mary kissed a cheap big big woman from Who
+20	David says Who loved a big man from Mary
+10	the big bells hated the big man to David
+16	the girl says Who from John loved David to David
+4	a girl says the cheap cheap pretty cheap woman cried
+5	a big big man knows the child hated a child
+9	David hated the big cheap woman to a cheap bells
+3	a pretty cheap man from Who knows the girl fell
+5	the pretty man from John went for a pretty woman
+10	Mary for a man knows David loved John to John
+71	Who kissed David from a bells for John from Who
+14	David to John says David fell from a big girl
+3	the child from the bells cried for a cheap child
+5	the child knows a big woman knows a child cried
+4	David cried from the big pretty cheap pretty big girl
+10	Who knows the girl from a pretty man loved Who
+6	David knows the pretty child to David to Mary fell
+14	the big bells says Who hated David to the child
+13	John from David knows Mary arrived to Mary from Mary
+8	the woman says the pretty big bells toll for Who
+10	a bells for John arrived from the bells to David
+21	Mary for Mary hated the woman for John for David
+5	John from a pretty man knows a pretty man cried
+3	Who says the pretty girl says a pretty child ran
+17	Mary to David from the big cheap big girl fell
+8	a child for a pretty bells kissed Mary from Who
+6	a cheap big child hated a big big big child
+4	the big man from Mary says a child hated Who
+5	a big pretty pretty bells knows John says David fell
+9	a cheap woman for the girl ran to the man
+4	a big big man knows John for the man fell
+14	John for Who for John says David arrived from Who
+71	John for Mary from Mary from Mary from Mary ran
+5	the big child says a pretty cheap pretty child fell
+11	David to David from John knows Who says Mary fell
+3	the woman to a cheap pretty woman ran for Who
+5	John from the woman says David knows Who hated John
+6	the bells knows Mary from a big cheap woman fell
+5	Who from the cheap big big man ran to Mary
+8	David from a cheap pretty woman hated Mary from David
+7	a girl knows a girl to David says John cried
+4	the girl knows John says Who knows a girl ran
+4	David from a big child knows Mary to Who ran
+82	Who kissed John from John for Mary to a woman
+32	David for the girl for Who to Who loved John
+4	the big pretty cheap girl arrived to John for John
+7	David for Who to David says a woman loved Who
+23	Mary knows a girl cried to David to the girl
+3	a bells knows a woman knows John went from Who
+7	Who says David for Who for David hated a girl
+13	the child says a bells from John to Mary ran
+8	a woman for John kissed a woman to the bells
+12	Mary from John for the big man hated the man
+12	Mary to John says David hated David to a child
+25	the bells knows Who cried from David for a woman
+75	Who knows Mary cried for Mary to John to Mary
+13	Mary to the woman from John knows the man fell
+14	David from the pretty child for John loved a bells
+4	the pretty pretty bells from John toll from the man
+22	John fell for the bells for Mary from the bells
+10	a pretty pretty girl toll for David for the man
+9	Who to the woman from the big bells loved David
+65	David toll for David to Mary from Who to Who
+80	David loved the child to Who for Mary from David
+9	the bells knows David says a girl loved the man
+10	Mary kissed a child to a pretty cheap big girl
+8	Mary from the man cried for a pretty cheap child
+18	Mary says the bells went for Who from a woman
+28	the woman hated the big bells from John to David
+3	John knows the man loved the cheap pretty big girl
+9	Mary for Who from a big bells arrived to John
+14	John for the cheap man cried from Mary for John
+7	a girl hated David to a pretty cheap pretty bells
+12	David knows Who from the cheap child cried from Who
+4	a cheap girl from Mary knows John toll from Who
+9	David says John knows the big bells ran for Who
+9	Who knows the woman kissed the cheap girl to Mary
+5	David says a pretty cheap bells loved a pretty man
+15	Who from the girl to John cried for the woman
+9	the pretty girl says Mary for David for Mary fell
+4	a pretty girl knows the child says the girl ran
+10	Mary fell from a child for a pretty pretty bells
+5	Mary says John says David loved a cheap pretty woman
+10	John from a cheap man hated a child for John
+17	Mary says David kissed Mary for the cheap cheap girl
+26	Who to David to Mary from the girl loved Mary
+13	Who for John for Who toll to the cheap bells
+8	John knows the bells to a bells cried for Who
+4	David knows a girl says John for Mary hated John
+23	Who kissed a pretty bells for the bells from David
+7	a child says Who knows the woman arrived from Who
+6	Who says a girl says David hated the big child
+8	Who knows the cheap child arrived to the cheap child
+13	a pretty man for the woman loved Who for David
+8	a child went from the pretty pretty cheap cheap girl
+9	a pretty cheap cheap woman says a man kissed David
+9	Mary for a bells for the girl ran to Mary
+12	David knows Mary arrived to the man from a girl
+7	David says Mary to Mary loved a big cheap bells
+40	Who says Who toll for John from John from Mary
+11	David for Who from the woman knows a child cried
+5	the big big cheap pretty woman from Who hated John
+5	Who for Mary knows David for Mary knows David ran
+8	Who cried from a pretty bells from the big girl
+5	David says Mary knows the pretty child for Who ran
+5	Who says David to a pretty big cheap girl fell
+19	the man says John knows David fell to the woman
+8	a bells knows a woman ran from a pretty woman
+5	Mary for Who knows Who kissed a cheap big man
+3	Who kissed a big pretty cheap big big pretty man
+10	Who went from the big big cheap woman to John
+5	David from the pretty child knows the bells loved Mary
+4	David to John from John knows Mary hated a man
+13	a cheap pretty man from a woman from David cried
+5	Who to a big big woman knows David loved Who
+10	Who for Who says a cheap man knows Who ran
+10	a bells loved a bells for the cheap pretty bells
+12	David knows the pretty man from Who hated the child
+23	Who for a cheap bells for John from Mary fell
+2	the cheap big man to David knows Who kissed David
+12	Mary says Who loved a cheap cheap man to David
+2	a man knows John says a pretty pretty girl cried
+10	David says John says John to the child kissed John
+3	a man says Mary to Mary knows the child fell
+11	John to Who says the big child ran for David
+5	a child to David knows the big cheap bells fell
+46	David says Mary says David cried for Mary to David
+9	the bells to Mary to Who knows Mary loved John
+11	the cheap woman to Mary to a big bells fell
+8	the pretty cheap man for a pretty big girl cried
+11	Mary from David says John from Mary fell from John
+6	a pretty pretty cheap pretty big man knows David cried
+6	the girl says the girl knows Who loved a man
+2	David says the woman knows a bells toll for John
+6	the woman to the child cried from Who from Mary
+13	Mary toll to the big pretty bells for a child
+10	a child says a pretty bells fell for the man
+9	a man says Who for John loved a pretty child
+9	John from the pretty woman loved David for the child
+19	David from the woman fell from a child from David
+6	Mary says Who knows a girl hated the cheap child
+4	John knows Mary for David knows David kissed a woman
+8	a big pretty pretty woman to David says Who ran
+15	John knows a child went for the child for David
+3	a big big man for a girl fell to David
+5	John from the pretty girl says John arrived for Who
+3	a cheap man says Mary kissed the big cheap child
+8	a big cheap cheap man knows Mary cried to David
+2	the pretty pretty man knows Mary for Who loved David
+3	a pretty pretty girl for a bells loved the man
+23	David from David to Who went for Who for Mary
+4	John knows John to John arrived from the cheap child
+4	David knows the woman knows a child kissed the man
+3	a big girl says David says John from Who cried
+23	the big man says Mary fell from Who from David
+6	a cheap cheap woman arrived for the big pretty child
+6	David to Mary for John cried for the big man
+3	the girl says Mary for the girl says Mary ran
+3	a child from the woman hated the cheap big girl
+5	the man for the child knows David loved the child
+5	John for a pretty bells knows Who fell from Mary
+4	a cheap pretty man says John loved the pretty girl
+5	Mary says Mary says John went from the cheap girl
+5	Mary for the girl says Mary toll for a child
+5	the woman for Mary says the man to Who fell
+4	Who knows the pretty woman to Mary knows Who fell
+4	Who to John cried for a cheap cheap pretty man
+8	a man says John for a woman ran for Mary
+3	a bells to a pretty cheap cheap man kissed Who
+6	the woman kissed a cheap pretty big cheap pretty bells
+9	John says the big child for John ran from David
+2	a girl for Who knows David for a woman fell
+4	the big child says Mary for the bells loved John
+8	Who to the cheap big man for Mary hated Who
+5	David for Mary knows David says David for Who cried
+8	Who for Who knows a big child went for Mary
+3	the cheap big cheap girl to David arrived to Who
+15	a man from a woman for the big woman cried
+3	David for Mary says the man to David loved Mary
+6	the cheap cheap cheap big cheap woman fell from John
+5	a big woman says a big woman kissed a girl
+5	John to a cheap man says David knows John cried
+11	a pretty cheap woman from Mary from John hated John
+3	John for John hated the cheap cheap pretty pretty woman
+2	the big child knows a cheap man from John fell
+18	a man from David to Who loved Who to Who
+29	a bells for a child to John from David ran
+4	Who says the bells knows John for a man cried
+1	a woman knows Who for the bells hated the woman
+6	Who says the big child from the big woman cried
+4	Mary says Mary knows the bells knows Who kissed Who
+1	a cheap cheap pretty bells for Who cried from David
+5	the man for the bells knows Mary for Who fell
+2	the cheap girl knows a child arrived to the girl
+2	David from a child knows the woman arrived from Mary
+5	the cheap cheap cheap big man for a girl fell
+3	David says Who says David to a pretty woman fell
+24	a child says the child cried for John for Who
+3	John to a man says a woman from Mary cried
+3	a girl for a cheap woman ran from the man
+3	a woman knows Who knows Mary to John hated David
+28	the cheap girl hated Mary to a woman for David
+4	Who for Mary says the girl to a man fell
+2	Who says Who knows Mary knows the girl hated John
+8	the girl for a man for a woman hated Who
+1	a woman knows the big big girl hated a girl
+2	a big cheap big woman hated the pretty big child
+10	John hated the cheap man from the pretty pretty child
+2	the woman says David knows Who says Who loved Mary
+2	the child from John says John knows the bells ran
+1	a pretty man for a girl knows Mary hated Who
+1	David says David knows David to Mary kissed a man
+3	a girl to a big big pretty pretty man fell
+3	a big child from Mary ran for the cheap girl
+14	David says David for Who kissed a man to Mary
+4	a pretty girl to Who says Mary to David cried
+69	the girl loved John to David from David to Who
+2	the pretty child knows Mary says Who arrived from John
+15	Mary knows a man for Who loved Mary for Who
+1	a big child to a cheap pretty big bells cried
+6	David to a girl loved Who from the pretty woman
+3	the big cheap big woman from David hated a bells
+2	the girl says a pretty child toll for the child
+9	David says a girl toll for the big cheap child
+8	David knows the girl from David arrived from the bells
+5	Mary says the woman from Who says a girl ran
+7	Who knows Who to Who for a pretty bells cried
+9	Mary from David fell for a cheap bells for Who
+6	the pretty cheap woman ran for the girl for John
+4	the cheap man from the big bells toll to Who
+7	a man for David from the child arrived from Who
+5	John knows a big woman says John says John cried
+62	Who fell to Who to David for John from Who
+6	a big big girl to David for the bells fell
+22	David cried to a girl for the girl to Mary
+7	David says the girl says John says a bells cried
+21	David went from David from a girl to the girl
+8	the big pretty man to John kissed a big bells
+3	the woman knows the man says Mary to Mary cried
+4	John says Who from the girl hated a pretty man
+22	John to David from the cheap bells from Mary cried
+52	Who knows Mary loved Who from a child for David
+3	Who knows the pretty pretty bells to David hated Who
+12	the woman for David from John to a child cried
+11	a man to a man for Who says David cried
+4	a girl to the big bells says the child fell
+1	David from a pretty cheap pretty man went from Who
+3	the man knows Mary kissed the big pretty big child
+8	a pretty big cheap child ran from Who for John
+4	Who knows a cheap pretty girl went from a man
+5	David knows Who for John knows Who to Who fell
+4	Who for the bells says Who knows a child cried
+2	John knows the cheap man says Who kissed a man
+8	John says Mary knows Who says Who loved a man
+33	Mary went for a pretty man for John to Who
+3	a woman from John says David says Mary kissed John
+5	the man fell for the pretty pretty big pretty woman
+26	John toll to a child to the bells to Who
+9	the bells from Who ran for a bells for Mary
+13	David for the cheap cheap pretty woman to John ran
+2	Who says a girl says the child to Mary ran
+7	the cheap big pretty man says David went from Who
+3	the pretty big child knows a bells went for Mary
+13	a child knows a man says David fell to John
+7	the big big cheap big man knows a woman fell
+11	Who for a girl went for a bells for Who
+23	the pretty girl ran to John to Who for Who
+4	Mary says a man says John knows John hated David
+18	Who for the man for David for a man cried
+3	David says David from a woman went for the bells
+22	Mary for Mary went for Mary to Mary to Who
+11	David to the cheap girl from David arrived for Mary
+4	David from Mary says a cheap girl kissed the child
+4	a bells knows the woman kissed the pretty big man
+20	Who for a child from John kissed Who for David
+2	David knows a child to the man knows David ran
+23	John knows David ran to David to the big child
+41	John to David ran from John from Who from David
+29	a man fell from a bells to Mary from Who
+13	a child to Mary from the bells says Mary cried
+5	the child says Mary to the bells went from Who
+10	John to David for Mary says Mary from Mary ran
+7	Who for Who from the girl loved a cheap girl
+8	a cheap cheap child cried for Mary from the child
+3	John knows the pretty big pretty man went for David
+3	the cheap big pretty big big big big girl cried
+6	a bells to Who to a big pretty woman cried
+17	David loved the woman to the man for the man
+7	John to John says David says a big child fell
+4	the woman says Who arrived for the cheap pretty bells
+4	the woman says Who from Who says Mary kissed Mary
+3	the pretty girl to John arrived to Mary from David
+17	Mary says the girl says a girl cried from Who
+4	the big bells from the child hated a big girl
+1	Who knows John from Who knows a bells kissed Mary
+5	the cheap bells says the child loved a cheap bells
+5	the woman from the pretty cheap woman went to David
+4	John knows David knows the cheap girl loved a bells
+9	Who knows the woman from the child went to Mary
+4	John for a cheap big cheap woman loved a woman
+8	John to a cheap bells for Mary says Who cried
+54	John kissed David for Who from a man for Who
+5	Mary knows a pretty cheap big pretty child loved Mary
+45	a man says John kissed David to Who from John
+4	the pretty big man from the girl knows Who ran
+5	Who knows Who for Who knows a cheap girl fell
+4	the girl says a girl from Mary cried to Mary
+9	the man to a cheap man to Mary kissed Mary
+63	David says the girl hated John for Mary to David
+10	Who from John from a man toll for a girl
+6	Who knows David knows the girl from a bells fell
+5	Who from John for Who loved the big big child
+6	a big bells says Who from David cried to Who
+3	a cheap man says John says the big bells cried
+22	David says Mary says Who kissed the woman to Who
+1	the pretty man from the pretty child loved a girl
+4	Who to a cheap cheap pretty cheap bells hated David
+11	Who knows John for the bells cried from the bells
+7	a girl for a cheap girl arrived for a man
+6	John knows a big woman from Who arrived to John
+21	the man loved Who to a big child from David
+3	John from John knows the girl says David loved David
+3	Who from a child knows the big cheap bells cried
+4	the pretty girl knows Who says Who hated a girl
+3	the big pretty cheap woman fell to the cheap child
+23	David hated a pretty big child from David to Mary
+4	the cheap child says Mary from Who went from David
+6	a big man to David loved a pretty pretty child
+4	a big big cheap cheap pretty girl kissed a child
+31	John hated the pretty child to David for a bells
+8	David ran from David from a pretty big pretty girl
+7	a man toll for a bells for a big bells
+8	a big big bells arrived to a child to Who
+11	the bells arrived to Mary from the big pretty man
+13	the cheap child for Who from David arrived from David
+18	David knows John toll to a pretty man to David
+3	the big man knows Who says the girl hated David
+7	the woman from the pretty big girl kissed a man
+6	a big man knows the big woman ran from Mary
+12	the cheap bells knows Who hated a woman from David
+19	Who to Mary to Who for David went for John
+4	the child says a pretty big woman knows Who fell
+29	the pretty girl loved a bells for Mary for David
+24	John knows John to Who from Mary from Mary ran
+21	a bells ran for Who to John to a man
+10	a cheap woman for the girl toll from the bells
+45	Mary knows Mary kissed Mary to Mary from the woman
+3	a big girl from David says David kissed a girl
+23	Mary knows Who says Who loved Mary to a bells
+4	the cheap big pretty bells knows Mary to Who fell
+8	Who for a girl to a man hated a man
+22	the big girl arrived to David from David from Mary
+7	Mary knows Who knows Who for John to David fell
+11	a pretty woman from Who for David says John cried
+5	John knows a girl knows a girl says Who ran
+7	Who knows John toll for the big cheap big girl
+6	John to a girl knows a child knows David cried
+5	Who knows a big pretty big woman says John fell
+13	a big child from the girl for the girl ran
+7	a man to Who from the woman kissed a woman
+9	Mary says the girl for David to Who loved Mary
+4	Who from the pretty girl knows John loved the child
+8	the cheap woman says the child fell for a girl
+16	Mary for Mary for Mary cried from Who to Mary
+3	John for David says Mary says Mary kissed the girl
+6	a big cheap man for a bells arrived for David
+10	David for a child loved a child for the woman
+7	John for Who ran to John for a cheap girl
+30	John to Who to David from John knows David ran
+8	David knows Who says John says Mary toll from David
+25	the man cried from Who for a man to David
+12	John from the child knows the woman ran to David
+17	John from Who arrived to Who for the pretty girl
+4	a man knows a child for Mary arrived for Who
+17	David for Who for David to a cheap man fell
+6	the pretty child to Mary fell for Mary from John
+11	the child says Mary arrived for a man to Mary
+6	John from Mary knows the pretty woman to Mary fell
+2	the cheap pretty bells says the cheap man hated Mary
+4	David to a pretty pretty big pretty big child ran
+15	Mary says a cheap woman says Mary fell for David
+6	a big big big pretty bells loved David to David
+4	the big pretty cheap pretty big bells for Mary fell
+1	a pretty big cheap woman went to a pretty child
+32	Who to John to Mary to Who fell to John
+19	David knows David from Mary cried to David to David
+17	John ran for John to John for the cheap child
+11	Who says David from David from a woman kissed Who
+5	John knows the man from John knows David loved Mary
+25	Who says the cheap child cried from Mary for John
+5	John from David knows Mary to the big child ran
+9	the cheap cheap child for David hated David to David
+9	Mary to a girl to David kissed the pretty bells
+14	Who for David kissed a pretty cheap man to Who
+8	the big big cheap girl kissed John to a child
+11	Who knows John cried from a cheap pretty cheap bells
+13	Mary for John from Who kissed the bells from Mary
+19	the big bells knows John toll from John to Who
+13	John for the big girl to a bells kissed Who
+2	Mary knows Mary knows Mary for David knows David ran
+14	the woman to David to a bells for Who fell
+7	a child says John says Mary toll to the woman
+26	Mary says Mary fell to a cheap woman for Who
+3	a cheap man knows a big bells toll for David
+20	David knows Mary for David loved David from the man
+15	the woman says the woman kissed Mary from the man
+13	the woman knows Who kissed the woman for a child
+4	David says a child knows John went for the girl
+8	a bells to the bells from Who ran from Who
+8	Who went to John to the big big pretty man
+6	Mary knows the cheap woman says the bells loved John
+11	Mary from John to Mary says the pretty bells cried
+16	John for Mary knows Mary kissed the child to Who
+19	Who from John hated John to the girl for Mary
+22	Mary from Mary hated David for Who for a child
+32	a girl arrived from John for John to the man
+5	the woman says the woman from the child loved Mary
+5	John knows the cheap cheap cheap cheap big child fell
+8	a man says the bells knows a pretty girl fell
+9	a cheap woman knows David says David knows David ran
+6	the big man toll from the cheap big pretty man
+4	the man to John went to a pretty cheap bells
+7	Mary knows the cheap pretty big child from John ran
+7	a girl cried from Mary from the cheap pretty child
+2	John for David knows a child kissed a big child
+6	a pretty cheap cheap big big cheap child loved Mary
+5	a woman from Who knows Who arrived to the bells
+8	Who says Who knows a man for John kissed Who
+21	John loved John for a big bells from a woman
+14	Who says a man kissed a bells to the bells
+17	a woman knows David knows Who hated Who from Who
+5	John to a woman knows Who to a woman fell
+6	the cheap pretty cheap cheap cheap woman went for Who
+9	the woman from David from the child fell for Who
+17	John knows the big girl loved a woman to Mary
+6	David knows John knows the big big pretty man cried
+9	the cheap man knows Who says John fell from Mary
+1	a bells for a pretty big woman knows John fell
+7	a cheap bells to a big big girl kissed Who
+6	a cheap child to John says Mary knows John ran
+12	David to a child hated the cheap pretty cheap bells
+8	John loved a big pretty cheap child for the man
+22	David to John knows John says John cried for John
+19	Who says Who knows Who cried for the cheap bells
+27	the child for Who to John to Mary kissed David
+8	the cheap pretty child hated the woman for a child
+8	David to John hated the woman for the big child
+6	the woman for John says Who from David hated Mary
+10	Who from Who says a child kissed John for John
+7	the bells says John says John from the bells ran
+9	Who from the child to a bells toll to Who
+10	the bells says Who from Who to John hated John
+7	David knows Who says David knows Mary for Mary cried
+6	a pretty pretty big woman knows the big girl cried
+11	the girl knows the child went from Who to John
+9	a bells loved a big big cheap man to David
+10	the pretty child for Who loved the woman to Mary
+5	John to the child knows the pretty man hated Mary
+5	the child knows Who says Who loved a cheap girl
+17	John knows a girl knows Who ran for the bells
+5	the big bells cried from the pretty big pretty woman
+7	John knows Mary from a pretty man knows Who ran
+3	the bells from Who knows the bells went to Mary
+12	a big woman ran from a pretty girl for David
+11	David for Mary knows David for David to David cried
+3	Mary says Mary loved a cheap pretty cheap cheap man
+18	a girl from a bells kissed the bells for John
+11	Who for Who knows David says John arrived from Mary
+5	Mary says a child knows the cheap bells hated David
+13	a child knows the cheap girl hated Mary from Mary
+14	Who for the pretty bells from the cheap bells ran
+4	David to Who says the pretty cheap bells hated Mary
+5	the child knows the big child knows David kissed John
+27	Mary to Who to the girl to David kissed Who
+10	John toll to a bells from a pretty big woman
+8	a big child kissed John to a big pretty bells
+7	a cheap woman says the big pretty man loved David
+14	the big cheap girl loved Mary to a cheap man
+8	the girl to Who kissed a cheap man to Mary
+6	the bells from David loved Mary to the cheap child
+6	a big cheap bells hated a pretty girl to John
+8	David says a bells to the bells hated the child
+24	David from Mary for Who says David cried from Mary
+7	Mary says Who knows a big big child loved Who
+11	Who knows the man for John for the man cried
+23	David knows John for John for Mary cried to Mary
+8	Mary for John to a woman knows John loved Mary
+15	the cheap child to John from a man hated John
+9	the big big pretty girl hated a woman for David
+7	the woman knows John to John for the girl fell
+28	John cried to Who to a big child from Mary
+23	the man arrived to the child to John to David
+16	John from John to a bells kissed Mary to John
+9	a girl from the man from David hated the man
+10	a woman for Mary went to Who to the woman
+10	David says Mary arrived from Mary for the cheap woman
+25	John hated Who from Mary to the pretty cheap girl
+5	a pretty woman to Who says the big child cried
+2	Mary for a cheap big man knows a man fell
+5	the man to the man knows John knows David ran
+6	a big woman to David from John cried to Mary
+4	Mary says the big cheap pretty child kissed the girl
+11	a pretty bells kissed the bells from a cheap woman
+20	the cheap man for David from John for David fell
+18	the bells hated Who to a woman to the man
+25	the girl went for John to a bells for David
+11	John for the girl cried from David for the bells
+4	Who knows a man says the pretty big man fell
+6	a pretty bells to the pretty child knows John fell
+5	a man knows John knows the pretty child loved David
+13	John to John toll to a bells to a child
+11	Mary says a cheap big girl kissed Who from Who
+2	a cheap pretty pretty woman for a bells loved Who
+22	Who went to Who to a pretty bells from Mary
+6	the woman says the big bells loved a pretty bells
+12	John knows John says Who for David ran from John
+11	John says a pretty woman kissed David for a bells
+10	a cheap cheap pretty bells from Who for Who cried
+15	the pretty cheap girl says Mary cried for the girl
+5	John says a pretty bells loved a pretty big man
+14	Who from Who for a child ran for a man
+4	David says a big pretty girl to the man cried
+6	Who says Who to the woman says a bells cried
+17	the child fell for the pretty pretty man from Mary
+10	the girl for Mary for a big man hated David
+7	the child knows the bells for a big bells ran
+8	the big child knows the child kissed David from Who
+27	Who for the man hated David from David for David
+8	David to the big bells toll from the big child
+28	John kissed David from the girl to the cheap bells
+30	a child from Who loved Mary from Who from David
+18	David knows David says Who says Who fell to David
+5	Who says Who knows a man went from the bells
+13	Who to Who went from a big bells to John
+30	the man says David fell for a bells for John
+7	David to Who says John to John kissed the bells
+13	John knows David for a girl to the girl fell
+7	a cheap man cried for John from the big man
+18	the bells knows David hated the big child from John
+20	Mary knows Mary says David went to Mary to David
+10	a man says a girl to Mary loved a girl
+4	David from a big pretty girl ran to the child
+4	John for a big girl kissed the pretty cheap girl
+5	Who for the bells went to a pretty cheap man
+9	Who knows the man to John fell for a bells
+5	the bells cried to the bells to a big bells
+15	John says David for David says David fell for David
+6	a big bells hated the pretty pretty pretty big woman
+7	the girl knows the man went from the cheap bells
+28	Mary knows John fell from the girl to the man
+17	a woman knows Who says a girl cried from John
+16	John for Mary from a cheap big man hated David
+8	a man from John from Mary arrived from the girl
+10	Mary for the cheap girl from Who fell to John
+10	David knows the bells ran from the pretty pretty woman
+3	the cheap cheap pretty cheap woman says John hated Mary
+8	John knows Mary from a pretty bells for Mary cried
+5	Mary to a child knows a child hated a man
+30	John toll from Mary from David to the pretty bells
+5	the woman for Mary says a big woman hated David
+9	John to Who knows Mary toll for the cheap girl
+9	the bells for the girl to Mary went to Who
+21	Mary loved a man to a pretty woman for David
+29	David says Who says the bells hated Who from Mary
+7	David to David knows John for John toll from David
+6	David to the pretty big woman loved the cheap girl
+8	a big cheap girl fell for the cheap pretty man
+8	a man knows Who fell to a pretty big child
+3	the pretty bells knows the man from Who kissed Who
+15	a man from a man says John fell from John
+12	a bells from the bells arrived from Who for Mary
+23	John to Who from David loved Who from the child
+14	John says a child hated David from the pretty child
+8	a bells to a big pretty woman to Mary ran
+4	the man to Mary knows a girl knows David ran
+7	a bells to Who for David ran from the bells
+6	Who knows a pretty child to a bells loved David
+7	a woman knows a man knows a man hated John
+4	John says John knows a pretty bells says David ran
+5	the child cried for a pretty girl for a man
+6	a big girl knows a man knows Who loved David
+13	John says a child from a woman from John ran
+7	John says a pretty pretty man cried from the child
+6	the pretty woman to a big woman fell for Who
+9	John says the big pretty cheap woman ran for Who
+7	John to a man says Who kissed a pretty woman
+12	David for the pretty cheap child from the bells ran
+9	Mary for a child from John knows David hated Mary
+2	a cheap big girl knows the child to David ran
+11	a big girl from Mary kissed John to a man
+4	Who for the cheap child cried from a cheap man
+5	Who says David knows the cheap man went to David
+32	Mary for a woman to a man for John cried
+4	Mary says John for the cheap woman loved the child
+6	a girl for Who fell for the big pretty woman
+6	the woman from John says John hated a cheap girl
+4	the bells from the big girl hated a pretty bells
+41	David says Who loved a man to David to Who
+12	a cheap man went to a cheap man for Mary
+27	David says a girl fell from the bells to David
+11	Mary from John says the child knows a bells fell
+6	the big child knows the man from the bells ran
+37	Mary from Who knows John cried to David to Mary
+5	a pretty child says John to the pretty man cried
+9	a big cheap woman says John went to the bells
+6	the cheap big woman for a big woman kissed Who
+7	the child knows the cheap child from Who loved Mary
+2	the big big cheap girl says John hated a woman
+3	the big cheap man knows a man says David cried
+18	Who knows Mary for David went for John for Who
+5	John says a big man knows John for Mary fell
+7	Mary knows John to a big woman arrived for Who
+5	John says Who knows Who knows David says Mary fell
+5	John knows the man from Who hated the pretty child
+8	Mary to a man went for Who to the girl
+7	John fell for the cheap cheap cheap bells to John
+5	John for Mary ran from a girl to a bells
+7	Mary hated a pretty pretty cheap big man for Mary
+12	Mary says David to the man for Mary loved Who
+31	David fell from Who for a child for the man
+16	a cheap woman knows Who fell to the big child
+6	the man from a girl knows the bells kissed Who
+32	a woman kissed the girl from a girl to John
+26	the woman loved Mary from Mary from a pretty girl
+10	the cheap girl says David went for the pretty girl
+12	Who says Mary for Mary for Mary went for John
+7	the cheap child kissed the big girl for the girl
+6	a bells says Who from the pretty child hated David
+6	Mary knows Who knows Who says the pretty man ran
+18	a woman says the bells hated the woman for Mary
+3	a woman says a pretty cheap big woman hated John
+14	a cheap man to Who knows David fell to Who
+16	Who knows John knows a man fell to a man
+18	John knows a cheap girl toll from David for John
+9	Mary says John loved a woman to a cheap man
+7	the bells knows Mary from Who cried from the man
+6	the man for the woman says the cheap man fell
+6	a man to David says the bells cried to Who
+12	the child went from a pretty cheap girl from David
+11	David for a woman to a bells says Mary fell
+3	David for Mary knows a bells went to a bells
+7	John says John hated the cheap girl to a man
+14	a big cheap girl says David loved David to Mary
+9	the big woman loved the cheap cheap woman for Who
+9	the child went from the big girl from the man
+28	John toll for the woman for John to a child
+8	John knows Who to the girl says David kissed Mary
+9	a child from David for Mary knows a man fell
+11	Mary for Mary loved a big bells for a bells
+14	Mary for the bells kissed a pretty woman for John
+3	the big big girl for David ran from a man
+9	Who says a pretty pretty man says John hated Who
+6	Mary says Mary says Mary from Mary went from David
+11	the girl knows David went to David to the woman
+9	a man hated the cheap big child to the bells
+4	a big big girl says John knows the girl cried
+22	David fell from the pretty woman from Who to David
+6	Who to David kissed John for the big big girl
+7	a cheap child arrived from the man from the bells
+14	the girl from Mary says John cried to the girl
+10	a pretty girl went for David to a pretty girl
+7	David to a man for David toll for the man
+2	the child from John hated the cheap big cheap woman
+10	the big child ran from a man to a child
+23	the big big bells hated Mary for Mary from John
+12	the big man from a pretty man to Who ran
+17	Mary from David from John for David loved the woman
+1	a child from a woman arrived to a big woman
+8	John from Who to the cheap man says David ran
+7	a man for the woman loved John to a bells
+11	the pretty man to Who for Who kissed a child
+11	a pretty pretty man knows a child fell for Mary
+3	David for Who knows Mary for a child kissed David
+6	John says the child from the pretty pretty girl fell
+4	the pretty cheap child says David says Mary kissed Who
+3	the pretty bells for a child says a child fell
+5	a cheap bells says David to Who kissed a woman
+5	the big bells knows John from Who knows Who fell
+8	a girl knows the pretty woman from a bells fell
+6	John for Mary says the child ran for the bells
+3	Mary to John knows a pretty pretty big child cried
+9	John says a big woman fell from a big girl
+34	John says a woman says David hated Mary to Mary
+5	a big big cheap big child cried to the bells
+15	a man from David says John kissed John for David
+3	the pretty woman knows a cheap bells says David cried
+21	Mary arrived to a pretty woman to the big girl
+5	Mary to the cheap woman toll for Who for David
+11	the bells to David from David loved the cheap man
+7	Mary for David says David knows a bells kissed Mary
+5	a bells knows Mary says a bells knows Who cried
+21	John for David to the bells for the woman ran
+4	the cheap big pretty big woman loved a big child
+7	David knows Who from John cried to a cheap bells
+12	a girl to a big girl to the bells fell
+2	a pretty girl for a bells from David hated Mary
+5	the big cheap cheap woman for a pretty man cried
+14	the man loved the cheap man to the pretty man
+8	David kissed Who from a cheap pretty big pretty child
+7	Who from Mary arrived to the pretty cheap big woman
+5	a bells to John knows the girl hated a woman
+3	a bells to the girl says David arrived to John
+3	the bells says David knows a bells for David ran
+12	Who for the child from the pretty pretty girl fell
+20	a cheap child kissed Who to David from the child
+14	a girl knows John loved Who for a cheap bells
+27	David hated the child to Who to a big girl
+11	a girl knows a pretty pretty woman cried from John
+7	David knows Mary for Who for David says Mary cried
+23	Who says John from the child kissed Mary to Who
+5	Mary knows the big man says John went for Mary
+6	Mary says David knows the bells says a woman ran
+22	Who kissed John to the cheap big girl from David
+24	the man loved the child for Who from the woman
+9	a child from Who cried from David for a girl
+9	John for a child says John fell for the woman
+5	David says Mary to a cheap cheap girl loved David
+4	John knows a pretty cheap bells says a girl ran
+5	Mary to Who says Mary says David says John cried
+9	the man says Who from a woman from Who fell
+5	David knows John for Who knows Mary says Mary fell
+2	a woman knows the pretty cheap woman for Mary fell
+2	the child says Mary to John went to the child
+5	the big cheap child knows the pretty cheap child ran
+2	John toll from a big cheap big pretty cheap girl
+7	a woman for the cheap woman says David kissed John
+7	a big big big pretty bells arrived from a man
+10	John ran to the cheap big girl for a man
+7	John says Who from David knows John arrived to David
+7	the bells says the girl says Who says Mary fell
+12	Mary for Mary for the pretty girl ran for John
+4	Who to the pretty big cheap woman knows Mary fell

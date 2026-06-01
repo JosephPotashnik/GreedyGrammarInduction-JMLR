@@ -1,0 +1,31 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  // SourceOfTruth selects the authoritative input file. If both GrammarFileName and SamplesFileName are specified, the non-selected file name is ignored.
+  "ProgramsToRun": [
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "ClassicalLexicon.json",
+        "GrammarFileName": "ANBN.txt",
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw",
+          "RandomSeed": 12345,
+          "OutputSamplesToFile": "Samples/ANBNSamples.txt"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 8,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "ANBN.txt"
+      }
+    }
+  ]
+}

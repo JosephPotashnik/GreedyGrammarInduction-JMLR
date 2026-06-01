@@ -1,0 +1,40 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target AMBNCNANBNCM.txt #
+Count	Sentence
+110	a b c
+43	a b c c
+42	a a b c
+24	a a a b c
+27	a b b c c
+35	a b c c c
+26	a a b b c
+61	a a b b c c
+23	a b c c c c
+17	a a a a b c
+24	a a a a a b c
+24	a b b b c c c
+28	a a a b b b c
+33	a b c c c c c
+22	a a b b c c c
+22	a a a b b c c
+24	a a a b b b c c
+28	a b c c c c c c
+24	a a a a a a b c
+17	a a b b c c c c
+27	a a b b b c c c
+15	a a a a b b c c
+20	a a a a a b b c c
+27	a a a a a a a b c
+19	a b b b b c c c c
+49	a a a b b b c c c
+32	a a a a b b b b c
+17	a b c c c c c c c
+23	a a b b c c c c c
+19	a a b b b b c c c c
+13	a a a a a a a a b c
+12	a b c c c c c c c c
+13	a a a a a a b b c c
+19	a a a a b b b c c c
+12	a a a a b b b b c c
+18	a a a b b b c c c c
+11	a a b b c c c c c c

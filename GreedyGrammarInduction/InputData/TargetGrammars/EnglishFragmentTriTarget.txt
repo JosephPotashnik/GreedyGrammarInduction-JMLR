@@ -1,0 +1,33 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Lattice grammar representation:
+# - START -> Xi
+# - Xi -> Xj Xk
+# - Xi, Xj, and Xk are never POS symbols
+# - Xi -> POS
+# - do not include START ->  (epsilon rule) here; epsilon is handled outside/after learning
+1. Target 1
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> X2 X8
+X2 -> D N
+X3 -> V3 X1
+X3 -> X6 X2
+X3 -> V0
+X6 -> V1
+X6 -> V2 P
+X8 -> CONJ X2
+Count: 11
+2. Target 2:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> X8 X2
+X2 -> D N
+X3 -> V3 X1
+X3 -> X6 X2
+X3 -> V0
+X6 -> V1
+X6 -> V2 P
+X8 -> X2 CONJ
+Count: 11

@@ -1,0 +1,1408 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  // These runs use sample sentences as the source and infer identity preterminals directly from sample tokens.
+  "ProgramsToRun": [
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 6,
+        "SamplesFileName": "Dyck4Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck1Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck2Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "Dyck3Samples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "PalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "EvenLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Samples",
+        "LexiconSource": "IdentityFromTokens",
+        "MaxSentenceLength": 8,
+        "SamplesFileName": "OddLengthPalindromeLangSamples.txt"
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt",
+        "ComparisonMode": "SurfaceTokens",
+        "TargetLexiconFileName": "ClassicalLexicon.json"
+      }
+    }
+  ]
+}
+
+

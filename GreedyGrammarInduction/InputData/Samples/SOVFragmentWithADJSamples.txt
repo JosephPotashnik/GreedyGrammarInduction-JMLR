@@ -1,0 +1,303 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target SOVFragmentWithADJ.txt #
+Count	Sentence
+31	Who ran
+22	the bells fell
+21	David Mary hated
+14	David a child hated
+12	the child David kissed
+19	the cheap man fell
+15	Mary Who cried says
+9	Mary David to went
+19	Mary the big woman loved
+14	David a woman for arrived
+12	Mary David David loved knows
+14	a pretty girl Who loved
+20	a child the girl kissed
+16	a woman Who cried knows
+16	a child David to went
+9	Who a man cried knows
+14	the pretty big bells ran
+13	John the pretty woman from went
+10	a bells a child from toll
+10	the man a big bells loved
+19	Who Who a man loved says
+15	a girl a girl fell says
+13	a pretty cheap cheap man cried
+17	the pretty girl John from toll
+21	Mary Mary John for arrived says
+9	a pretty pretty bells Mary loved
+15	David the man David loved says
+10	the bells John David kissed says
+8	John the big cheap man hated
+21	Mary John Mary cried knows knows
+14	a big girl Who cried knows
+9	a cheap woman a bells kissed
+15	David the pretty man ran knows
+3	the man a woman John loved knows
+10	the big girl the big child hated
+12	John a cheap pretty pretty child loved
+10	a big cheap girl a bells hated
+13	John John a child for arrived knows
+3	John the cheap bells John loved says
+14	Mary the girl David ran says knows
+13	a pretty girl Who David loved says
+10	a bells a cheap bells ran knows
+14	a man John a girl hated knows
+10	a child Who Mary for arrived knows
+16	John the big cheap man from went
+11	the girl the big bells to toll
+13	Who Mary a woman fell knows says
+13	the cheap girl a man from went
+12	a pretty big man Who cried knows
+22	a cheap pretty child David for arrived
+11	a big big big big child fell
+12	Mary Mary the cheap woman kissed says
+7	a child the pretty cheap girl loved
+13	the bells Mary Mary ran knows says
+2	Mary a man Who to toll knows
+8	David a cheap big bells ran knows
+14	David John Mary John loved says says
+17	Who a bells the woman kissed says
+11	the cheap big cheap woman John kissed
+18	a pretty woman a girl ran knows
+9	a big cheap man a man for arrived
+9	the girl a child a woman loved says
+11	Mary John David a woman hated says knows
+12	a big cheap pretty cheap bells John loved
+8	a big child the woman John hated knows
+12	the big pretty cheap man Mary cried says
+13	the big girl John a child loved says
+12	the pretty man the cheap bells fell says
+18	the big cheap cheap man David for arrived
+14	Mary a pretty girl David ran says says
+14	a bells the big big child cried says
+8	Mary the cheap man the girl loved knows
+10	the man a big man Who hated knows
+7	the big girl the pretty child to arrived
+11	John the cheap cheap big woman ran knows
+10	the pretty big man Mary Mary hated knows
+17	the cheap big big cheap cheap bells fell
+6	David the pretty pretty man John hated knows
+9	Who the bells John John loved knows says
+9	a big cheap man the big child kissed
+7	Mary the cheap woman David to toll knows
+7	Mary the pretty pretty big man to went
+6	the big bells Who David cried says says
+9	David John the cheap big child kissed knows
+11	John John a pretty bells to went says
+8	Mary John John Mary to toll knows knows
+17	Mary a man the pretty child loved says
+12	David the child the girl cried says knows
+5	the big cheap cheap girl a woman kissed
+5	the man John a cheap man hated knows
+7	a girl a big cheap cheap bells kissed
+8	the man the girl David cried knows says
+10	Who Who the big woman fell knows says
+11	a big cheap woman a bells cried says
+8	John a child a man from toll knows
+12	a big child the big big girl hated
+12	a woman a woman Who to toll says
+14	a girl a pretty cheap child for toll
+14	a bells Who Who David loved says knows
+11	John David the woman Mary loved knows knows
+10	the child Who the child for arrived knows
+10	a girl Mary the bells fell knows knows
+12	the big man David David from toll says
+7	Who David Mary John fell says says says
+10	Who a pretty big cheap big man hated
+9	a pretty bells David John Who hated knows says
+11	the girl the girl a cheap woman kissed says
+10	David a woman David John cried says says knows
+9	a cheap pretty cheap pretty big woman Who kissed
+9	the big pretty bells a big bells from toll
+10	the cheap girl a girl the child kissed says
+12	John the girl the cheap woman for arrived knows
+6	John the child the girl David loved knows says
+11	a child David Who David for went says knows
+8	Who John John a pretty man kissed says knows
+6	the child the woman David Mary kissed says knows
+7	a pretty big big bells a child cried says
+7	John David a big girl Who loved knows says
+8	Who John David Mary Who loved says says says
+15	a man the cheap woman Mary cried knows knows
+9	the pretty cheap big pretty bells the man hated
+8	Who the pretty bells David John loved knows knows
+8	John a pretty pretty woman Who cried knows says
+11	the pretty cheap man a big man cried says
+6	the bells Mary John Mary cried knows knows knows
+7	the pretty cheap cheap man Mary David loved says
+6	David a man Mary the man kissed says says
+7	David Who the cheap pretty pretty bells loved knows
+13	David the pretty big pretty pretty pretty girl kissed
+12	the pretty child the man John ran says says
+9	Mary the big pretty big girl John kissed says
+6	the cheap cheap woman Mary the child loved knows
+7	the bells a big bells Mary for went knows
+5	John Who a man Mary fell knows knows says
+12	a big woman Who the woman cried says says
+4	the woman the pretty bells the woman hated says
+6	Who the girl Who David from went knows says
+6	David a big child a woman to toll knows
+12	the cheap cheap cheap cheap man David ran says
+5	a cheap cheap bells John John ran says knows
+11	John John a big big child to arrived says
+12	the cheap cheap pretty pretty pretty cheap girl cried
+8	the child John the big man fell knows says
+8	a child John the cheap pretty child hated says
+8	a big woman a pretty pretty girl for arrived
+10	John Mary a man Who for went says knows
+11	the bells John John a child hated says knows
+8	Mary the pretty cheap woman Mary from arrived says
+11	a big woman the bells John from went says
+9	a cheap man a big big man cried knows
+10	David John a bells the man kissed knows says
+12	Who the woman the big bells fell knows knows
+11	the girl a girl a man from toll knows
+16	David the big girl the big woman kissed knows
+9	the cheap child Who a woman for went knows
+8	John a man a big pretty girl kissed says
+12	a girl a pretty pretty pretty big woman hated
+12	a pretty bells Who the pretty girl kissed knows
+12	a child John the woman Who kissed knows says
+8	a woman a cheap pretty cheap bells fell knows
+13	the cheap pretty big pretty woman Who for went
+7	John David David a man cried says knows knows
+9	a bells the big pretty man Mary kissed knows
+9	a cheap big woman David Who for arrived knows
+11	a pretty cheap girl a big pretty girl hated
+11	a big big bells a man John kissed says
+9	John a cheap pretty cheap cheap man for arrived
+10	John a cheap pretty big cheap child fell says
+7	the big child a cheap man Who hated knows
+6	a pretty big pretty bells the big man kissed
+11	a pretty man the pretty big pretty woman kissed
+7	Who John a big pretty bells cried says knows
+10	the bells the big cheap cheap bells from arrived
+7	David a pretty pretty bells the child hated knows
+7	a woman the girl the child fell knows knows
+9	a big cheap pretty girl the bells for went
+8	John a cheap girl the girl ran knows knows
+9	David Who David the man to went says says
+6	the child David a cheap child from went knows
+8	a bells a girl a big girl fell says knows
+5	the cheap man a child a woman fell knows says
+8	David a girl a bells Who cried says says says
+13	a woman the girl a bells Mary kissed says says
+5	a woman Mary Mary a girl for toll says knows
+7	a pretty big pretty cheap girl the pretty girl hated
+11	John a bells Who the big woman kissed knows knows
+8	Who the woman the cheap pretty girl to went says
+8	the child David the woman David ran knows says says
+11	John the pretty big pretty big cheap girl fell says
+13	the big big big big bells David Who kissed says
+5	a bells a cheap man the man from toll says
+11	John Mary Who David a woman loved knows says says
+7	a pretty cheap big pretty pretty cheap girl Mary loved
+12	a pretty pretty cheap pretty man a man for toll
+8	John the pretty child the pretty bells ran says says
+11	a woman the bells a pretty big girl hated says
+14	the bells the woman David a girl loved knows knows
+3	Mary the big pretty man the child fell says knows
+13	John the woman David the girl fell knows knows says
+10	the pretty bells a girl a man for arrived says
+10	David a woman John Mary David hated knows says knows
+11	a cheap cheap girl a man John for arrived knows
+15	a bells the cheap big pretty pretty girl to toll
+8	the big woman a bells a pretty woman hated knows
+10	a big child a pretty girl John ran says says
+12	the bells a man David Who from toll says says
+4	a big cheap woman the bells the bells hated knows
+7	John Mary the cheap pretty child David kissed knows says
+8	the pretty pretty pretty pretty girl a bells cried says
+4	Who a big pretty cheap man Who fell knows says
+3	John Mary a cheap child a child kissed says knows
+5	the girl David Mary the child fell knows knows says
+7	the cheap pretty child a pretty bells David hated knows
+8	a big man the pretty cheap big bells cried says
+9	David the pretty bells Who Who fell says knows says
+9	the big big woman Who Who David kissed says says
+5	a cheap pretty woman a cheap big bells ran says
+15	Mary the pretty big cheap cheap pretty cheap woman loved
+4	John a pretty pretty big child a man kissed knows
+8	a girl John David the cheap bells hated knows knows
+6	David Mary Who a girl Mary kissed knows says says
+6	a man John a man the man loved says says
+5	David the big big big pretty pretty woman for went
+8	the cheap cheap child David the big child hated says
+10	a big child David Who Who for went says says
+13	Who a big cheap child the girl from went says
+7	John a cheap cheap pretty pretty child Mary hated knows
+9	Who Who the pretty girl David to toll says says
+13	the big girl Mary Who Mary fell says knows says
+8	Who John a bells a cheap man hated knows knows
+13	John Mary Who David Who from went knows says knows
+12	David David Who John John fell says says knows says
+5	John a pretty pretty girl Mary Mary kissed says knows
+5	a big big cheap girl John Who cried says says
+14	a cheap pretty pretty bells a cheap man cried says
+9	a woman a big woman John John kissed says says
+4	Mary John Who the cheap man to toll knows says
+9	the cheap girl Mary a bells Who kissed knows knows
+5	John Mary the cheap cheap big woman from toll says
+11	the man David a bells David for toll says says
+12	Who Mary a girl John David kissed says knows says
+6	a pretty bells Who a cheap woman to went says
+3	David a bells a pretty cheap bells ran says knows
+6	David John a pretty child Mary fell says says knows
+8	the cheap big big woman Who David to went knows
+9	Mary a woman the cheap man David loved knows says
+10	David John a bells a woman cried knows says knows
+11	the girl John the pretty big child from toll knows
+13	the girl David John David Mary loved knows knows knows
+16	a cheap man the cheap cheap girl Mary hated says
+4	Who the cheap cheap child the pretty man loved says
+11	a child a big big woman Who to arrived says
+10	a big cheap pretty child the woman David kissed knows
+8	David the man John a man for toll says knows
+13	David David the child the woman from went knows knows
+6	a big child John the big big man loved says
+4	a woman the woman David Who fell knows knows knows
+5	Mary Mary David the cheap big girl hated knows knows
+8	the child a cheap big bells a child kissed says
+11	the cheap cheap big cheap big girl the woman loved
+10	David Who the pretty big cheap man fell says knows
+10	a cheap pretty big woman a pretty cheap girl kissed
+10	Mary a big woman the big big man kissed knows
+8	Mary the pretty man David the girl hated says knows
+11	Who John the big cheap pretty pretty woman loved knows
+8	a pretty cheap pretty girl the pretty woman for went
+9	a girl a pretty pretty cheap cheap cheap man kissed
+10	David the man a man a woman hated knows knows
+9	the woman John a big cheap bells ran says knows
+10	a cheap cheap girl a cheap cheap bells for toll
+11	a cheap pretty child the big cheap pretty child hated
+7	David the woman the cheap big cheap bells loved knows
+9	a bells the cheap cheap bells Mary fell says says
+7	a bells John a pretty big pretty woman hated says
+6	the woman a woman a big bells from went says
+12	the big woman the pretty child the woman kissed says
+7	a big man the woman Mary Mary kissed knows knows
+13	the girl the pretty pretty big bells John kissed says
+9	John a cheap child Who Mary from toll knows knows
+7	the man a big child a cheap woman hated says
+12	a cheap man Who a pretty woman cried says says
+15	a cheap cheap pretty pretty big girl David fell says
+12	a cheap cheap bells Mary a bells from arrived says
+8	a man John a cheap bells Mary loved says says
+6	the cheap big pretty big pretty pretty big bells fell
+11	David the big woman a cheap child for toll knows
+9	the man the cheap child the woman ran knows knows
+7	the pretty girl Mary Mary a child loved says knows
+10	Mary a cheap child a girl Mary hated knows knows
+6	the pretty girl the pretty bells David from arrived says
+5	a cheap bells a pretty pretty cheap pretty bells kissed
+6	the pretty pretty child Mary the child cried says says
+10	John a bells the woman David to went knows says
+6	a pretty cheap big cheap big child Who from went
+9	a girl a big big big cheap bells fell says
+9	Who a pretty pretty pretty child David to arrived knows
+7	the big girl a big pretty cheap man for arrived
+16	David Mary David a pretty woman cried knows knows says
+10	a big pretty cheap bells Who the child loved knows
+5	the cheap pretty girl the bells John cried says says

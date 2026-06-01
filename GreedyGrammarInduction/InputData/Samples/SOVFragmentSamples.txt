@@ -1,0 +1,86 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target SOVFragment.txt #
+Count	Sentence
+36	Mary ran
+25	David Who kissed
+29	a bells fell
+20	Mary David to went
+21	Who David cried knows
+16	a man Who kissed
+19	David a girl hated
+13	the girl Who to arrived
+15	the girl a man loved
+14	John a girl fell knows
+19	David a girl from arrived
+11	Who David Mary kissed knows
+12	a girl Who ran says
+17	Who David Mary for arrived knows
+10	the girl David Who loved says
+18	Who the child Mary kissed knows
+12	the bells the man from arrived
+10	David Mary Mary fell says says
+21	John David the girl loved says
+14	a bells a man ran knows
+11	David the bells Who for went knows
+15	the child Who the girl loved says
+8	a child Who John for toll knows
+15	Who John the woman from arrived says
+13	Mary Who John David hated knows knows
+11	Who a child John ran says knows
+15	John a woman a woman loved says
+14	David Who a girl cried knows knows
+15	a bells Who John ran knows says
+15	a girl a man Mary kissed says
+15	Who Who Mary John fell knows knows knows
+7	John Who Mary Who to toll says says
+13	Mary the girl Mary John hated knows says
+14	John a child a child from toll knows
+11	a man a bells John ran knows knows
+9	the child John a child ran says says
+17	the man David John John hated says says
+8	David Who the girl Mary loved says knows
+11	the man the bells Who for arrived knows
+15	a girl the girl a child kissed knows
+12	the child Mary the bells for went says
+10	Mary the child the bells cried knows says
+12	Mary David Mary a woman hated knows says
+8	the girl David Who Mary for arrived knows says
+8	John David the child the girl hated says knows
+9	a girl David Who Mary fell knows says knows
+9	Who David Mary John Mary hated knows knows knows
+6	David a man Mary the woman hated knows knows
+11	a woman a woman a bells ran knows knows
+14	the child the woman Who David loved knows knows
+12	Who the bells Mary John for toll knows says
+14	Who the man Who Mary cried knows says knows
+10	David a girl a woman Who kissed knows knows
+11	a man Who a man Who loved knows says
+9	a man Who Who a woman loved says knows
+10	Mary John the bells Mary for went knows says
+8	Mary David Who the woman fell says knows says
+8	John David the woman Mary ran knows knows knows
+10	John David Mary a woman from went says says
+8	the man the child the man from went knows
+8	Mary John a bells a child to toll says knows
+7	a man Who a child David cried says knows knows
+6	Mary John Who David Who fell knows says says says
+10	Who David Who the woman David kissed says says knows
+10	Mary the man Who the man cried knows says knows
+7	the bells John Mary a woman cried says knows says
+10	David Who a girl Mary John hated knows knows says
+9	John Who a woman a girl fell says says knows
+10	the child the girl David a child loved knows knows
+7	the woman David Who the man to toll says knows
+10	David the woman a man a man loved knows knows
+16	Who the woman a woman Who ran says says says
+6	a man the girl John John cried says knows says
+4	John the girl David John David hated says says says
+10	a bells a girl a man Who kissed says knows
+7	the child John a man the girl hated knows says
+9	Mary a child a bells John to arrived knows knows
+8	John John David David John for arrived knows knows says
+9	the bells a man John Mary for arrived says says
+14	a bells John the bells David to toll says knows
+7	the girl Mary David Who David kissed says knows says
+9	Who the woman Mary the man to went says knows
+4	David David Who David the woman loved knows knows knows

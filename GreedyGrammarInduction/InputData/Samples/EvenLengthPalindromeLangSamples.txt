@@ -1,0 +1,34 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target EvenLengthPalindromeLang.txt #
+Count	Sentence
+121	
+62	a a
+71	b b
+41	b b b b
+49	b a a b
+52	a b b a
+35	a a a a
+34	a b b b b a
+30	a a b b a a
+33	b a a a a b
+23	a a a a a a
+32	b b a a b b
+30	b b b b b b
+24	b a b b a b
+31	a b a a b a
+27	b b a a a a b b
+20	a a a b b a a a
+24	a b a b b a b a
+20	a a b a a b a a
+14	b b a b b a b b
+23	b b b b b b b b
+23	a a a a a a a a
+19	b a a a a a a b
+23	b a b b b b a b
+18	a b a a a a b a
+24	a b b b b b b a
+19	a b b a a b b a
+20	b a a b b a a b
+21	b a b a a b a b
+15	a a b b b b a a
+22	b b b a a b b b

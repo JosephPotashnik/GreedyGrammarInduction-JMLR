@@ -1,0 +1,38 @@
+Run Report - 2026-05-31 12:36:21
+Batch file: TestSuiteFixedSeed.json
+--------------------------------------------------------------------------------
+  Name                                           k  m stop after  Status  Duration
+--------------------------------------------------------------------------------
+  EnglishFragment.txt                            1  2          1  PASSED  (00:00:00)
+  EnglishFragmentWithADJ.txt                     1  2          1  PASSED  (00:00:01)
+  EnglishFragmentPPAdjunction1.txt               1  2          1  PASSED  (00:00:01)
+  EnglishFragmentPPAdjunction3.txt               1  2          1  PASSED  (00:00:08)
+  EnglishFragmentSingleVerbalCat.txt             1  2          1  PASSED  (00:00:04)
+  EnglishFragmentWithADJSingleVerbalCat.txt      1  2          1  PASSED  (00:00:07)
+  EnglishFragmentPPAdjunction1SingleVerbalCat.txt  1  2          1  PASSED  (00:00:04)
+  EnglishFragmentPPAdjunction3SingleVerbalCat.txt  1  2          1  PASSED  (00:00:06)
+  EnglishFragment.txt                            2  2          2  PASSED  (00:00:05)
+  EnglishFragmentWithADJ.txt                     2  2          2  PASSED  (00:00:09)
+  EnglishFragmentPPAdjunction1.txt               2  2          2  PASSED  (00:00:07)
+  EnglishFragmentPPAdjunction3.txt               2  2          2  PASSED  (00:00:06)
+  EnglishFragmentSingleVerbalCat.txt             2  2          2  PASSED  (00:00:05)
+  EnglishFragmentWithADJSingleVerbalCat.txt      2  2          2  PASSED  (00:00:04)
+  EnglishFragmentPPAdjunction1SingleVerbalCat.txt  2  2          2  PASSED  (00:00:01)
+  EnglishFragmentPPAdjunction3SingleVerbalCat.txt  2  2          2  PASSED  (00:00:15)
+  SOVFragment.txt                                1  2          1  PASSED  (00:00:00)
+  SOVFragmentWithADJ.txt                         1  2          1  PASSED  (00:00:00)
+  SOVFragment.txt                                2  2          2  PASSED  (00:00:00)
+  SOVFragmentWithADJ.txt                         2  2          2  PASSED  (00:00:06)
+  ANBN.txt                                       1  2          1  PASSED  (00:00:00)
+  Dyck1.txt                                      2  2          1  PASSED  (00:00:00)
+  Dyck2.txt                                      2  2          1  PASSED  (00:00:01)
+  Dyck3.txt                                      2  2          1  PASSED  (00:00:07)
+  Dyck4.txt                                      2  2          1  PASSED  (00:00:11)
+  PalindromeLang.txt                             2  1          3  PASSED  (00:00:21)
+  EvenLengthPalindromeLang.txt                   1  2          1  PASSED  (00:00:00)
+  OddLengthPalindromeLang.txt                    2  1          3  PASSED  (00:00:05)
+  EnglishFragmentWithADJAmbiguousPPAdunctionSingleCat.txt  2  2          2  PASSED  (00:01:22)
+  EnglishFragmentWithADJAmbiguousPPAdunction.txt  2  2          2  PASSED  (00:01:16)
+  AMBNCNANBNCM.txt                               3  3          2  PASSED  (02:28:16)
+--------------------------------------------------------------------------------
+Total: 31  Passed: 31  Failed: 0

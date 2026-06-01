@@ -1,0 +1,92 @@
+2026-05-31T10:04:38.4915126+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "ANBN.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "ClassicalLexicon.json",
+    "MaxSentenceLength": 10,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.001,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/ANBNSamples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 6,
+    "MaxNumberOfRules": 8,
+    "MaxDepthBetweenSubSolutions": 1,
+    "MaxDepthAfterMinimalGlobal": 1,
+    "MinSizeOfOptimalSubSolution": 2,
+    "ParetoRibbonThickness": 0,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "ANBN.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": null,
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (4cc80205)
+2026-05-31T10:04:38.5054710+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:04:38.5054831+01:00  [INF] START -> A B (487fcaf3)
+2026-05-31T10:04:38.5054848+01:00  [INF] START -> A START B (48b70371)
+2026-05-31T10:04:38.5064964+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:04:38.5065001+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:04:38.5065048+01:00  [INF] 192 sentences of length 2 (db96d17a)
+2026-05-31T10:04:38.5065057+01:00  [INF] 217 sentences of length 4 (0d806b38)
+2026-05-31T10:04:38.5065068+01:00  [INF] 204 sentences of length 6 (f1680299)
+2026-05-31T10:04:38.5065082+01:00  [INF] 185 sentences of length 8 (2834ab22)
+2026-05-31T10:04:38.5065091+01:00  [INF] 202 sentences of length 10 (1135aea1)
+2026-05-31T10:04:38.5065106+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:04:38.5065125+01:00  [INF] 1 unique sentences types of length 2 (ca38798c)
+2026-05-31T10:04:38.5065136+01:00  [INF] 1 unique sentences types of length 4 (6713333b)
+2026-05-31T10:04:38.5065145+01:00  [INF] 1 unique sentences types of length 6 (e23fa98a)
+2026-05-31T10:04:38.5065153+01:00  [INF] 1 unique sentences types of length 8 (ff356375)
+2026-05-31T10:04:38.5065161+01:00  [INF] 1 unique sentences types of length 10 (158ecc2e)
+2026-05-31T10:04:38.5065172+01:00  [INF] Total samples: 798 (9a447b0f)
+2026-05-31T10:04:38.5065195+01:00  [INF] Actual missing probability mass: 0.0000 (c364fef1)
+2026-05-31T10:04:38.5065211+01:00  [INF] Generation time: 1ms (f67c8201)
+2026-05-31T10:04:38.5071949+01:00  [INF] Wrote 5 unique sampled sentences to "Samples/ANBNSamples.txt" (23ac6b34)
+2026-05-31T10:04:38.5072873+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from ANBN.txt (95ef59ab)
+2026-05-31T10:04:38.5086065+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:04:38.5086235+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:04:38.5089255+01:00  [INF] Considering 1 Local Optima in depth 2 (b3a5d2ec)
+2026-05-31T10:04:38.5094969+01:00  [INF] ---- 1 Global Solutions Found ------ (e9aa85b2)
+2026-05-31T10:04:38.5095368+01:00  [INF] 
+1. Global Optimum (Depth 3) Growth Rate: 1.23 [Indices: 2]:
+START -> X1
+X1 -> X2 B
+X2 -> A
+X2 -> A X1
+Count: 4
+Grammar counts vector: [0, 0, 1, 0, 1], total strings: 2, Rule coverage length: 4
+Solution was obtained from the following solutions: 0 (9e9a4c52)
+2026-05-31T10:04:38.5095413+01:00  [INF] 
+Local Optimum (Depth 2) [Indices: 0]:
+START -> X1
+X1 -> A B
+Count: 2
+Grammar counts vector: [0, 0, 1], total strings: 1, Rule coverage length: 2 (f18141d2)
+2026-05-31T10:04:38.5095438+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T10:04:38.5095447+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T10:04:38.5122919+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 110/110 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (b30f8992)
+2026-05-31T10:04:38.5122995+01:00  [INF] Oracle: Weakly equivalent grammar indices: 1 (fdceb567)
+2026-05-31T10:04:38.5123073+01:00  [INF] Overall session RunTime 00:00:00.02 (6bd97fc5)

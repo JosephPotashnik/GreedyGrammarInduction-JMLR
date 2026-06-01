@@ -1,0 +1,27 @@
+﻿# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Grammar Rules for --- Context Free Language
+#
+# 1. Context-free rules use the format: A -> B, A -> B C, A -> B C D, etc.
+#    The right-hand side may contain any number of symbols.
+# 2. Parts of Speech must never appear on Left Hand Side of rules
+# 3. The start symbol is "START"
+# 4. Epsilon rule has the format (nothing follows the arrow): A ->
+# 5. Comment lines begin with "#"
+# 6. The terminals corresponding to parts of speech appear in a separate lexicon.json file
+#    please see run configuration
+#
+START -> T9
+T9 -> T3
+# {a^n b^n c^m}
+T3 -> T3 C
+T3 -> T1 C
+T1 -> T2 B
+T2 -> A T1
+T1 -> A B
+T9 -> T4
+# {a^m b^n c^n}
+T4 -> A T4
+T4 -> A T5
+T5 -> B T6
+T6 -> T5 C
+T5 -> B C

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GreedyGrammarInduction": {
+      "commandName": "Project",
+      "commandLineArgs": "FileName: QuickTestSuiteFixedSeed.json"
+    }
+  }
+}

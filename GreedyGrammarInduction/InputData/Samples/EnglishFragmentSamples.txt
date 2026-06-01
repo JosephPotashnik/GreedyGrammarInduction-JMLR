@@ -1,0 +1,86 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target EnglishFragment.txt #
+Count	Sentence
+36	Mary ran
+25	David loved Mary
+29	a bells fell
+20	Mary arrived to Who
+21	Who knows John cried
+16	a man loved John
+19	David kissed the bells
+13	the girl went to John
+15	the girl hated the woman
+14	John knows Mary kissed John
+19	David knows a girl cried
+11	Who arrived to the girl
+12	a girl says Mary ran
+17	Who knows Mary arrived for John
+10	the girl arrived to the woman
+18	Who says a girl kissed David
+12	the bells says the girl cried
+10	David says Mary knows Mary ran
+21	John knows Mary kissed the woman
+14	a bells knows Mary loved John
+11	David says a woman arrived to John
+15	the child says Who kissed the woman
+8	a child says John arrived from John
+15	Who knows Who says a bells fell
+13	Mary says John arrived for a bells
+11	Who knows a girl says Mary cried
+15	John knows the bells loved the man
+14	David says David says John hated David
+15	a bells says John says David ran
+15	a girl knows the girl kissed Mary
+15	Who says Mary knows John knows David cried
+7	John says Mary says Who toll to Who
+13	Mary says a girl arrived for a woman
+14	John knows a bells knows a man fell
+11	a man knows a girl says John cried
+9	the child knows David knows Mary loved Mary
+17	the man knows John toll for the man
+8	David says Who knows the woman kissed John
+11	the man says a woman arrived for David
+15	a girl says a child hated the child
+12	the child says Who knows a woman ran
+10	Mary says a girl knows David hated Who
+12	Mary knows Mary knows Who hated a woman
+8	the girl knows Who says David arrived for Mary
+8	John knows Mary knows the girl hated the bells
+9	a girl knows Who says John knows Mary fell
+9	Who knows Mary knows Mary arrived from a bells
+6	David knows the girl says Who hated a girl
+11	a woman knows the bells knows Who kissed John
+14	the child says the woman arrived to a girl
+12	Who says a man knows David toll for Mary
+14	Who says the man says David knows Mary fell
+10	David knows a girl says the child hated John
+11	a man says John says the man kissed Mary
+9	a man says Who knows Who loved the child
+10	Mary knows Mary knows the child went from Who
+8	Mary knows Who says Who says Who kissed Who
+8	John knows Who says the man knows David fell
+10	John knows Mary knows Who says the man ran
+8	the man says a woman says a man cried
+8	Mary knows David knows a child says a woman cried
+7	a man says John knows a bells says David cried
+6	Mary knows Who knows Who knows John says Who fell
+10	Who knows Who says Who knows a girl loved John
+10	Mary says the woman says Mary knows John loved David
+7	the bells knows Mary knows Who knows Who kissed Who
+10	David says David says the girl arrived from a man
+9	John says David says a girl says Mary loved John
+10	the child says the bells knows John loved a bells
+7	the woman knows Who says Mary says a girl cried
+10	David says the bells says a man loved a child
+16	Who says the bells says the woman says Who ran
+6	a man says a girl knows John says David ran
+4	John says the bells knows David arrived to the woman
+10	a bells knows the girl says the girl kissed John
+7	the child knows David says the girl hated a man
+9	Mary knows a child knows a man arrived for David
+8	John knows David knows John knows David arrived for Who
+9	the bells knows the girl says David arrived from Mary
+14	a bells knows Who knows a woman toll from David
+7	the girl says David says David toll to a woman
+9	Who says the man says Who says the woman fell
+4	David knows Who knows Who says Who kissed a girl

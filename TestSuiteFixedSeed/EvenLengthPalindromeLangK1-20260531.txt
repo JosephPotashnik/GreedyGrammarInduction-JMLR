@@ -1,0 +1,122 @@
+2026-05-31T10:05:20.6152539+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "EvenLengthPalindromeLang.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "ClassicalLexicon.json",
+    "MaxSentenceLength": 8,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.001,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/EvenLengthPalindromeLangSamples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 8,
+    "MaxNumberOfRules": 10,
+    "MaxDepthBetweenSubSolutions": 1,
+    "MaxDepthAfterMinimalGlobal": 1,
+    "MinSizeOfOptimalSubSolution": 2,
+    "ParetoRibbonThickness": 0,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": null,
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (2671f88e)
+2026-05-31T10:05:20.6242212+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:05:20.6242302+01:00  [INF] START -> T2 A (ce0d509c)
+2026-05-31T10:05:20.6242347+01:00  [INF] START -> T4 B (61b1d125)
+2026-05-31T10:05:20.6242360+01:00  [INF] T2 -> A (d083e9ee)
+2026-05-31T10:05:20.6242371+01:00  [INF] T2 -> A START (88614d10)
+2026-05-31T10:05:20.6242382+01:00  [INF] T4 -> B (4d6bb4b0)
+2026-05-31T10:05:20.6242392+01:00  [INF] T4 -> B START (47f73eec)
+2026-05-31T10:05:20.6242402+01:00  [INF] START ->  (eca8e5e3)
+2026-05-31T10:05:20.6252134+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:05:20.6252187+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:05:20.6252236+01:00  [INF] 121 sentences of length 0 (1c403c88)
+2026-05-31T10:05:20.6252250+01:00  [INF] 133 sentences of length 2 (0031f2b0)
+2026-05-31T10:05:20.6252261+01:00  [INF] 177 sentences of length 4 (e8f21eb6)
+2026-05-31T10:05:20.6252270+01:00  [INF] 237 sentences of length 6 (8f9ef8a3)
+2026-05-31T10:05:20.6252278+01:00  [INF] 332 sentences of length 8 (30445aea)
+2026-05-31T10:05:20.6252288+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:05:20.6252312+01:00  [INF] 1 unique sentences types of length 0 (9dcca0b5)
+2026-05-31T10:05:20.6252321+01:00  [INF] 2 unique sentences types of length 2 (65c77673)
+2026-05-31T10:05:20.6252336+01:00  [INF] 4 unique sentences types of length 4 (ce82c24a)
+2026-05-31T10:05:20.6252344+01:00  [INF] 8 unique sentences types of length 6 (cd3413f4)
+2026-05-31T10:05:20.6252353+01:00  [INF] 16 unique sentences types of length 8 (810c3206)
+2026-05-31T10:05:20.6252363+01:00  [INF] Total samples: 1000 (c0fe50aa)
+2026-05-31T10:05:20.6252387+01:00  [INF] Actual missing probability mass: 0.0000 (c364fef1)
+2026-05-31T10:05:20.6252399+01:00  [INF] Generation time: 0ms (f158ae34)
+2026-05-31T10:05:20.6256592+01:00  [INF] Wrote 31 unique sampled sentences to "Samples/EvenLengthPalindromeLangSamples.txt" (23ac6b34)
+2026-05-31T10:05:20.6257464+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from EvenLengthPalindromeLang.txt (f65a4b05)
+2026-05-31T10:05:20.6258526+01:00  [INF] The empty string was detected. The rule START -> ε is added post-learning. (aa6ecd41)
+2026-05-31T10:05:20.6337757+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:05:20.6337966+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:05:20.6341401+01:00  [INF] Considering 2 Local Optima in depth 2 (db78ae28)
+2026-05-31T10:05:20.6343486+01:00  [INF] Considering 4 Local Optima in depth 3 (5d2825ee)
+2026-05-31T10:05:20.6350597+01:00  [INF] Considering 12 Local Optima in depth 4 (7a440deb)
+2026-05-31T10:05:20.6367935+01:00  [INF] ---- 1 Global Solutions Found ------ (e9aa85b2)
+2026-05-31T10:05:20.6368453+01:00  [INF] 
+1. Global Optimum (Depth 5) Growth Rate: 1.74 [Indices: 19]:
+START -> X1
+X1 -> X2 A
+X1 -> X4 B
+X2 -> A
+X2 -> A X1
+X4 -> B
+X4 -> B X1
+Count: 7
+Grammar counts vector: [0, 0, 2, 0, 4], total strings: 6, Rule coverage length: 4
+START -> ε
+Solution was obtained from the following solutions: 13, 14 (22e81c0e)
+2026-05-31T10:05:20.6368527+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 13, 14]:
+START -> X1
+X1 -> X4 B
+X1 -> A A
+X4 -> B
+X4 -> B X1
+Count: 5
+Grammar counts vector: [0, 0, 2, 0, 2], total strings: 4, Rule coverage length: 4
+Solution was obtained from the following solutions: 2, 3, 4, 5 (c31acd5f)
+2026-05-31T10:05:20.6368572+01:00  [INF] 
+Local Optimum (Depth 3) [Indices: 2, 3, 4, 5]:
+START -> X1
+X1 -> A A
+X1 -> B B
+Count: 3
+Grammar counts vector: [0, 0, 2], total strings: 2, Rule coverage length: 2
+Solution was obtained from the following solutions: 0, 1 (8c41e64c)
+2026-05-31T10:05:20.6368599+01:00  [INF] 
+Local Optimum (Depth 2) [Indices: 0, 1]:
+START -> X1
+X1 -> A A
+Count: 2
+Grammar counts vector: [0, 0, 1], total strings: 1, Rule coverage length: 2 (03717b16)
+2026-05-31T10:05:20.6368613+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T10:05:20.6368628+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T10:05:20.6415089+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 110/110 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (b30f8992)
+2026-05-31T10:05:20.6415141+01:00  [INF] Oracle: Weakly equivalent grammar indices: 1 (fdceb567)
+2026-05-31T10:05:20.6415233+01:00  [INF] Overall session RunTime 00:00:00.02 (6bd97fc5)

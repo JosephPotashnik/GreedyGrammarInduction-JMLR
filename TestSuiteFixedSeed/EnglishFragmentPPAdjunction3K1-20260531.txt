@@ -1,0 +1,185 @@
+2026-05-31T10:03:03.7698874+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "EnglishFragmentPPAdjunction3.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "Lexicon.json",
+    "MaxSentenceLength": 10,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.0005,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/EnglishFragmentPPAdjunction3Samples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 15,
+    "MaxNumberOfRules": 20,
+    "MaxDepthBetweenSubSolutions": 1,
+    "MaxDepthAfterMinimalGlobal": 1,
+    "MinSizeOfOptimalSubSolution": 2,
+    "ParetoRibbonThickness": 0.001,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K1Target.txt",
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (27932dcf)
+2026-05-31T10:03:03.7799007+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:03:03.7799119+01:00  [INF] START -> NP VP (e72b7591)
+2026-05-31T10:03:03.7799143+01:00  [INF] VP -> V0 (bec5c692)
+2026-05-31T10:03:03.7799176+01:00  [INF] VP -> V1 NP (ecdaad4d)
+2026-05-31T10:03:03.7799210+01:00  [INF] VP -> V2 PP (6b8ca381)
+2026-05-31T10:03:03.7799239+01:00  [INF] VP -> V3 START (b310f91f)
+2026-05-31T10:03:03.7799268+01:00  [INF] PP -> P NP (96ead275)
+2026-05-31T10:03:03.7799595+01:00  [INF] NP -> D N (dc5a21f8)
+2026-05-31T10:03:03.7799729+01:00  [INF] NP -> PN (100c2dad)
+2026-05-31T10:03:03.7799782+01:00  [INF] NP -> NP PP (f62db6dc)
+2026-05-31T10:03:03.7799816+01:00  [INF] VP -> VP PP (c02e84d4)
+2026-05-31T10:03:03.8371850+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:03:03.8372010+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:03:03.8372136+01:00  [INF] 25 sentences of length 2 (9490d714)
+2026-05-31T10:03:03.8372243+01:00  [INF] 17 sentences of length 3 (0f9b096a)
+2026-05-31T10:03:03.8372274+01:00  [INF] 63 sentences of length 4 (abaf677b)
+2026-05-31T10:03:03.8372302+01:00  [INF] 107 sentences of length 5 (17113f4d)
+2026-05-31T10:03:03.8372331+01:00  [INF] 235 sentences of length 6 (fb7274b2)
+2026-05-31T10:03:03.8372362+01:00  [INF] 489 sentences of length 7 (0fbe757a)
+2026-05-31T10:03:03.8372387+01:00  [INF] 916 sentences of length 8 (055e0565)
+2026-05-31T10:03:03.8372445+01:00  [INF] 1989 sentences of length 9 (720c1406)
+2026-05-31T10:03:03.8372472+01:00  [INF] 4159 sentences of length 10 (ea8ef607)
+2026-05-31T10:03:03.8372498+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:03:03.8372535+01:00  [INF] 1 unique sentences types of length 2 (ca38798c)
+2026-05-31T10:03:03.8372556+01:00  [INF] 2 unique sentences types of length 3 (c89b3c1d)
+2026-05-31T10:03:03.8372584+01:00  [INF] 6 unique sentences types of length 4 (87e24df7)
+2026-05-31T10:03:03.8372612+01:00  [INF] 12 unique sentences types of length 5 (21a078ef)
+2026-05-31T10:03:03.8372692+01:00  [INF] 23 unique sentences types of length 6 (4860a0f9)
+2026-05-31T10:03:03.8372720+01:00  [INF] 46 unique sentences types of length 7 (adfe8ab7)
+2026-05-31T10:03:03.8372753+01:00  [INF] 83 unique sentences types of length 8 (e43daae0)
+2026-05-31T10:03:03.8372798+01:00  [INF] 154 unique sentences types of length 9 (5ca93a55)
+2026-05-31T10:03:03.8372828+01:00  [INF] 279 unique sentences types of length 10 (d70fce94)
+2026-05-31T10:03:03.8372901+01:00  [INF] Total samples: 3841 (a5508638)
+2026-05-31T10:03:03.8373064+01:00  [INF] Actual missing probability mass: 0.0003 (c4a2016b)
+2026-05-31T10:03:03.8373104+01:00  [INF] Generation time: 57ms (b8b4c0af)
+2026-05-31T10:03:03.8383192+01:00  [INF] Wrote 606 unique sampled sentences to "Samples/EnglishFragmentPPAdjunction3Samples.txt" (23ac6b34)
+2026-05-31T10:03:03.8384597+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from EnglishFragmentPPAdjunction3.txt (7046627c)
+2026-05-31T10:03:03.8479585+01:00  [INF] Oracle : Loaded 1 strongly equivalent grammar(s) from EnglishFragmentPPAdjunction3K1Target.txt (e3fcee6a)
+2026-05-31T10:03:05.2714973+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:03:05.2715408+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:03:06.2732492+01:00  [INF] Considering 1 Local Optima in depth 2 (b3a5d2ec)
+2026-05-31T10:03:07.2713486+01:00  [INF] Considering 2 Local Optima in depth 3 (3e00733a)
+2026-05-31T10:03:08.2726920+01:00  [INF] Considering 2 Local Optima in depth 4 (3043d7c1)
+2026-05-31T10:03:09.2719643+01:00  [INF] Considering 2 Local Optima in depth 5 (2075b825)
+2026-05-31T10:03:10.2727362+01:00  [INF] Considering 2 Local Optima in depth 6 (685247e1)
+2026-05-31T10:03:11.2729060+01:00  [INF] Considering 6 Local Optima in depth 7 (b07cb9d8)
+2026-05-31T10:03:11.8262457+01:00  [INF] ---- 1 Global Solutions Found ------ (e9aa85b2)
+2026-05-31T10:03:11.8263346+01:00  [INF] 
+1. Global Optimum (Depth 8) Growth Rate: 2.527 [Indices: 15, 16, 17, 18, 19]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> V3 X1
+X3 -> P X1
+X3 -> X4 X2
+X3 -> V0
+X4 -> X3 P
+X4 -> V1
+X4 -> V2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 6], total strings: 9, Rule coverage length: 4
+Solution was obtained from the following solutions: 9, 10 (dad03530)
+2026-05-31T10:03:11.8263433+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 9, 10]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> V3 X1
+X3 -> P X1
+X3 -> X4 X2
+X3 -> V0
+X4 -> V1
+X4 -> V2 P
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 7 (25dc91c6)
+2026-05-31T10:03:11.8263512+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 7]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> V3 X1
+X3 -> X4 X2
+X3 -> V0
+X4 -> V1
+X4 -> V2 P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 5 (1f760622)
+2026-05-31T10:03:11.8263579+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 5]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> X4 X2
+X3 -> V0
+X4 -> V1
+X4 -> V2 P
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 3 (7b4e9a56)
+2026-05-31T10:03:11.8263617+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 3]:
+START -> X1
+X1 -> X2 X3
+X2 -> PN
+X2 -> D N
+X3 -> V0
+X3 -> V1 X2
+Count: 6
+Grammar counts vector: [0, 0, 1, 2], total strings: 3, Rule coverage length: 3
+Solution was obtained from the following solutions: 1, 2 (c7502eab)
+2026-05-31T10:03:11.8263667+01:00  [INF] 
+Local Optimum (Depth 3) [Indices: 1, 2]:
+START -> X1
+X1 -> PN X3
+X3 -> V0
+X3 -> V1 PN
+Count: 4
+Grammar counts vector: [0, 0, 1, 1], total strings: 2, Rule coverage length: 3
+Solution was obtained from the following solutions: 0 (dad77ade)
+2026-05-31T10:03:11.8263704+01:00  [INF] 
+Local Optimum (Depth 2) [Indices: 0]:
+START -> X1
+X1 -> PN V0
+Count: 2
+Grammar counts vector: [0, 0, 1], total strings: 1, Rule coverage length: 2 (25cf6566)
+2026-05-31T10:03:11.8263723+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T10:03:11.8263732+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T10:03:11.8393970+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (61fa71cc)
+2026-05-31T10:03:11.8394925+01:00  [INF] Oracle: Global #1 is strongly equivalent to target grammar #1 (cf5825f5)
+2026-05-31T10:03:11.8394974+01:00  [INF] Oracle: Weakly equivalent grammar indices: 1 (fdceb567)
+2026-05-31T10:03:11.8394983+01:00  [INF] Oracle: Strongly equivalent grammar indices: 1 (7fd3d6cd)
+2026-05-31T10:03:11.8395088+01:00  [INF] Overall session RunTime 00:00:08.06 (7dfcbe4e)

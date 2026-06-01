@@ -1,0 +1,297 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  // SourceOfTruth selects the authoritative input file. If both GrammarFileName and SamplesFileName are specified, the non-selected file name is ignored.
+  "ProgramsToRun": [
+
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentPPAdjunction3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "DistributionType": "PowerLaw", //Distributions are: "Uniform", "Normal", or "PowerLaw"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.0005
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 15,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 2,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3K2Target.txt"
+      }
+    }
+  ]
+}

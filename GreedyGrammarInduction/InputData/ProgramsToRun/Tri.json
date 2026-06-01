@@ -1,0 +1,256 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  // SourceOfTruth selects the authoritative input file. If both GrammarFileName and SamplesFileName are specified, the non-selected file name is ignored.
+  "ProgramsToRun": [
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 10,
+        "LexiconFileName": "Lexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EnglishFragmentTriRule.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 12,
+        "MaxNumberOfRules": 20,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "ParetoRibbonThickness": 0.001
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentTriRule.txt",
+        "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentTriTarget.txt"
+      }
+    }
+  ]
+}

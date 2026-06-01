@@ -1,0 +1,171 @@
+2026-05-31T10:04:40.2258546+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "Dyck3.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "ClassicalLexicon.json",
+    "MaxSentenceLength": 8,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.001,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/Dyck3Samples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 8,
+    "MaxNumberOfRules": 13,
+    "MaxDepthBetweenSubSolutions": 2,
+    "MaxDepthAfterMinimalGlobal": 1,
+    "MinSizeOfOptimalSubSolution": 2,
+    "ParetoRibbonThickness": 0,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": null,
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (8f612dc6)
+2026-05-31T10:04:40.2388792+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:04:40.2388870+01:00  [INF] START -> T1 (061fa851)
+2026-05-31T10:04:40.2388878+01:00  [INF] T1 -> T1 T1 (319c819c)
+2026-05-31T10:04:40.2388884+01:00  [INF] T1 -> LP1 RP1 (4b960599)
+2026-05-31T10:04:40.2388891+01:00  [INF] T1 -> LP1 T2 (675b0d68)
+2026-05-31T10:04:40.2388898+01:00  [INF] T2 -> T1 RP1 (5464fcda)
+2026-05-31T10:04:40.2388905+01:00  [INF] T1 -> LP2 RP2 (d42b9a46)
+2026-05-31T10:04:40.2388917+01:00  [INF] T1 -> LP2 T3 (650c6120)
+2026-05-31T10:04:40.2388924+01:00  [INF] T3 -> T1 RP2 (78d2f7bf)
+2026-05-31T10:04:40.2388957+01:00  [INF] T1 -> LP3 RP3 (c5b82f60)
+2026-05-31T10:04:40.2388964+01:00  [INF] T1 -> LP3 T4 (6911893c)
+2026-05-31T10:04:40.2388971+01:00  [INF] T4 -> T1 RP3 (fa8a8bce)
+2026-05-31T10:04:40.2388982+01:00  [INF] START ->  (eca8e5e3)
+2026-05-31T10:04:40.2647931+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:04:40.2648039+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:04:40.2648127+01:00  [INF] 49 sentences of length 0 (fed8aa61)
+2026-05-31T10:04:40.2648143+01:00  [INF] 48 sentences of length 2 (d2e09b1c)
+2026-05-31T10:04:40.2648155+01:00  [INF] 193 sentences of length 4 (35d26221)
+2026-05-31T10:04:40.2648163+01:00  [INF] 1204 sentences of length 6 (e045a0da)
+2026-05-31T10:04:40.2648182+01:00  [INF] 10506 sentences of length 8 (1900a880)
+2026-05-31T10:04:40.2648190+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:04:40.2648220+01:00  [INF] 1 unique sentences types of length 0 (9dcca0b5)
+2026-05-31T10:04:40.2648230+01:00  [INF] 3 unique sentences types of length 2 (d6b920a5)
+2026-05-31T10:04:40.2648240+01:00  [INF] 18 unique sentences types of length 4 (c4f432a2)
+2026-05-31T10:04:40.2648250+01:00  [INF] 135 unique sentences types of length 6 (6401e30b)
+2026-05-31T10:04:40.2648260+01:00  [INF] 1131 unique sentences types of length 8 (d537d934)
+2026-05-31T10:04:40.2648270+01:00  [INF] Total samples: 12000 (0d3196e8)
+2026-05-31T10:04:40.2648328+01:00  [INF] Actual missing probability mass: 0.0008 (30f3da0d)
+2026-05-31T10:04:40.2648340+01:00  [INF] Generation time: 25ms (6a7e0347)
+2026-05-31T10:04:40.2657604+01:00  [INF] Wrote 1288 unique sampled sentences to "Samples/Dyck3Samples.txt" (23ac6b34)
+2026-05-31T10:04:40.2659018+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from Dyck3.txt (2d0674ec)
+2026-05-31T10:04:40.2668205+01:00  [INF] The empty string was detected. The rule START -> ε is added post-learning. (aa6ecd41)
+2026-05-31T10:04:41.1075850+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:04:41.1076156+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:04:41.7314883+01:00  [INF] Considering 1 Local Optima in depth 2 (b3a5d2ec)
+2026-05-31T10:04:42.7324438+01:00  [INF] Considering 1 Local Optima in depth 3 (cb1681d1)
+2026-05-31T10:04:43.7317408+01:00  [INF] Considering 1 Local Optima in depth 4 (e054ac4d)
+2026-05-31T10:04:44.7488890+01:00  [INF] Considering 5 Local Optima in depth 5 (02437b2e)
+2026-05-31T10:04:45.7505601+01:00  [INF] Considering 20 Local Optima in depth 6 (23e2a7a2)
+2026-05-31T10:04:46.7625095+01:00  [INF] Considering 80 Local Optima in depth 7 (a364cc7b)
+2026-05-31T10:04:47.7999544+01:00  [INF] ---- 1 Global Solutions Found ------ (e9aa85b2)
+2026-05-31T10:04:47.8000361+01:00  [INF] 
+1. Global Optimum (Depth 8) Growth Rate: 4.512 [Indices: 317]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 RP2
+X1 -> X4 RP3
+X1 -> X6 RP1
+X2 -> X2 X1
+X2 -> LP2
+X4 -> LP3
+X4 -> LP3 X1
+X6 -> X6 X1
+X6 -> LP1
+Count: 11
+Grammar counts vector: [0, 0, 3, 0, 18], total strings: 21, Rule coverage length: 4
+START -> ε
+Solution was obtained from the following solutions: 64 (d95e4f96)
+2026-05-31T10:04:47.8000449+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 64]:
+START -> X1
+X1 -> LP3 RP3
+X1 -> X1 X1
+X1 -> X2 RP2
+X1 -> X6 RP1
+X2 -> X2 X1
+X2 -> LP2
+X6 -> X6 X1
+X6 -> LP1
+Count: 9
+Grammar counts vector: [0, 0, 3, 0, 15], total strings: 18, Rule coverage length: 4
+Solution was obtained from the following solutions: 18 (e6317c28)
+2026-05-31T10:04:47.8000513+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 18]:
+START -> X1
+X1 -> LP3 RP3
+X1 -> X2 RP2
+X1 -> X6 RP1
+X2 -> X2 X1
+X2 -> LP2
+X6 -> X6 X1
+X6 -> LP1
+Count: 8
+Grammar counts vector: [0, 0, 3, 0, 6], total strings: 9, Rule coverage length: 4
+Solution was obtained from the following solutions: 4 (c1f9f87f)
+2026-05-31T10:04:47.8000581+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 4]:
+START -> X1
+X1 -> LP3 RP3
+X1 -> X2 RP2
+X1 -> LP1 RP1
+X2 -> X2 X1
+X2 -> LP2
+Count: 6
+Grammar counts vector: [0, 0, 3, 0, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 2 (ea1dd973)
+2026-05-31T10:04:47.8000641+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 2]:
+START -> X1
+X1 -> LP3 RP3
+X1 -> LP1 RP1
+X1 -> LP2 RP2
+Count: 4
+Grammar counts vector: [0, 0, 3], total strings: 3, Rule coverage length: 2
+Solution was obtained from the following solutions: 1 (e8655d00)
+2026-05-31T10:04:47.8000680+01:00  [INF] 
+Local Optimum (Depth 3) [Indices: 1]:
+START -> X1
+X1 -> LP3 RP3
+X1 -> LP2 RP2
+Count: 3
+Grammar counts vector: [0, 0, 2], total strings: 2, Rule coverage length: 2
+Solution was obtained from the following solutions: 0 (4716d155)
+2026-05-31T10:04:47.8000719+01:00  [INF] 
+Local Optimum (Depth 2) [Indices: 0]:
+START -> X1
+X1 -> LP2 RP2
+Count: 2
+Grammar counts vector: [0, 0, 1], total strings: 1, Rule coverage length: 2 (c12ad86f)
+2026-05-31T10:04:47.8000742+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T10:04:47.8000756+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T10:04:47.8083769+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 110/110 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (b30f8992)
+2026-05-31T10:04:47.8083873+01:00  [INF] Oracle: Weakly equivalent grammar indices: 1 (fdceb567)
+2026-05-31T10:04:47.8084012+01:00  [INF] Overall session RunTime 00:00:07.58 (e1d1a1d0)

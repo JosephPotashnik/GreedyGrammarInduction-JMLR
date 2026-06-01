@@ -1,0 +1,609 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target EnglishFragmentPPAdjunction3.txt #
+Count	Sentence
+25	David cried
+7	John hated Who
+10	the child fell
+11	David arrived from Who
+12	Who says Mary fell
+9	Who loved a man
+6	John to John cried
+14	a woman hated David
+11	David fell for John
+6	a bells loved the child
+11	Mary from Who loved Mary
+9	David went to a bells
+6	David says the child ran
+13	a woman says Mary cried
+14	Who kissed David from Mary
+5	John from a child cried
+6	the child for Mary fell
+11	the girl fell for David
+9	the child arrived from John
+9	Mary ran to a child
+8	John says John loved Mary
+14	David kissed Mary from a woman
+12	Who from John for Who ran
+14	Mary loved a girl to David
+6	Who to David hated the woman
+9	Who knows John knows Mary ran
+17	John arrived for Who to John
+14	Mary to David says Who fell
+14	David knows John loved the girl
+6	the child toll to a child
+10	David from the woman loved David
+6	Who says the woman loved David
+7	Who to David cried from John
+14	David cried to David to John
+7	a girl to Mary hated Who
+8	a woman fell from the girl
+9	a child knows David hated David
+7	John knows Mary toll for Who
+19	the woman hated John from John
+10	the woman from a man ran
+10	Who says John cried from David
+5	Who says David to Who cried
+7	a woman knows a child fell
+10	John for David arrived for Who
+10	Who for the girl says Who cried
+22	John hated the girl for the woman
+19	Who says the man cried from John
+9	a bells loved Mary for the child
+11	David toll to David from the man
+16	the child went to John from David
+5	Mary for Who says Mary loved Mary
+8	David says a man to Mary ran
+14	John to Who hated John for David
+16	Who fell from the woman from Mary
+3	Mary says Mary for the girl fell
+13	David knows Who from Mary kissed David
+15	Who to David to the girl cried
+10	a man from Who loved a man
+11	the woman knows Mary fell from Who
+5	John from a girl went for John
+7	David says Who knows John loved Mary
+16	David fell for David from a man
+7	Who for a girl hated a child
+8	the man knows David hated the child
+7	the woman knows the woman kissed David
+6	Mary from David knows a bells ran
+18	Mary knows Mary hated Who to David
+4	Who says Mary went from the bells
+10	John knows a man says Mary fell
+13	the man fell from Mary from David
+15	a child to Mary to David ran
+6	a child from John went for David
+12	a woman loved a woman to Who
+4	John for the man cried to John
+4	a woman knows Who knows John ran
+6	John says John knows a man ran
+12	David from the girl for Who ran
+8	Who knows the man arrived from Who
+8	Mary from David fell to the bells
+6	John knows the bells hated a man
+10	John from John to Who kissed Who
+37	David hated David for Who from Who
+6	a child knows Who arrived from Who
+10	a girl for a child hated John
+10	a child from David knows Mary ran
+19	Mary says David ran to the child
+2	the child to Mary ran to David
+10	Who to Who went to the girl
+15	Who arrived for the girl for Mary
+6	the man says John for Mary fell
+7	a woman knows a woman says Mary cried
+10	the woman to John hated John from David
+4	David knows Mary to a woman kissed David
+2	a bells for the woman arrived for David
+32	David for Mary from David from Who fell
+9	Who says Who for Who for David fell
+36	John knows John ran from Mary from Who
+12	the bells says the man cried for David
+11	David ran to a girl to a bells
+4	Mary to a woman knows Who loved Mary
+15	Who to a woman from Who hated David
+9	a child to John cried for a child
+7	David to Who knows a bells loved Mary
+5	David from Who knows Who hated the woman
+10	a woman arrived from a bells from Mary
+12	Mary from David ran for Who from David
+4	a man knows David knows Who hated Mary
+21	David kissed John for John from the woman
+22	Who arrived for Mary for John to John
+10	Who from the man says a man ran
+5	David knows a bells from Mary hated David
+9	Mary from Who from Mary kissed a bells
+17	Who knows a woman hated David for John
+6	David to the girl went to a woman
+16	the bells cried for the woman for Mary
+4	David from Mary knows David knows David ran
+13	the girl arrived for John for the woman
+4	Who says Mary from John toll from Who
+14	Who from David kissed a bells for David
+11	David arrived from a man for the bells
+7	the girl from Mary arrived for the child
+31	John hated the bells to Mary from John
+14	David says Mary knows Mary ran to Who
+23	Who says David hated John from the bells
+19	John says Mary arrived for Mary for Mary
+11	Who for the woman hated Who to Mary
+13	Who for Mary loved David for the bells
+6	a bells says Mary to the child cried
+8	John says a woman knows a girl ran
+15	a man for Mary from David loved Who
+4	a child for the child kissed the girl
+9	Who for Mary knows Who cried from David
+11	David for Who from David went for Who
+9	the bells says John says a girl ran
+8	Mary says Mary from Mary says Mary ran
+8	Mary for Who from David knows Mary ran
+5	Mary knows John knows Who to Who ran
+9	John knows a woman knows David kissed Who
+5	a girl for David says a man ran
+8	Who from David from a woman hated David
+6	Who says Mary says Who says Mary cried
+10	John from a man to a woman ran
+5	a man from a man fell from David
+7	David from the man ran for the child
+13	the man kissed the bells from the girl
+3	Who says John knows Who kissed a man
+8	Who knows Mary says David went to Who
+21	Who knows Mary hated a child from David
+2	David to David knows Who to John cried
+13	John from Who toll from Mary to John
+35	Who ran for David to John for Who
+6	Who says the woman for the bells fell
+8	the girl knows the girl arrived to David
+6	a child says a woman to Who ran
+13	Who knows a bells fell for the girl
+6	David says David for David hated a man
+11	the girl knows the child loved a girl
+3	the bells knows David went to a girl
+5	John to Who says John went from Who
+14	the bells for Mary to a child fell
+6	Mary says David knows the child loved Mary
+36	John kissed Who for a bells for Who
+4	the girl says David to Mary loved Who
+4	Mary says the child went from a girl
+7	the man for Who knows John kissed Mary
+16	the bells ran from Mary for a child
+12	Who says John for Mary cried from Mary
+5	the man for a girl says David fell
+21	the girl hated Who to John to David
+11	a child knows Mary ran from the woman
+12	Mary for David from David ran for Who
+11	the child to a girl from Who ran
+12	a child knows John hated Who from Mary
+9	the man from a child from a child fell
+4	David knows David for the woman says John ran
+7	the woman for the bells says the man cried
+4	a child knows Mary knows the man loved David
+16	a bells says Who arrived to Mary for Who
+2	John knows a girl says Who arrived for Who
+16	the child knows Mary knows John ran from Who
+22	David knows David hated a man from the woman
+14	John from Who from the girl says Who ran
+5	John for Who says the bells went to David
+20	David says John arrived for John to a girl
+30	Who says a woman ran for David from David
+20	Mary knows Who says Mary cried for the child
+6	David to the girl knows Who went for Who
+11	John to David to Who knows the man ran
+8	a man knows the bells cried to a man
+4	Mary says David from the bells loved the woman
+5	David for Who knows a woman kissed the man
+12	Who knows David from David from the bells ran
+11	John knows Mary from the girl for David cried
+72	David kissed Mary from David for Mary from David
+4	Who says David knows Mary knows Mary hated Who
+11	John from a girl from John arrived to David
+6	John says Mary knows a bells loved a woman
+2	Who says John says David knows the child ran
+8	Who to Who knows Who went from the woman
+12	David says David knows the bells cried from Who
+5	Who knows the man to the bells hated Who
+10	the man for John kissed Mary for a girl
+17	Mary from John says David cried to a bells
+36	David loved the man for the child from John
+6	the child from a man went for a bells
+4	a girl for the woman says Mary loved John
+23	David says John cried from Who from a man
+5	Who from Who says the bells to Who fell
+3	the child knows Who for Mary kissed the man
+9	a bells from the man for Who hated David
+3	a child knows a child to David hated John
+7	Who knows Mary knows David from a child fell
+4	a bells for Mary says a woman hated John
+14	the bells for David to Mary arrived to John
+2	the girl knows a man knows the man ran
+23	John cried to David to the man from Mary
+7	David for John for David cried from the bells
+8	a woman knows the child went from the bells
+8	Mary says the woman says a bells hated John
+3	John knows a child from David says David cried
+14	Mary knows the woman says John ran from Who
+23	Who toll for David for Mary for the woman
+10	Who to Who arrived for a girl from Who
+16	Who knows the bells kissed the man to John
+22	Mary arrived from a girl to Who to David
+8	David from a child for Who hated a man
+12	John from David from John went from a child
+3	Mary knows the girl from John hated a girl
+1	Mary knows Who to Who says Who loved Who
+31	Mary for the girl for Who for John fell
+25	David for John to Who loved John to Mary
+9	Mary to Mary knows the woman knows Who cried
+40	Mary for John for David for Mary hated Who
+5	the man from Who knows David from John ran
+5	the man says David for Who went from Who
+11	Mary from the man for the woman kissed Who
+15	Mary from the girl loved a bells from Who
+11	David from a woman hated Who to the bells
+6	Who from a girl cried from Who to Mary
+33	John hated a man from Who for the woman
+35	the child for Who to Mary to David cried
+28	a woman hated David for John from a bells
+4	a girl knows David says John went from David
+33	John for John loved Who from Mary for Mary
+24	Who cried for John from Mary from a woman
+3	David says John knows the child from Who ran
+24	David ran for the man to Who to Who
+16	a child for John from Mary knows Mary cried
+10	David from John says the girl ran to Mary
+13	Mary to Who to a woman toll for Mary
+2	Who says a man to David went to Who
+11	David to John loved the girl to the bells
+10	the girl to a woman kissed Mary for Mary
+14	Mary knows David to a child fell from John
+13	a woman knows Who to Mary cried to John
+14	David to John cried for the bells to David
+3	Mary knows Who knows the child says David fell
+2	the man says Mary to Mary knows David fell
+13	a bells to John cried from Who to Who
+7	the girl to Who says Mary knows John cried
+2	Who from David says Mary says the child ran
+11	the man for Who kissed the girl from Who
+13	David from the girl says Who fell from John
+19	the girl arrived from a woman to the woman
+11	a man to John says David hated the bells
+11	Mary for a child from Mary knows John ran
+5	Mary to Mary knows David for the girl fell
+7	the man to Mary to a child loved David
+31	the woman kissed David from the girl from David
+5	the man says David says Mary for Mary cried
+2	a man knows the bells says John hated John
+9	David knows Who says a bells arrived from John
+4	a woman for Mary says Who arrived to Who
+8	the girl for David arrived for John to Who
+8	Mary says a bells knows Who says Who ran
+21	Who hated Mary from the bells for a man
+14	Who knows Mary for David fell from a child
+4	Who for a child knows John kissed the bells
+9	Mary says Who to David went from the bells
+7	a bells says Mary knows David loved a child
+10	David to John from the woman ran from Who
+18	David says Mary toll from the bells from Who
+28	the child loved a girl to Mary for John
+21	a girl says John kissed the child from David
+15	John from John knows David kissed Who to David
+12	a man knows Mary for John to David fell
+20	Mary says David fell from the bells from David
+28	a man ran to Mary for David from Mary
+19	a bells from Who knows Who cried for Mary
+3	John to the woman knows a bells loved John
+28	a bells says David cried from David from Mary
+11	Mary says the bells says John hated a girl
+7	the man from Mary for David loved the bells
+2	David says David to David says the woman ran
+15	Who knows a bells hated Mary for the bells
+4	John knows Mary says Mary went for a bells
+13	John knows a bells arrived to John from David
+26	a man arrived for David for Mary for John
+23	Who knows Who knows David hated David from John
+13	Mary from Mary from Who knows John hated John
+11	Who knows John for Who for David loved Mary
+7	the man knows David says David knows Who ran
+13	a man says Who loved Mary from a bells
+12	the child cried for a man to a woman
+15	Who for the man for David fell from Mary
+10	Mary to David fell from David from a bells
+56	John knows Who loved John from Who for David
+7	Who from Mary says David to John hated John
+9	John knows Who from David kissed John to David
+4	Mary to a bells knows John to John ran
+23	Mary from John to a child to John cried
+6	Mary to the man says John says David cried
+10	Who knows the child from Mary to Mary ran
+7	the man knows the child for a man ran
+6	the man from the bells fell for a girl
+16	David from Who toll from Mary for a woman
+6	David says the woman knows David to John ran
+30	David for Who to John from the woman cried
+6	a man says David from the bells loved David
+5	John from Who knows Mary knows Who hated Mary
+21	a man says the man hated John to David
+6	the child for Who from David fell from David
+9	Mary knows the bells for Who cried for Mary
+11	John for David from the child loved the man
+35	John arrived to Mary from the woman to Mary
+10	Mary says David for the child arrived from John
+4	Who to a man arrived for Who for John
+5	John from Mary says Who says the woman kissed John
+10	John knows David to Mary arrived from David from Mary
+11	the woman knows the bells knows David ran for John
+10	David knows the woman from a man cried to David
+8	Who for a child from the woman ran for John
+4	the woman says David says John went for the girl
+5	the child says the woman to Mary arrived to Mary
+4	a woman for Who says John went to the girl
+3	John knows the girl knows David to the child cried
+4	David for David says John to a woman hated David
+6	a man from Mary says the girl kissed a woman
+13	a bells for David to David says David loved David
+8	the woman to Mary fell for the child to Who
+4	John to David says a woman from a girl fell
+8	the man knows John knows John to a girl cried
+7	Who for David knows the child says the girl ran
+9	a man knows a bells knows the woman kissed Mary
+4	David knows the woman from a child toll from David
+7	John from a man knows John to the girl cried
+7	a woman says Mary to John knows Mary loved Mary
+4	Mary for a girl says a girl says David ran
+14	John for a woman knows the woman cried for Who
+2	Mary from David knows Who for John went from David
+3	David knows Who for a girl says John loved David
+1	Who knows the man to the man knows Who fell
+17	Who knows the bells went to the girl to John
+7	John for Mary for the man says the man cried
+8	David from the girl loved a bells to a child
+6	John knows Mary says Who knows Mary from Mary cried
+5	Mary knows a child says John knows John hated John
+4	Mary knows Who to Mary from Who hated the man
+5	Who from the girl says Who to Who kissed Who
+1	the woman says a woman for a man loved David
+2	the girl knows a bells knows David from John cried
+3	Who to Mary from the child fell from a man
+4	the girl from David knows Who says the man fell
+5	David says Who knows John to the bells loved Who
+16	the girl to Who toll from the child to Who
+4	Who says the child to a woman loved a child
+13	a girl to Mary from Mary fell from a bells
+2	John says Mary says Mary to David says John cried
+10	the woman for John to the child arrived to Who
+11	a girl for John cried for David for the child
+4	the bells for David knows the child toll from John
+5	the man knows Mary for a man cried to David
+8	David from Mary says David kissed Who to the girl
+11	a girl for David for Who arrived from the woman
+6	Mary says Who knows a girl knows a woman cried
+4	Who from a bells knows the girl kissed a child
+7	a man to a woman knows Who went for Mary
+4	David from the child knows John says Who kissed John
+9	John says the child from Mary to Who kissed John
+7	Who to the man knows the woman for David ran
+4	David for a bells knows John says the woman cried
+8	Who for John says Mary knows Who to John cried
+10	David to David to Mary says the bells loved Who
+7	a bells from a woman to a girl kissed Who
+8	Mary knows a child to the girl to Who fell
+2	Mary knows a woman from David went for a man
+8	Who says a girl knows a man arrived for Who
+17	the child for the bells fell for John from John
+5	John knows Mary from Mary says Mary went for Mary
+3	Who says the woman says Who says a child fell
+13	a woman from Who knows the bells ran to David
+15	Who says Who knows Who for John ran from Mary
+5	the child for the bells says Mary from John fell
+5	the girl says a man from David kissed the man
+4	a woman from the child knows Mary knows David ran
+7	the girl says a woman from Who says Mary cried
+2	Mary says Mary knows the man toll for the man
+8	the bells says John to a girl went to John
+3	the girl knows David says a man loved the bells
+4	the bells from John knows the woman says John ran
+5	the child says John knows the bells knows Mary ran
+5	a bells to the bells says John ran to Who
+4	a bells from David says John for the man fell
+8	Mary from David knows the girl ran for the man
+5	a woman to the girl arrived for Mary to John
+8	the woman says Who from Mary knows a child ran
+5	Who knows Mary knows Who knows the woman hated John
+7	John to Who knows David for Mary for Mary ran
+10	John for a child cried for the woman from Mary
+1	David knows the woman from David says a child cried
+7	Who for Who for David knows Mary says Mary fell
+6	a woman for Who from a man knows David fell
+12	Who from Mary for a woman arrived to a girl
+32	the girl says Who fell from Mary for the bells
+18	the bells for Mary for Mary hated John to Mary
+11	John says Who for the woman hated Who from Who
+14	Mary from David says Who hated the bells to John
+8	Mary for Mary says John says Who toll to Who
+28	David to Mary from John from a bells hated Mary
+11	John to David ran from a girl to the bells
+64	David went from Mary for David to Mary from Who
+28	Who for Who from Mary from Who cried from John
+19	the woman from John to Mary from the man fell
+5	a child knows John says Who for John loved John
+27	David says John cried for the man to a woman
+50	John knows John kissed a bells to Who from John
+11	the bells knows Who to Who for the woman ran
+15	a bells says the woman kissed a bells for Who
+8	the girl knows Mary for John fell for a child
+30	the bells knows the woman ran from Who to Mary
+6	the woman for a girl from Mary ran from Mary
+10	Who knows the woman knows a man hated a man
+10	David to a girl went for Mary to a child
+29	John from Mary to Mary from Who knows Who fell
+63	the girl hated John for John for Who from Who
+6	David knows the woman to Who from the girl ran
+11	the child for a man for Mary arrived to Mary
+67	John kissed a man from David for Who from John
+22	Who for a man for John to a woman ran
+10	David from John knows John says Mary knows David fell
+5	John to a child ran for Who to the bells
+13	Mary from David from the girl kissed Mary from Mary
+14	Who says John says a man cried to the girl
+21	John knows a man toll to David to a girl
+21	the child ran from Who from Mary for a girl
+6	David for Mary says David from David kissed a child
+14	Who says Who to a bells from David loved David
+76	John kissed Mary to a man from David from David
+19	Who toll for the bells for a child from Who
+10	Mary for a man knows a woman toll to John
+65	John kissed Who for John to a man for Mary
+5	a man from David says Mary says Mary hated John
+13	Mary for Who to Who says John to Who fell
+27	Who to John from David to David loved a man
+8	David to the girl from a girl arrived for Who
+5	the child knows John for the girl says David cried
+6	David says Who to David says Mary kissed a child
+59	Mary knows a man kissed David for John to Mary
+24	the woman ran from the bells to Mary from David
+53	Mary to John to Who to Who from Mary fell
+15	John says David from David says David cried for David
+30	Who says Mary for David from Who for Who cried
+26	David loved a bells from a girl to the girl
+22	the girl went from Who for a bells to Who
+4	Mary knows David to a woman says the bells ran
+26	John knows Who from John ran to Mary to John
+24	John knows a girl fell to Who for the woman
+54	David says John toll from David to David from John
+4	David knows Mary from the bells arrived from the bells
+12	Who knows Who to the child for the bells cried
+7	Who says the bells knows John arrived from the bells
+20	John to a bells from the child for Mary ran
+46	Who knows Mary loved Mary for a girl from Who
+17	David knows the child from David kissed John to Mary
+16	David says the girl loved a woman for a child
+73	David says David cried to John for Mary to Mary
+11	Mary from a man for John ran for the girl
+18	a child says Mary hated a bells for a woman
+25	Mary from John hated the man for Who for David
+32	the girl for a man for John to David ran
+30	John cried from a man from the man to John
+20	John knows John for Who loved John from a bells
+19	Who to a woman for David hated Who to John
+26	Who for Who says the girl kissed Who from David
+15	David knows the woman knows John cried from the man
+68	Who hated David for Mary for Who to a child
+30	Who to Who hated David for the man from Who
+12	Who from the child to the girl loved the bells
+31	John to John went to John for David from David
+19	David for Mary from Who knows John cried for Who
+23	Who to Who for David kissed the girl from David
+20	John toll for Who to a child from the girl
+16	a girl says the girl kissed Mary to a man
+43	Mary says David hated David from Mary for a bells
+26	the child knows David says the bells ran to David
+53	a child knows John loved John for John to Who
+3	David knows David knows Mary knows Who arrived for David
+20	David from Who from Mary loved David to a girl
+26	John from John from the child from the child ran
+25	the woman kissed the child from the bells from John
+9	Who to David from Mary says Mary went to Mary
+23	a child to Who to the bells to Who ran
+23	John knows John knows Who hated the child for David
+13	a girl from the girl kissed a child for Who
+18	John from David says John cried for John from David
+18	a woman hated Mary for a bells for the child
+6	David for a girl from John says Who hated Who
+34	the bells says David fell to a man for Who
+12	a woman to David says John hated David from David
+7	the bells knows John for a girl kissed a bells
+5	a child to the woman says John loved a man
+17	the child knows John toll from John for a girl
+9	a bells from Mary to David knows a woman cried
+16	John says David from Who loved a girl from Mary
+18	Mary says Who from David for Who ran to Mary
+22	Mary knows Mary knows Mary loved Mary from the woman
+17	Who from David to David cried from Who to Mary
+8	Mary knows David from Mary says the child loved Who
+8	the child knows John says Mary says the girl cried
+5	Mary for John says a woman says David hated David
+6	the child from John from a woman fell from John
+22	Who knows the bells says Who hated Who to Mary
+6	Mary for David knows John from Mary knows Who ran
+23	Who from Who ran to David to John from David
+5	Mary knows Mary knows Mary for David arrived for Who
+5	John says Mary to Mary says David says Mary fell
+7	Who from Mary from Who knows John loved the girl
+18	David to John says David knows Who cried to Mary
+20	Mary from David from John for David went to Who
+15	Mary knows Mary for Mary from Mary went for Mary
+11	the child for a bells kissed Mary for the child
+2	Who for David says the woman to Who loved Who
+7	a woman knows the bells says Mary loved the bells
+25	Who to a child from David for Who loved David
+8	David for Mary went for the girl for the girl
+6	a woman knows Mary knows the man arrived to David
+4	David knows David to Mary knows Mary for Who ran
+2	the man says a bells knows David knows Who fell
+3	John for John knows the man went for the girl
+7	Mary says Who knows a child for a woman ran
+10	the man from Mary knows the child to Mary fell
+21	David knows Who says a bells kissed John to David
+23	a bells toll to a woman to John for John
+12	the girl for David knows Who cried for a woman
+13	Who for Who knows David toll from David from Who
+23	a bells loved a child for Who to a girl
+10	Who says Mary knows Mary for David for Mary ran
+8	a bells from David hated a woman from the child
+27	Who to John for a man to Mary kissed Mary
+17	David fell from a child to Mary to the child
+11	John from Mary from a girl says David hated John
+7	Mary knows a girl to David knows Mary hated Who
+8	Who says the girl knows the child for Who ran
+13	Mary to a man for David knows a man fell
+6	the girl knows John for Who for John hated Mary
+7	a bells to David arrived to Mary from the man
+8	Mary says John from Mary to the bells loved Who
+5	Who knows Who says David knows John kissed a child
+11	David from a woman went from a woman from David
+9	a girl to David to the woman kissed the child
+7	the girl says John from David arrived to the child
+31	Who knows a man fell to the woman for Who
+23	Who to John kissed Who for Who to the child
+14	David from the child to David arrived for the bells
+16	Mary for the bells knows Mary loved John to Who
+15	John knows a bells says a bells fell from David
+15	a girl says a child toll for David from Who
+6	David says Mary says a girl for David loved Mary
+28	the woman fell to Who for a man to David
+68	Mary cried for David for David from Mary from David
+24	the girl for David from John to John kissed Who
+4	the girl to John knows David to Who loved Who
+7	David says John says Who says Who says Mary fell
+12	Who knows Mary from a bells ran for the woman
+17	David knows Who went for a girl to a girl
+6	Mary says the bells says a woman says John ran
+10	Mary from the man knows John fell to the child
+22	the child to Mary kissed John from John to John
+61	Mary knows David says Mary ran to Who from John
+4	John says David says the man knows David hated Who
+7	the bells from the man from John kissed a man
+29	Who fell from Mary from a woman from a woman
+11	a man knows Who knows John cried for a girl
+6	Who from a woman says David arrived to the child
+5	Mary says Mary says Mary from Mary loved the bells
+13	the man says Mary for a woman from Who ran
+13	the woman says Who toll to a man for David
+4	the child says Mary says a woman to Mary fell
+9	a woman says a child knows David went to David
+10	the man knows a girl for David for Who cried
+28	a girl went from Mary to Mary from the man
+11	David from John knows Who to David fell to John
+15	Mary says John says John says Who cried from Mary
+31	David says Who says Who arrived for Who from Mary
+10	John says a bells for Mary ran to a child
+25	David for the girl kissed David from Mary to Mary
+22	Mary from Who from David arrived from David for Who
+14	the girl says the girl for Who cried to David
+29	John toll from the man for Mary to the bells
+18	David from a child to the woman says Who cried
+8	the girl knows Who says Who knows Who kissed David
+26	a woman knows Who says John kissed David from John
+11	a man from a man from David says Who fell
+10	Mary says David to Who to David says Who ran
+9	a bells says David for David loved Who for David
+2	a man to the man knows a man kissed John

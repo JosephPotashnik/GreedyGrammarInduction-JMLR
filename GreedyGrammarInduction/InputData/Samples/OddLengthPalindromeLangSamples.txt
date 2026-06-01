@@ -1,0 +1,33 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target OddLengthPalindromeLang.txt #
+Count	Sentence
+94	a
+98	b
+47	a b a
+50	b b b
+47	b a b
+46	a a a
+40	a a b a a
+33	b b a b b
+29	b b b b b
+38	a b b b a
+37	b a b a b
+37	b a a a b
+30	a b a b a
+25	a a a a a
+18	a a b b b a a
+20	b a b a b a b
+27	b b a b a b b
+18	a b a a a b a
+29	a b a b a b a
+19	a a b a b a a
+25	a a a a a a a
+24	b a a b a a b
+18	a b b a b b a
+21	b b b b b b b
+28	b b b a b b b
+26	b a a a a a b
+23	a b b b b b a
+25	a a a b a a a
+16	b a b b b a b
+12	b b a a a b b

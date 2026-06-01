@@ -1,0 +1,26 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target Dyck1.txt #
+Count	Sentence
+225	
+53	( )
+37	( ) ( )
+44	( ( ) )
+63	( ) ( ) ( )
+27	( ( ( ) ) )
+24	( ) ( ( ) )
+25	( ( ) ( ) )
+17	( ( ) ) ( )
+25	( ( ( ) ) ( ) )
+24	( ( ( ) ( ) ) )
+40	( ) ( ) ( ( ) )
+25	( ( ) ( ( ) ) )
+18	( ( ( ( ) ) ) )
+48	( ( ) ) ( ) ( )
+39	( ( ) ( ) ( ) )
+113	( ) ( ) ( ) ( )
+25	( ( ) ( ) ) ( )
+18	( ( ) ) ( ( ) )
+25	( ) ( ( ( ) ) )
+35	( ) ( ( ) ) ( )
+22	( ) ( ( ) ( ) )
+28	( ( ( ) ) ) ( )

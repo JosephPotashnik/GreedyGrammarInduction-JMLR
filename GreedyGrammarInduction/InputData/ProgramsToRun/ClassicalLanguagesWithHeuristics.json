@@ -1,0 +1,197 @@
+// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+{
+  // SourceOfTruth selects the authoritative input file. If both GrammarFileName and SamplesFileName are specified, the non-selected file name is ignored.
+  "ProgramsToRun": [
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 6,
+        "LexiconFileName": "ClassicalLexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "Dyck4.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 11,
+        "MaxNumberOfRules": 16,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck4.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 8,
+        "LexiconFileName": "ClassicalLexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "Dyck1.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 5,
+        "MaxNumberOfRules": 6,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck1.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 8,
+        "LexiconFileName": "ClassicalLexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "Dyck2.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 7,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck2.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 8,
+        "LexiconFileName": "ClassicalLexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "Dyck3.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 13,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "Dyck3.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 8,
+        "LexiconFileName": "ClassicalLexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "PalindromeLang.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "PalindromeLang.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 8,
+        "LexiconFileName": "ClassicalLexicon.json", //Lexicon files are in ".\InputData\Lexicons" directory
+        "GrammarFileName": "EvenLengthPalindromeLang.txt", //Grammar files are in ".\InputData\ContextFreeGrammars"
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 8,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 1,
+        "MaxDepthAfterMinimalGlobal": 1,
+        "MinSizeOfOptimalSubSolution": 2,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "EvenLengthPalindromeLang.txt"
+      }
+    },
+    {
+      "InputParams": {
+        "SourceOfTruth": "Grammar",
+        "LexiconSource": "File",
+        "MaxSentenceLength": 8,
+        "LexiconFileName": "ClassicalLexicon.json",
+        "GrammarFileName": "OddLengthPalindromeLang.txt",
+        "GrammarSamplingParams": {
+          "AllowedMissingProbabilityMass": 0.001,
+          "DistributionType": "PowerLaw"
+        }
+      },
+      "SearchSpaceParams": {
+        "MaxNumberOfNonTerminals": 6,
+        "MaxNumberOfRules": 10,
+        "MaxDepthBetweenSubSolutions": 2,
+        "MaxDepthAfterMinimalGlobal": 3,
+        "MinSizeOfOptimalSubSolution": 1,
+        "SearchSpaceHeuristicsParams": {
+          "ContinueSearchAfterOptimalNode": false,
+          "SkipKnownOptimalStructuralNodesAcrossRoots": true
+        }
+      },
+      "PostLearnerVerification": {
+        "ResultsContainGrammarWeaklyEquivalentTo": "OddLengthPalindromeLang.txt"
+      }
+    }
+  ]
+}
+
+

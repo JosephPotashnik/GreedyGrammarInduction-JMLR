@@ -1,0 +1,2507 @@
+2026-05-31T10:04:16.3559429+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "EnglishFragmentPPAdjunction3SingleVerbalCat.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "LexiconSingleVerbalCategory.json",
+    "MaxSentenceLength": 10,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.0005,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/EnglishFragmentPPAdjunction3SingleVerbalCatSamples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 15,
+    "MaxNumberOfRules": 20,
+    "MaxDepthBetweenSubSolutions": 2,
+    "MaxDepthAfterMinimalGlobal": 2,
+    "MinSizeOfOptimalSubSolution": 2,
+    "ParetoRibbonThickness": 0.001,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "EnglishFragmentPPAdjunction3SingleVerbalCat.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": "EnglishFragmentPPAdjunction3SingleVerbalCategoryK2Target.txt",
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (a53c7281)
+2026-05-31T10:04:16.3563547+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:04:16.3563606+01:00  [INF] START -> NP VP (e72b7591)
+2026-05-31T10:04:16.3563624+01:00  [INF] VP -> V (73336c5d)
+2026-05-31T10:04:16.3563631+01:00  [INF] VP -> V NP (c04b5a3b)
+2026-05-31T10:04:16.3563638+01:00  [INF] VP -> V PP (1eeb153d)
+2026-05-31T10:04:16.3563662+01:00  [INF] VP -> V START (33fa2069)
+2026-05-31T10:04:16.3563671+01:00  [INF] PP -> P NP (96ead275)
+2026-05-31T10:04:16.3563679+01:00  [INF] NP -> D N (dc5a21f8)
+2026-05-31T10:04:16.3563686+01:00  [INF] NP -> PN (100c2dad)
+2026-05-31T10:04:16.3563696+01:00  [INF] NP -> NP PP (f62db6dc)
+2026-05-31T10:04:16.3563705+01:00  [INF] VP -> VP PP (c02e84d4)
+2026-05-31T10:04:16.3807994+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:04:16.3808096+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:04:16.3808156+01:00  [INF] 25 sentences of length 2 (9490d714)
+2026-05-31T10:04:16.3808167+01:00  [INF] 17 sentences of length 3 (0f9b096a)
+2026-05-31T10:04:16.3808174+01:00  [INF] 63 sentences of length 4 (abaf677b)
+2026-05-31T10:04:16.3808194+01:00  [INF] 107 sentences of length 5 (17113f4d)
+2026-05-31T10:04:16.3808202+01:00  [INF] 235 sentences of length 6 (fb7274b2)
+2026-05-31T10:04:16.3808212+01:00  [INF] 489 sentences of length 7 (0fbe757a)
+2026-05-31T10:04:16.3808217+01:00  [INF] 916 sentences of length 8 (055e0565)
+2026-05-31T10:04:16.3808223+01:00  [INF] 1989 sentences of length 9 (720c1406)
+2026-05-31T10:04:16.3808230+01:00  [INF] 4159 sentences of length 10 (ea8ef607)
+2026-05-31T10:04:16.3808240+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:04:16.3808292+01:00  [INF] 1 unique sentences types of length 2 (ca38798c)
+2026-05-31T10:04:16.3808298+01:00  [INF] 2 unique sentences types of length 3 (c89b3c1d)
+2026-05-31T10:04:16.3808306+01:00  [INF] 5 unique sentences types of length 4 (b0d0b081)
+2026-05-31T10:04:16.3808315+01:00  [INF] 10 unique sentences types of length 5 (2f1c786b)
+2026-05-31T10:04:16.3808322+01:00  [INF] 19 unique sentences types of length 6 (90e072e2)
+2026-05-31T10:04:16.3808346+01:00  [INF] 37 unique sentences types of length 7 (4a7e3cf3)
+2026-05-31T10:04:16.3808351+01:00  [INF] 67 unique sentences types of length 8 (f390a632)
+2026-05-31T10:04:16.3808362+01:00  [INF] 123 unique sentences types of length 9 (de1c9853)
+2026-05-31T10:04:16.3808371+01:00  [INF] 222 unique sentences types of length 10 (fdb5107c)
+2026-05-31T10:04:16.3808385+01:00  [INF] Total samples: 3841 (a5508638)
+2026-05-31T10:04:16.3808438+01:00  [INF] Actual missing probability mass: 0.0003 (c4a2016b)
+2026-05-31T10:04:16.3808450+01:00  [INF] Generation time: 24ms (2f011bb5)
+2026-05-31T10:04:16.3813819+01:00  [INF] Wrote 486 unique sampled sentences to "Samples/EnglishFragmentPPAdjunction3SingleVerbalCatSamples.txt" (23ac6b34)
+2026-05-31T10:04:16.3814946+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from EnglishFragmentPPAdjunction3SingleVerbalCat.txt (27510454)
+2026-05-31T10:04:16.3900603+01:00  [INF] Oracle : Loaded 1 strongly equivalent grammar(s) from EnglishFragmentPPAdjunction3SingleVerbalCategoryK2Target.txt (3da1f5a4)
+2026-05-31T10:04:17.3610883+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:04:17.3611470+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:04:17.8702885+01:00  [INF] Considering 1 Local Optima in depth 2 (b3a5d2ec)
+2026-05-31T10:04:18.8707299+01:00  [INF] Considering 1 Local Optima in depth 3 (cb1681d1)
+2026-05-31T10:04:19.3866841+01:00  [INF] Considering 6 Local Optima in depth 4 (83fa60d4)
+2026-05-31T10:04:20.4351771+01:00  [INF] Considering 44 Local Optima in depth 5 (1ba75baa)
+2026-05-31T10:04:21.7893614+01:00  [INF] Considering 806 Local Optima in depth 6 (5ae2bfe3)
+2026-05-31T10:04:26.9728346+01:00  [INF] Considering 9144 Local Optima in depth 7 (aade4f9e)
+2026-05-31T10:04:31.0494507+01:00  [INF] ---- 72 Global Solutions Found ------ (ad8c1122)
+2026-05-31T10:04:31.0495208+01:00  [INF] 
+1. Global Optimum (Depth 8) Growth Rate: 3.324 [Indices: 48740, 48744]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X1 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> P X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (a0f986dc)
+2026-05-31T10:04:31.0495277+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5071]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 30 (44ef782a)
+2026-05-31T10:04:31.0495334+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 30]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+Count: 7
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (2b61a963)
+2026-05-31T10:04:31.0495382+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 6]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+Count: 6
+Grammar counts vector: [0, 0, 1, 2], total strings: 3, Rule coverage length: 3
+Solution was obtained from the following solutions: 1 (c757729c)
+2026-05-31T10:04:31.0495417+01:00  [INF] 
+Local Optimum (Depth 3) [Indices: 1]:
+START -> X1
+X1 -> X2 V
+X2 -> D N
+X2 -> PN
+Count: 4
+Grammar counts vector: [0, 0, 1, 1], total strings: 2, Rule coverage length: 3
+Solution was obtained from the following solutions: 0 (25a5f509)
+2026-05-31T10:04:31.0495445+01:00  [INF] 
+Local Optimum (Depth 2) [Indices: 0]:
+START -> X1
+X1 -> PN V
+Count: 2
+Grammar counts vector: [0, 0, 1], total strings: 1, Rule coverage length: 2 (d26b04bc)
+2026-05-31T10:04:31.0495963+01:00  [INF] 
+2. Global Optimum (Depth 8) Growth Rate: 3.313 [Indices: 48738, 48739]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X1 -> X8 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (02443e32)
+2026-05-31T10:04:31.0496421+01:00  [INF] 
+3. Global Optimum (Depth 7) Growth Rate: 3.365 [Indices: 48735, 48736]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (098c387b)
+2026-05-31T10:04:31.0496909+01:00  [INF] 
+4. Global Optimum (Depth 8) Growth Rate: 3.2 [Indices: 48742]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X8
+X6 -> X3 P
+X6 -> V
+X8 -> X2 X3
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (df5e1cb9)
+2026-05-31T10:04:31.0497398+01:00  [INF] 
+5. Global Optimum (Depth 8) Growth Rate: 3.2 [Indices: 48748]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X9
+X6 -> X3 P
+X6 -> V
+X9 -> X2 X3
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (d006cb0b)
+2026-05-31T10:04:31.0497893+01:00  [INF] 
+6. Global Optimum (Depth 8) Growth Rate: 3.2 [Indices: 48741, 48743]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> X8 X3
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (4f1e4c35)
+2026-05-31T10:04:31.0498417+01:00  [INF] 
+7. Global Optimum (Depth 8) Growth Rate: 3.271 [Indices: 48746, 48747]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (1df0559c)
+2026-05-31T10:04:31.0498939+01:00  [INF] 
+8. Global Optimum (Depth 8) Growth Rate: 3.25 [Indices: 48752, 48753]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5072 (c5376675)
+2026-05-31T10:04:31.0499011+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5072]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 30 (9b6c36ec)
+2026-05-31T10:04:31.0499563+01:00  [INF] 
+9. Global Optimum (Depth 8) Growth Rate: 3.213 [Indices: 48757, 48759]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+X9 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5073 (5c7986f5)
+2026-05-31T10:04:31.0499635+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5073]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 30 (a8f92634)
+2026-05-31T10:04:31.0500235+01:00  [INF] 
+10. Global Optimum (Depth 8) Growth Rate: 3.271 [Indices: 48737, 48745]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5071 (8f2718f6)
+2026-05-31T10:04:31.0500791+01:00  [INF] 
+11. Global Optimum (Depth 8) Growth Rate: 3.25 [Indices: 48751, 48754]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5072 (41fcd73c)
+2026-05-31T10:04:31.0501361+01:00  [INF] 
+12. Global Optimum (Depth 8) Growth Rate: 3.213 [Indices: 48758, 48760]:
+START -> X1
+X1 -> X1 X1
+X1 -> X2 X3
+X2 -> X9 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+X9 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5073 (0c9c9d9b)
+2026-05-31T10:04:31.0501966+01:00  [INF] 
+13. Global Optimum (Depth 8) Growth Rate: 2.451 [Indices: 49397, 49398]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5169 (c8cad60b)
+2026-05-31T10:04:31.0502029+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5169]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (88e8f04b)
+2026-05-31T10:04:31.0502080+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 34, 35]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+Count: 7
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (bf681c3f)
+2026-05-31T10:04:31.0502637+01:00  [INF] 
+14. Global Optimum (Depth 8) Growth Rate: 2.388 [Indices: 49424, 49425]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X7
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X3
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6057 (ee44b874)
+2026-05-31T10:04:31.0502700+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6057]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X3
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 37 (a44c3e92)
+2026-05-31T10:04:31.0502753+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 37]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+X7 -> X2 X3
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (1be33c3b)
+2026-05-31T10:04:31.0503268+01:00  [INF] 
+15. Global Optimum (Depth 8) Growth Rate: 2.271 [Indices: 49395]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X7 X3
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5169 (1882e639)
+2026-05-31T10:04:31.0503742+01:00  [INF] 
+16. Global Optimum (Depth 8) Growth Rate: 2.494 [Indices: 49396]:
+START -> X1
+X1 -> X1 X7
+X1 -> X2 X3
+X2 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5169 (8f95b08f)
+2026-05-31T10:04:31.0504258+01:00  [INF] 
+17. Global Optimum (Depth 8) Growth Rate: 2.451 [Indices: 49411, 49412]:
+START -> X1
+X1 -> X1 X8
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5191 (03597129)
+2026-05-31T10:04:31.0504322+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5191]:
+START -> X1
+X1 -> X1 X8
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (32eb4c22)
+2026-05-31T10:04:31.0504822+01:00  [INF] 
+18. Global Optimum (Depth 8) Growth Rate: 2.271 [Indices: 49410]:
+START -> X1
+X1 -> X1 X8
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X8 X3
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5191 (0b006b2d)
+2026-05-31T10:04:31.0505309+01:00  [INF] 
+19. Global Optimum (Depth 8) Growth Rate: 2.494 [Indices: 49409]:
+START -> X1
+X1 -> X1 X8
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5191 (1ce621ad)
+2026-05-31T10:04:31.0505876+01:00  [INF] 
+20. Global Optimum (Depth 8) Growth Rate: 2.382 [Indices: 49432, 49433]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+X7 -> V X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6448 (239a5115)
+2026-05-31T10:04:31.0505947+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6448]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> V X1
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 44, 46 (6b18e03a)
+2026-05-31T10:04:31.0505997+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 44, 46]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+X7 -> V X1
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (82b8c0d7)
+2026-05-31T10:04:31.0506567+01:00  [INF] 
+21. Global Optimum (Depth 8) Growth Rate: 2.132 [Indices: 49430, 49431]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> V X1
+X7 -> P X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6448 (4bdd6a84)
+2026-05-31T10:04:31.0507166+01:00  [INF] 
+22. Global Optimum (Depth 8) Growth Rate: 2.524 [Indices: 49426, 49427]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X3 X1
+X7 -> P X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6307 (30991ff3)
+2026-05-31T10:04:31.0507227+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6307]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X3 X1
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 43 (6d7d9c19)
+2026-05-31T10:04:31.0507281+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 43]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+X7 -> X3 X1
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (0d4a7b37)
+2026-05-31T10:04:31.0507860+01:00  [INF] 
+23. Global Optimum (Depth 8) Growth Rate: 2.466 [Indices: 49428, 49429]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X6 X1
+X7 -> P X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6350 (39adfc34)
+2026-05-31T10:04:31.0507926+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6350]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X6 X1
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 44, 46 (8ad45cdc)
+2026-05-31T10:04:31.0508465+01:00  [INF] 
+24. Global Optimum (Depth 8) Growth Rate: 3.002 [Indices: 48791, 48792]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> P X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5166 (3c540782)
+2026-05-31T10:04:31.0508529+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5166]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (65de8cc5)
+2026-05-31T10:04:31.0509089+01:00  [INF] 
+25. Global Optimum (Depth 8) Growth Rate: 2.382 [Indices: 48813, 48814]:
+START -> X1
+X1 -> X2 X3
+X1 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> X3 P
+X6 -> V
+X9 -> P X1
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5187 (7bec759e)
+2026-05-31T10:04:31.0509147+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5187]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> X3 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (f112ba71)
+2026-05-31T10:04:31.0509742+01:00  [INF] 
+26. Global Optimum (Depth 8) Growth Rate: 2.517 [Indices: 49448, 49449, 49450, 49451]:
+START -> X1
+X1 -> X2 X3
+X1 -> X6 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> P X1
+X6 -> X1 P
+X6 -> X2 V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 29803, 29848 (2fe0cbfd)
+2026-05-31T10:04:31.0509811+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 29803, 29848]:
+START -> X1
+X1 -> X2 X3
+X1 -> X6 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X6 -> X1 P
+X6 -> X2 V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 1541, 1542 (cb50af6e)
+2026-05-31T10:04:31.0509875+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 1541, 1542]:
+START -> X1
+X1 -> X2 X3
+X1 -> X6 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X6 -> X2 V
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 14, 15 (9ff10fe6)
+2026-05-31T10:04:31.0509925+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 14, 15]:
+START -> X1
+X1 -> X2 V
+X1 -> X6 X2
+X2 -> D N
+X2 -> PN
+X6 -> X2 V
+Count: 6
+Grammar counts vector: [0, 0, 1, 2], total strings: 3, Rule coverage length: 3
+Solution was obtained from the following solutions: 1 (380433cf)
+2026-05-31T10:04:31.0510528+01:00  [INF] 
+27. Global Optimum (Depth 8) Growth Rate: 2.329 [Indices: 49441, 49443]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+X7 -> X2 V
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6650 (f6593274)
+2026-05-31T10:04:31.0510611+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6650]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 51, 52 (9911c033)
+2026-05-31T10:04:31.0510661+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 51, 52]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+X7 -> X2 V
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (af9b3e43)
+2026-05-31T10:04:31.0511200+01:00  [INF] 
+28. Global Optimum (Depth 8) Growth Rate: 2.388 [Indices: 49434, 49437]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X7
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X3
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6591 (90474644)
+2026-05-31T10:04:31.0511270+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6591]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X3
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 50 (a69522ce)
+2026-05-31T10:04:31.0511332+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 50]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+X7 -> X2 X3
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (49631a9a)
+2026-05-31T10:04:31.0511953+01:00  [INF] 
+29. Global Optimum (Depth 8) Growth Rate: 1.949 [Indices: 49440, 49442]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 V
+X7 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6650 (483e8178)
+2026-05-31T10:04:31.0512527+01:00  [INF] 
+30. Global Optimum (Depth 8) Growth Rate: 2.362 [Indices: 49435, 49436]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X3
+X7 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6591 (de1cf99f)
+2026-05-31T10:04:31.0513095+01:00  [INF] 
+31. Global Optimum (Depth 8) Growth Rate: 2.302 [Indices: 49438, 49439]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X6
+X7 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 6619 (f55f6f92)
+2026-05-31T10:04:31.0513163+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 6619]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> X2 X6
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 51, 52 (81f95068)
+2026-05-31T10:04:31.0513732+01:00  [INF] 
+32. Global Optimum (Depth 8) Growth Rate: 2.517 [Indices: 49399, 49400]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X7 -> X1 P
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5171 (a32b34b0)
+2026-05-31T10:04:31.0513795+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5171]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> X1 P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (f1ed6653)
+2026-05-31T10:04:31.0514348+01:00  [INF] 
+33. Global Optimum (Depth 8) Growth Rate: 2.987 [Indices: 48790, 48793]:
+START -> X1
+X1 -> X2 X3
+X1 -> X8 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5166 (59c60084)
+2026-05-31T10:04:31.0514933+01:00  [INF] 
+34. Global Optimum (Depth 8) Growth Rate: 2.517 [Indices: 49413, 49414]:
+START -> X1
+X1 -> X2 X3
+X1 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X8 -> X1 P
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5193 (ffece8fb)
+2026-05-31T10:04:31.0515007+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5193]:
+START -> X1
+X1 -> X2 X3
+X1 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> X1 P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (4435d8f2)
+2026-05-31T10:04:31.0515600+01:00  [INF] 
+35. Global Optimum (Depth 8) Growth Rate: 2.329 [Indices: 48815, 48816]:
+START -> X1
+X1 -> X2 X3
+X1 -> X9 X1
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> X3 P
+X6 -> V
+X9 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5187 (5284f8ca)
+2026-05-31T10:04:31.0516142+01:00  [INF] 
+36. Global Optimum (Depth 7) Growth Rate: 3.535 [Indices: 48773, 48774]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5145 (18022a42)
+2026-05-31T10:04:31.0516216+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5145]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 33 (1e890b47)
+2026-05-31T10:04:31.0516267+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 33]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> V
+X3 -> V X2
+Count: 7
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (696470b6)
+2026-05-31T10:04:31.0516786+01:00  [INF] 
+37. Global Optimum (Depth 8) Growth Rate: 2.454 [Indices: 49403, 49404]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X7
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5173 (a0653e1e)
+2026-05-31T10:04:31.0516863+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5173]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X7
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (199f514d)
+2026-05-31T10:04:31.0517366+01:00  [INF] 
+38. Global Optimum (Depth 8) Growth Rate: 2.385 [Indices: 49401]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X7
+X3 -> X7 X3
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5173 (2846082b)
+2026-05-31T10:04:31.0517892+01:00  [INF] 
+39. Global Optimum (Depth 8) Growth Rate: 2.454 [Indices: 49417, 49418]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X8
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5195 (fe9c1e1a)
+2026-05-31T10:04:31.0517962+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5195]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X8
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (d76c8b28)
+2026-05-31T10:04:31.0518463+01:00  [INF] 
+40. Global Optimum (Depth 8) Growth Rate: 2.385 [Indices: 49415]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X8
+X3 -> X8 X3
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5195 (21448d95)
+2026-05-31T10:04:31.0519011+01:00  [INF] 
+41. Global Optimum (Depth 7) Growth Rate: 3.12 [Indices: 48787, 48788]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5166 (00f205fb)
+2026-05-31T10:04:31.0519589+01:00  [INF] 
+42. Global Optimum (Depth 8) Growth Rate: 3.097 [Indices: 48797, 48798]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> X8 X3
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5166 (cf2eb713)
+2026-05-31T10:04:31.0520125+01:00  [INF] 
+43. Global Optimum (Depth 7) Growth Rate: 2.522 [Indices: 48811, 48812]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5187 (878e3bc0)
+2026-05-31T10:04:31.0520715+01:00  [INF] 
+44. Global Optimum (Depth 8) Growth Rate: 2.132 [Indices: 49452, 49453]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X3 -> P X1
+X6 -> X8 P
+X6 -> V
+X8 -> X6 X2
+X8 -> V
+Count: 12
+Grammar counts vector: [0, 0, 1, 2, 5, 10], total strings: 18, Rule coverage length: 5
+Solution was obtained from the following solutions: 48825, 48826, 48831, 48832 (fb146b42)
+2026-05-31T10:04:31.0520788+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 48825, 48826, 48831, 48832]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X3 -> P X1
+X6 -> V
+X6 -> V P
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5189, 5190 (20a7b50c)
+2026-05-31T10:04:31.0520850+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5189, 5190]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> V
+X6 -> V P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (0d5c50e1)
+2026-05-31T10:04:31.0521458+01:00  [INF] 
+45. Global Optimum (Depth 8) Growth Rate: 2.457 [Indices: 49444, 49445]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> X7 X3
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+X7 -> V X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 9687 (64e6108a)
+2026-05-31T10:04:31.0521530+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 9687]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> X7 X3
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> V X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 122, 124 (b8dd928c)
+2026-05-31T10:04:31.0521583+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 122, 124]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X7 X3
+X3 -> V
+X3 -> V X2
+X7 -> V X2
+Count: 8
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (bd8276fa)
+2026-05-31T10:04:31.0522199+01:00  [INF] 
+46. Global Optimum (Depth 8) Growth Rate: 2.388 [Indices: 49446, 49447]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> X7 X3
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X7 -> V X2
+X7 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 9687 (3edbca3b)
+2026-05-31T10:04:31.0522814+01:00  [INF] 
+47. Global Optimum (Depth 8) Growth Rate: 2.457 [Indices: 48817, 48818]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> X9 X3
+X3 -> V
+X3 -> V X1
+X6 -> X3 P
+X6 -> V
+X9 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5187 (e11a4b9f)
+2026-05-31T10:04:31.0523436+01:00  [INF] 
+48. Global Optimum (Depth 8) Growth Rate: 2.522 [Indices: 49454, 49455, 49456, 49457, 49458, 49459, 49460, 49461]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X7
+X3 -> V
+X3 -> V X1
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+X7 -> D N
+X7 -> PN
+Count: 12
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 48985, 48992, 48999, 49006 (0616d5bd)
+2026-05-31T10:04:31.0523507+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 48985, 48992, 48999, 49006]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X7
+X3 -> V
+X3 -> V X1
+X6 -> X3 P
+X6 -> V
+X7 -> D N
+X7 -> PN
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 5458, 5459, 5460, 5461, 5506, 5507, 5508, 5509 (713bc371)
+2026-05-31T10:04:31.0523571+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5458, 5459, 5460, 5461, 5506, 5507, 5508, 5509]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X7
+X7 -> D N
+X7 -> PN
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 157, 158 (ae933e5c)
+2026-05-31T10:04:31.0523622+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 157, 158]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V PN
+Count: 7
+Grammar counts vector: [0, 0, 1, 2, 2], total strings: 5, Rule coverage length: 4
+Solution was obtained from the following solutions: 7 (f92bbd71)
+2026-05-31T10:04:31.0523663+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 7]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V PN
+Count: 6
+Grammar counts vector: [0, 0, 1, 2], total strings: 3, Rule coverage length: 3
+Solution was obtained from the following solutions: 1 (f4791c0f)
+2026-05-31T10:04:31.0524230+01:00  [INF] 
+49. Global Optimum (Depth 8) Growth Rate: 2.522 [Indices: 49406, 49407]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X7 X2
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X7 -> X3 P
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5178 (c2e0f433)
+2026-05-31T10:04:31.0524299+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5178]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X7 X2
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> X3 P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (e7eb0f5c)
+2026-05-31T10:04:31.0524860+01:00  [INF] 
+50. Global Optimum (Depth 8) Growth Rate: 2.522 [Indices: 49421, 49422]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X8 X2
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> P X1
+X8 -> X3 P
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5203 (bd6a791b)
+2026-05-31T10:04:31.0524921+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5203]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X8 X2
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> X3 P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (d999e5b2)
+2026-05-31T10:04:31.0525393+01:00  [INF] 
+51. Global Optimum (Depth 7) Growth Rate: 3.661 [Indices: 48761, 48762]:
+START -> X1
+X1 -> X2 X3
+X2 -> X1 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> P X1
+X6 -> X3 P
+X6 -> V
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5092 (37917c91)
+2026-05-31T10:04:31.0525452+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5092]:
+START -> X1
+X1 -> X2 X3
+X2 -> X1 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 31 (580505b3)
+2026-05-31T10:04:31.0525498+01:00  [INF] 
+Local Optimum (Depth 5) [Indices: 31]:
+START -> X1
+X1 -> X2 X3
+X2 -> X1 X2
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X2
+Count: 7
+Grammar counts vector: [0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 4
+Solution was obtained from the following solutions: 6 (299e0315)
+2026-05-31T10:04:31.0526049+01:00  [INF] 
+52. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 48834, 48835]:
+START -> X1
+X1 -> X2 X3
+X2 -> X10 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> V
+X6 -> V P
+X10 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5189, 5190 (ed00ff25)
+2026-05-31T10:04:31.0526591+01:00  [INF] 
+53. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 48833, 48836]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X10
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> V
+X6 -> V P
+X10 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5189, 5190 (603febf9)
+2026-05-31T10:04:31.0527100+01:00  [INF] 
+54. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 49405]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> V X7
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5175 (cc0386be)
+2026-05-31T10:04:31.0527161+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5175]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> V X7
+X7 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (acf5e4f9)
+2026-05-31T10:04:31.0527629+01:00  [INF] 
+55. Global Optimum (Depth 8) Growth Rate: 2.495 [Indices: 49402]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X7
+X2 -> D N
+X2 -> PN
+X3 -> X3 X7
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X7 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5173 (205d5b4a)
+2026-05-31T10:04:31.0528102+01:00  [INF] 
+56. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 49408, 49419, 49420]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> V X8
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5184, 5197, 5200 (b734d5b4)
+2026-05-31T10:04:31.0528167+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5184, 5197, 5200]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> V X8
+X8 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (a757fed7)
+2026-05-31T10:04:31.0528690+01:00  [INF] 
+57. Global Optimum (Depth 8) Growth Rate: 3.284 [Indices: 48778, 48779]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5146 (c6b9d967)
+2026-05-31T10:04:31.0528754+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5146]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 33 (38ee7cdf)
+2026-05-31T10:04:31.0529225+01:00  [INF] 
+58. Global Optimum (Depth 8) Growth Rate: 2.495 [Indices: 49416]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X3 X8
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X8 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5195 (df345038)
+2026-05-31T10:04:31.0529771+01:00  [INF] 
+59. Global Optimum (Depth 8) Growth Rate: 3.075 [Indices: 48789, 48795]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5166 (2f6b2de5)
+2026-05-31T10:04:31.0530323+01:00  [INF] 
+60. Global Optimum (Depth 8) Growth Rate: 2.483 [Indices: 48801, 48802]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X8
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+X8 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5167 (41aa32b3)
+2026-05-31T10:04:31.0530378+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5167]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (4e196ea7)
+2026-05-31T10:04:31.0530848+01:00  [INF] 
+61. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 49423]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> V X9
+X9 -> P X2
+Count: 10
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5211 (4b6dc624)
+2026-05-31T10:04:31.0530907+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 5211]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> V
+X3 -> V X1
+X3 -> V X2
+X3 -> V X9
+X9 -> P X2
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (decbddc2)
+2026-05-31T10:04:31.0531476+01:00  [INF] 
+62. Global Optimum (Depth 8) Growth Rate: 3.247 [Indices: 48783, 48784]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+X9 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5147 (ef59152c)
+2026-05-31T10:04:31.0531534+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5147]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 33 (fb6687f1)
+2026-05-31T10:04:31.0532129+01:00  [INF] 
+63. Global Optimum (Depth 8) Growth Rate: 2.471 [Indices: 48807, 48810]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+X9 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5168 (f5cd81fb)
+2026-05-31T10:04:31.0532186+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5168]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (bf17e97c)
+2026-05-31T10:04:31.0532707+01:00  [INF] 
+64. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 48829, 48830]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> V
+X6 -> V P
+X9 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5189, 5190 (334fcefe)
+2026-05-31T10:04:31.0533250+01:00  [INF] 
+65. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 48821, 48824]:
+START -> X1
+X1 -> X2 X3
+X2 -> X2 X9
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> X6 P
+X6 -> V
+X9 -> P X2
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5188 (bd377e89)
+2026-05-31T10:04:31.0533318+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 5188]:
+START -> X1
+X1 -> X2 X3
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> X6 P
+X6 -> V
+Count: 9
+Grammar counts vector: [0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 4
+Solution was obtained from the following solutions: 34, 35 (c7ac6adf)
+2026-05-31T10:04:31.0533898+01:00  [INF] 
+66. Global Optimum (Depth 8) Growth Rate: 3.284 [Indices: 48777, 48780]:
+START -> X1
+X1 -> X2 X3
+X2 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5146 (b83e3382)
+2026-05-31T10:04:31.0534508+01:00  [INF] 
+67. Global Optimum (Depth 8) Growth Rate: 3.075 [Indices: 48794, 48796]:
+START -> X1
+X1 -> X2 X3
+X2 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X3 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5166 (27fe2fa2)
+2026-05-31T10:04:31.0535101+01:00  [INF] 
+68. Global Optimum (Depth 8) Growth Rate: 2.483 [Indices: 48803, 48804]:
+START -> X1
+X1 -> X2 X3
+X2 -> X8 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> X6 P
+X6 -> V
+X8 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5167 (356f2eaa)
+2026-05-31T10:04:31.0535686+01:00  [INF] 
+69. Global Optimum (Depth 8) Growth Rate: 3.247 [Indices: 48785, 48786]:
+START -> X1
+X1 -> X2 X3
+X2 -> X9 X2
+X2 -> D N
+X2 -> PN
+X3 -> X3 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+X9 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5147 (fc7daf7c)
+2026-05-31T10:04:31.0536265+01:00  [INF] 
+70. Global Optimum (Depth 8) Growth Rate: 2.471 [Indices: 48808, 48809]:
+START -> X1
+X1 -> X2 X3
+X2 -> X9 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X1
+X3 -> X6 X2
+X3 -> V
+X6 -> V
+X6 -> V P
+X9 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5168 (08b2b8c0)
+2026-05-31T10:04:31.0536996+01:00  [INF] 
+71. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 48827, 48828]:
+START -> X1
+X1 -> X2 X3
+X2 -> X9 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> V
+X6 -> V P
+X9 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5189, 5190 (74f916b2)
+2026-05-31T10:04:31.0537547+01:00  [INF] 
+72. Global Optimum (Depth 8) Growth Rate: 2.465 [Indices: 48822, 48823]:
+START -> X1
+X1 -> X2 X3
+X2 -> X9 X2
+X2 -> D N
+X2 -> PN
+X3 -> X6 X2
+X3 -> V
+X3 -> V X1
+X6 -> X6 P
+X6 -> V
+X9 -> X2 P
+Count: 11
+Grammar counts vector: [0, 0, 1, 2, 5], total strings: 8, Rule coverage length: 4
+Solution was obtained from the following solutions: 5188 (08e2de0d)
+2026-05-31T10:04:31.0537583+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T10:04:31.0537610+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T10:04:31.0566518+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (6c438503)
+2026-05-31T10:04:31.0594328+01:00  [INF] Oracle: Global #2: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (93057963)
+2026-05-31T10:04:31.0624334+01:00  [INF] Oracle: Global #3: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (f168bf9c)
+2026-05-31T10:04:31.0647858+01:00  [INF] Oracle: Global #4: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (57f3e658)
+2026-05-31T10:04:31.0671645+01:00  [INF] Oracle: Global #5: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (b9bef26e)
+2026-05-31T10:04:31.0695637+01:00  [INF] Oracle: Global #6: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (89737eca)
+2026-05-31T10:04:31.0734626+01:00  [INF] Oracle: Global #7: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (ac6703b6)
+2026-05-31T10:04:31.0770358+01:00  [INF] Oracle: Global #8: Mode: PartsOfSpeech; Precision: 0.3797 Recall: 1.0000 F1-Score: 0.5504
+ (a5a15a44)
+2026-05-31T10:04:31.0799551+01:00  [INF] Oracle: Global #9: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (d5f95558)
+2026-05-31T10:04:31.0837825+01:00  [INF] Oracle: Global #10: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (9791419b)
+2026-05-31T10:04:31.0872021+01:00  [INF] Oracle: Global #11: Mode: PartsOfSpeech; Precision: 0.3797 Recall: 1.0000 F1-Score: 0.5504
+ (f1299847)
+2026-05-31T10:04:31.0901911+01:00  [INF] Oracle: Global #12: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (7a88d5f2)
+2026-05-31T10:04:31.0992029+01:00  [INF] Oracle: Global #13: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (ab9b5368)
+2026-05-31T10:04:31.1011106+01:00  [INF] Oracle: Global #14: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (3a1964e9)
+2026-05-31T10:04:31.1097116+01:00  [INF] Oracle: Global #15: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (690a0d8e)
+2026-05-31T10:04:31.1199781+01:00  [INF] Oracle: Global #16: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (a8fbdfec)
+2026-05-31T10:04:31.1289665+01:00  [INF] Oracle: Global #17: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (f757d52f)
+2026-05-31T10:04:31.1376422+01:00  [INF] Oracle: Global #18: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (e1f93a39)
+2026-05-31T10:04:31.1480058+01:00  [INF] Oracle: Global #19: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (5aa8a707)
+2026-05-31T10:04:31.1568910+01:00  [INF] Oracle: Global #20: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (dcec07ee)
+2026-05-31T10:04:31.1654509+01:00  [INF] Oracle: Global #21: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (ba4f2c90)
+2026-05-31T10:04:31.1676579+01:00  [INF] Oracle: Global #22: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (6f2e542a)
+2026-05-31T10:04:31.1697195+01:00  [INF] Oracle: Global #23: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (e6e70b12)
+2026-05-31T10:04:31.1724552+01:00  [INF] Oracle: Global #24: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (5fe6d2d6)
+2026-05-31T10:04:31.1812546+01:00  [INF] Oracle: Global #25: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (66ee7dc4)
+2026-05-31T10:04:31.1902331+01:00  [INF] Oracle: Global #26: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (4da13e5a)
+2026-05-31T10:04:31.1991353+01:00  [INF] Oracle: Global #27: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (2fdf8622)
+2026-05-31T10:04:31.2010148+01:00  [INF] Oracle: Global #28: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (40da7974)
+2026-05-31T10:04:31.2088781+01:00  [INF] Oracle: Global #29: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (2619c0c0)
+2026-05-31T10:04:31.2100627+01:00  [INF] Oracle: Global #30: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (d2de0bcc)
+2026-05-31T10:04:31.2110886+01:00  [INF] Oracle: Global #31: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (c9d6a8c4)
+2026-05-31T10:04:31.2200142+01:00  [INF] Oracle: Global #32: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (f12bcf19)
+2026-05-31T10:04:31.2227701+01:00  [INF] Oracle: Global #33: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (e19640cb)
+2026-05-31T10:04:31.2317507+01:00  [INF] Oracle: Global #34: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (0b710e39)
+2026-05-31T10:04:31.2405773+01:00  [INF] Oracle: Global #35: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (59e30f5f)
+2026-05-31T10:04:31.2446847+01:00  [INF] Oracle: Global #36: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (e423c474)
+2026-05-31T10:04:31.2535648+01:00  [INF] Oracle: Global #37: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (1ee4ef83)
+2026-05-31T10:04:31.2625915+01:00  [INF] Oracle: Global #38: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (31332462)
+2026-05-31T10:04:31.2715102+01:00  [INF] Oracle: Global #39: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (87ef749d)
+2026-05-31T10:04:31.2993883+01:00  [INF] Oracle: Global #40: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (8008a84b)
+2026-05-31T10:04:31.3024978+01:00  [INF] Oracle: Global #41: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (b54a99be)
+2026-05-31T10:04:31.3055157+01:00  [INF] Oracle: Global #42: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (9797db06)
+2026-05-31T10:04:31.3145278+01:00  [INF] Oracle: Global #43: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (21b6d314)
+2026-05-31T10:04:31.3230179+01:00  [INF] Oracle: Global #44: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (b94564f4)
+2026-05-31T10:04:31.3322262+01:00  [INF] Oracle: Global #45: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (c7b55a9a)
+2026-05-31T10:04:31.3407959+01:00  [INF] Oracle: Global #46: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (3c0e649a)
+2026-05-31T10:04:31.3500071+01:00  [INF] Oracle: Global #47: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (9be31245)
+2026-05-31T10:04:31.3591774+01:00  [INF] Oracle: Global #48: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (92d69fc5)
+2026-05-31T10:04:31.3681592+01:00  [INF] Oracle: Global #49: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (430b7a5c)
+2026-05-31T10:04:31.3771591+01:00  [INF] Oracle: Global #50: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (939d72bd)
+2026-05-31T10:04:31.3835990+01:00  [INF] Oracle: Global #51: Mode: PartsOfSpeech; Precision: 0.3327 Recall: 1.0000 F1-Score: 0.4992
+ (5fa4bc97)
+2026-05-31T10:04:31.3928395+01:00  [INF] Oracle: Global #52: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (2f578136)
+2026-05-31T10:04:31.4021477+01:00  [INF] Oracle: Global #53: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (059a294f)
+2026-05-31T10:04:31.4113021+01:00  [INF] Oracle: Global #54: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (a2741e5c)
+2026-05-31T10:04:31.4213769+01:00  [INF] Oracle: Global #55: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (c0f09325)
+2026-05-31T10:04:31.4214252+01:00  [INF] Oracle: Global #55 is strongly equivalent to target grammar #1 (fd1964d6)
+2026-05-31T10:04:31.4305814+01:00  [INF] Oracle: Global #56: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (d9a8c145)
+2026-05-31T10:04:31.4345700+01:00  [INF] Oracle: Global #57: Mode: PartsOfSpeech; Precision: 0.3797 Recall: 1.0000 F1-Score: 0.5504
+ (f674bce5)
+2026-05-31T10:04:31.4445942+01:00  [INF] Oracle: Global #58: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (9682ce96)
+2026-05-31T10:04:31.4446490+01:00  [INF] Oracle: Global #58 is strongly equivalent to target grammar #1 (b64fff3f)
+2026-05-31T10:04:31.4488776+01:00  [INF] Oracle: Global #59: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (5337917c)
+2026-05-31T10:04:31.4516865+01:00  [INF] Oracle: Global #60: Mode: PartsOfSpeech; Precision: 0.4804 Recall: 1.0000 F1-Score: 0.6490
+ (7c82f8ad)
+2026-05-31T10:04:31.4608295+01:00  [INF] Oracle: Global #61: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (5401d47c)
+2026-05-31T10:04:31.4642449+01:00  [INF] Oracle: Global #62: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (8ec1efdb)
+2026-05-31T10:04:31.4663882+01:00  [INF] Oracle: Global #63: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (576cc0da)
+2026-05-31T10:04:31.4756707+01:00  [INF] Oracle: Global #64: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (0648efce)
+2026-05-31T10:04:31.4777389+01:00  [INF] Oracle: Global #65: Mode: PartsOfSpeech; Precision: 0.8003 Recall: 1.0000 F1-Score: 0.8891
+ (b2bd0cab)
+2026-05-31T10:04:31.4816477+01:00  [INF] Oracle: Global #66: Mode: PartsOfSpeech; Precision: 0.3797 Recall: 1.0000 F1-Score: 0.5504
+ (1f0aa103)
+2026-05-31T10:04:31.4857662+01:00  [INF] Oracle: Global #67: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (fb387b1a)
+2026-05-31T10:04:31.4885771+01:00  [INF] Oracle: Global #68: Mode: PartsOfSpeech; Precision: 0.4804 Recall: 1.0000 F1-Score: 0.6490
+ (ecf3c687)
+2026-05-31T10:04:31.4918954+01:00  [INF] Oracle: Global #69: Mode: PartsOfSpeech; Precision: 0.4635 Recall: 1.0000 F1-Score: 0.6334
+ (0626badd)
+2026-05-31T10:04:31.4940408+01:00  [INF] Oracle: Global #70: Mode: PartsOfSpeech; Precision: 0.6820 Recall: 1.0000 F1-Score: 0.8109
+ (165bfbe5)
+2026-05-31T10:04:31.5032664+01:00  [INF] Oracle: Global #71: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (124b5c40)
+2026-05-31T10:04:31.5053208+01:00  [INF] Oracle: Global #72: Mode: PartsOfSpeech; Precision: 0.8003 Recall: 1.0000 F1-Score: 0.8891
+ (1efa0ac6)
+2026-05-31T10:04:31.5053315+01:00  [INF] Oracle: Weakly equivalent grammar indices: 13, 15, 16, 17, 18, 19, 20, 21, 25, 26, 27, 29, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 58, 61, 64, 71 (399e76ae)
+2026-05-31T10:04:31.5053339+01:00  [INF] Oracle: Strongly equivalent grammar indices: 55 (ef1b2c9e)
+2026-05-31T10:04:31.5053853+01:00  [INF] Overall session RunTime 00:00:15.14 (392ff6fe)

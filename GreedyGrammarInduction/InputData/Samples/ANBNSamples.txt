@@ -1,0 +1,8 @@
+# Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+# Samples of Target ANBN.txt #
+Count	Sentence
+192	a b
+217	a a b b
+204	a a a b b b
+185	a a a a b b b b
+202	a a a a a b b b b b

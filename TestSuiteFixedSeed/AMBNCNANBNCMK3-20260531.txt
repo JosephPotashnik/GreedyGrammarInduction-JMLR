@@ -1,0 +1,221 @@
+2026-05-31T10:08:05.0786646+01:00  [INF] {
+  "InputParams": {
+    "SourceOfTruth": "Grammar",
+    "LexiconSource": "File",
+    "GrammarFileName": "AMBNCNANBNCM.txt",
+    "SamplesFileName": null,
+    "LexiconFileName": "ClassicalLexicon.json",
+    "MaxSentenceLength": 10,
+    "GrammarSamplingParams": {
+      "AllowedMissingProbabilityMass": 0.001,
+      "DistributionType": "PowerLaw",
+      "RandomSeed": 12345,
+      "OutputSamplesToFile": "Samples/AMBNCNANBNCMSamples.txt"
+    }
+  },
+  "SearchSpaceParams": {
+    "MaxNumberOfNonTerminals": 15,
+    "MaxNumberOfRules": 20,
+    "MaxDepthBetweenSubSolutions": 3,
+    "MaxDepthAfterMinimalGlobal": 2,
+    "MinSizeOfOptimalSubSolution": 3,
+    "ParetoRibbonThickness": 0,
+    "SearchSpaceHeuristicsParams": {
+      "ContinueSearchAfterOptimalNode": true,
+      "SkipKnownOptimalStructuralNodesAcrossRoots": false
+    }
+  },
+  "PostLearnerVerification": {
+    "ResultsContainGrammarWeaklyEquivalentTo": "AMBNCNANBNCM.txt",
+    "ResultsContainGrammarStronglyEquivalentTo": null,
+    "ComparisonMode": "PartsOfSpeech",
+    "TargetLexiconFileName": null
+  }
+} (5aeb711c)
+2026-05-31T10:08:05.0895465+01:00  [INF] Target Grammar: (8f3bb7a9)
+2026-05-31T10:08:05.0895543+01:00  [INF] START -> T9 (94044424)
+2026-05-31T10:08:05.0895553+01:00  [INF] T9 -> T3 (02c0ab6d)
+2026-05-31T10:08:05.0895564+01:00  [INF] T3 -> T3 C (8ff9ce80)
+2026-05-31T10:08:05.0895591+01:00  [INF] T3 -> T1 C (90202cb3)
+2026-05-31T10:08:05.0895602+01:00  [INF] T1 -> T2 B (f6f07eb6)
+2026-05-31T10:08:05.0895610+01:00  [INF] T2 -> A T1 (b956bce1)
+2026-05-31T10:08:05.0895617+01:00  [INF] T1 -> A B (e49cc188)
+2026-05-31T10:08:05.0895624+01:00  [INF] T9 -> T4 (f4310e4e)
+2026-05-31T10:08:05.0895632+01:00  [INF] T4 -> A T4 (668c16bf)
+2026-05-31T10:08:05.0895639+01:00  [INF] T4 -> A T5 (70c02b27)
+2026-05-31T10:08:05.0895647+01:00  [INF] T5 -> B T6 (6a94df58)
+2026-05-31T10:08:05.0895660+01:00  [INF] T6 -> T5 C (c8d2502c)
+2026-05-31T10:08:05.0895667+01:00  [INF] T5 -> B C (e867c7f1)
+2026-05-31T10:08:05.0907852+01:00  [INF] Sampling seed: 12345 (3153c790)
+2026-05-31T10:08:05.0907906+01:00  [INF] Data samples: (115c3af6)
+2026-05-31T10:08:05.0907959+01:00  [INF] 110 sentences of length 3 (5681d667)
+2026-05-31T10:08:05.0907970+01:00  [INF] 85 sentences of length 4 (7d76daa8)
+2026-05-31T10:08:05.0907980+01:00  [INF] 112 sentences of length 5 (747a78dc)
+2026-05-31T10:08:05.0907989+01:00  [INF] 101 sentences of length 6 (e5e9bb86)
+2026-05-31T10:08:05.0907997+01:00  [INF] 153 sentences of length 7 (a378c1d2)
+2026-05-31T10:08:05.0908023+01:00  [INF] 135 sentences of length 8 (886011c5)
+2026-05-31T10:08:05.0908031+01:00  [INF] 187 sentences of length 9 (5c536cb2)
+2026-05-31T10:08:05.0908040+01:00  [INF] 117 sentences of length 10 (e01140d8)
+2026-05-31T10:08:05.0908051+01:00  [INF] Unique sentences types (POS sequences) from data samples: (f538c3e6)
+2026-05-31T10:08:05.0908106+01:00  [INF] 1 unique sentences types of length 3 (9cee9ef9)
+2026-05-31T10:08:05.0908116+01:00  [INF] 2 unique sentences types of length 4 (0b0cc0fb)
+2026-05-31T10:08:05.0908132+01:00  [INF] 4 unique sentences types of length 5 (80cca6df)
+2026-05-31T10:08:05.0908141+01:00  [INF] 3 unique sentences types of length 6 (d6eb2101)
+2026-05-31T10:08:05.0908154+01:00  [INF] 6 unique sentences types of length 7 (613b00b5)
+2026-05-31T10:08:05.0908163+01:00  [INF] 6 unique sentences types of length 8 (5643eac7)
+2026-05-31T10:08:05.0908172+01:00  [INF] 7 unique sentences types of length 9 (bd87eea7)
+2026-05-31T10:08:05.0908183+01:00  [INF] 8 unique sentences types of length 10 (df1e1772)
+2026-05-31T10:08:05.0908203+01:00  [INF] Total samples: 883 (2700a912)
+2026-05-31T10:08:05.0908231+01:00  [INF] Actual missing probability mass: 0.0000 (c364fef1)
+2026-05-31T10:08:05.0908245+01:00  [INF] Generation time: 1ms (f67c8201)
+2026-05-31T10:08:05.0915908+01:00  [INF] Wrote 37 unique sampled sentences to "Samples/AMBNCNANBNCMSamples.txt" (23ac6b34)
+2026-05-31T10:08:05.0917360+01:00  [INF] Oracle : Loaded 1 weakly equivalent grammar(s) from AMBNCNANBNCM.txt (ca27f7f8)
+2026-05-31T10:08:05.1546426+01:00  [INF] ---- Learner ----- (05d564d1)
+2026-05-31T10:08:05.1546860+01:00  [INF] Considering 1 Local Optima in depth 0 (97fb1b97)
+2026-05-31T10:08:05.1561199+01:00  [INF] Considering 2 Local Optima in depth 3 (3e00733a)
+2026-05-31T10:08:05.7806111+01:00  [INF] Considering 26 Local Optima in depth 4 (33d9ffff)
+2026-05-31T10:08:08.1305506+01:00  [INF] Considering 346 Local Optima in depth 5 (1ac603e6)
+2026-05-31T10:09:12.5719635+01:00  [INF] Considering 2542 Local Optima in depth 6 (5d53a8ba)
+2026-05-31T10:19:02.4779041+01:00  [INF] Considering 52592 Local Optima in depth 7 (4296d6f1)
+2026-05-31T12:27:16.9512331+01:00  [INF] Considering 963799 Local Optima in depth 8 (c98ace63)
+2026-05-31T12:36:21.3389854+01:00  [INF] ---- 2 Global Solutions Found ------ (17688456)
+2026-05-31T12:36:21.3390640+01:00  [INF] 
+1. Global Optimum (Depth 8) Growth Rate: 2.387 [Indices: 7538965]:
+START -> X1
+X1 -> X2 C
+X2 -> X4 X5
+X2 -> A X8
+X4 -> A
+X4 -> A X2
+X5 -> X5 X6
+X5 -> B
+X6 -> B X6
+X6 -> C
+X8 -> A X8
+X8 -> B
+Count: 12
+Grammar counts vector: [0, 0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 5
+Solution was obtained from the following solutions: 1094318, 1102530, 1112264 (4f2efbf1)
+2026-05-31T12:36:21.3390720+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 1094318, 1102530, 1112264]:
+START -> X1
+X1 -> X2 C
+X2 -> A X5
+X2 -> A X8
+X5 -> X5 X6
+X5 -> B
+X6 -> B X6
+X6 -> C
+X8 -> A X8
+X8 -> B
+Count: 10
+Grammar counts vector: [0, 0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 5
+Solution was obtained from the following solutions: 4288, 4291, 4294 (dc45af14)
+2026-05-31T12:36:21.3390784+01:00  [INF] 
+Local Optimum (Depth 6) [Indices: 4288, 4291, 4294]:
+START -> X1
+X1 -> X2 C
+X2 -> A X5
+X2 -> A X8
+X5 -> X5 C
+X5 -> B
+X8 -> A X8
+X8 -> B
+Count: 8
+Grammar counts vector: [0, 0, 0, 1, 2], total strings: 3, Rule coverage length: 4
+Solution was obtained from the following solutions: 11, 12 (d8852aa1)
+2026-05-31T12:36:21.3390830+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 11, 12]:
+START -> X1
+X1 -> X2 C
+X2 -> A X5
+X5 -> X5 C
+X5 -> B
+Count: 5
+Grammar counts vector: [0, 0, 0, 1, 1], total strings: 2, Rule coverage length: 4
+Solution was obtained from the following solutions: 0 (0bd47b86)
+2026-05-31T12:36:21.3390869+01:00  [INF] 
+Local Optimum (Depth 3) [Indices: 0]:
+START -> X1
+X1 -> X2 C
+X2 -> A B
+Count: 3
+Grammar counts vector: [0, 0, 0, 1], total strings: 1, Rule coverage length: 3 (669f1495)
+2026-05-31T12:36:21.3391584+01:00  [INF] 
+2. Global Optimum (Depth 9) Growth Rate: 1.271 [Indices: 7675344]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X8
+X2 -> A X5
+X3 -> X3 C
+X3 -> C
+X5 -> X2 B
+X5 -> B
+X7 -> A
+X7 -> A X7
+X8 -> X9 C
+X9 -> B
+X9 -> B X8
+Count: 13
+Grammar counts vector: [0, 0, 0, 1, 2, 4], total strings: 7, Rule coverage length: 5
+Solution was obtained from the following solutions: 3773967, 3773968, 3774325, 3774326 (4e9e1a7e)
+2026-05-31T12:36:21.3391657+01:00  [INF] 
+Local Optimum (Depth 8) [Indices: 3773967, 3773968, 3774325, 3774326]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X8
+X2 -> A B
+X3 -> X3 C
+X3 -> C
+X7 -> A
+X7 -> A X7
+X8 -> X9 C
+X9 -> B
+X9 -> B X8
+Count: 11
+Grammar counts vector: [0, 0, 0, 1, 2, 3], total strings: 6, Rule coverage length: 5
+Solution was obtained from the following solutions: 2227, 2228, 2230, 2231, 2284, 2285, 2287, 2288 (3c82cbc2)
+2026-05-31T12:36:21.3391720+01:00  [INF] 
+Local Optimum (Depth 7) [Indices: 2227, 2228, 2230, 2231, 2284, 2285, 2287, 2288]:
+START -> X1
+X1 -> X2 X3
+X1 -> X7 X8
+X2 -> A B
+X3 -> X3 C
+X3 -> C
+X7 -> A
+X7 -> A X7
+X8 -> B C
+Count: 9
+Grammar counts vector: [0, 0, 0, 1, 2], total strings: 3, Rule coverage length: 4
+Solution was obtained from the following solutions: 7 (96286799)
+2026-05-31T12:36:21.3391764+01:00  [INF] 
+Local Optimum (Depth 4) [Indices: 7]:
+START -> X1
+X1 -> X2 X3
+X2 -> A B
+X3 -> X3 C
+X3 -> C
+Count: 5
+Grammar counts vector: [0, 0, 0, 1, 1], total strings: 2, Rule coverage length: 4
+Solution was obtained from the following solutions: 0 (385e1c8d)
+2026-05-31T12:36:21.3391795+01:00  [INF] ---- End of Learner ----- (71e3760e)
+2026-05-31T12:36:21.3392684+01:00  [INF] Post-learner verification assumes the caller has ensured the weak-equivalence target grammar is consistent with the evidence samples. (b0141f43)
+2026-05-31T12:36:21.3402185+01:00  [INF] Oracle: Global #1: Mode: PartsOfSpeech; Precision: 0.1276 Recall: 1.0000 F1-Score: 0.2263
+ (5f0fd06d)
+2026-05-31T12:36:21.3460287+01:00  [INF] Oracle: Global #2: Mode: PartsOfSpeech; Precision: 1.0000 Recall: 1.0000 F1-Score: 1.0000
+=== GRAMMAR STRESS TEST REPORT ===
+
+POSITIVE TESTS (sentences from target grammar):
+  Passed: 210/210 (100.00%)
+
+NEGATIVE TESTS (sentences NOT in target grammar):
+  Passed: 210/210 (100.00%)
+
+OVERALL ACCURACY: 100.00%
+==================================
+^^^^--THIS GRAMMAR PASSED THE STRESS TEST (sampling 10 sentences with per length, length ranges from 10 to 30--^^^^
+^^^^--A WEAKLY EQUIVALENT GRAMMAR TO THE TARGET GRAMMAR WAS FOUND--^^^^
+ (05b8f66f)
+2026-05-31T12:36:21.3460385+01:00  [INF] Oracle: Weakly equivalent grammar indices: 2 (0e9456f2)
+2026-05-31T12:36:21.3460550+01:00  [INF] Overall session RunTime 02:28:16.26 (644c9bae)
