@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+// Copyright (c) 2026 Joseph Potashnik.
+// Licensed under the MIT License. See LICENSE.txt for details.
 ///
 //to compile (thread-safe with TLS):
 //gcc -O3 -DUSE_TLS -shared -fPIC -o nauty_wrapper.dll nauty_wrapper.c nauty.c nautil.c naugraph.c schreier.c naurng.c nausparse.c gtools.c -Wl,--out-implib,libnauty_wrapper.a

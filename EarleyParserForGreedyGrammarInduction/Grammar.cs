@@ -1,4 +1,5 @@
-﻿// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+// Copyright (c) 2026 Joseph Potashnik.
+// Licensed under the MIT License. See LICENSE.txt for details.
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -34,7 +35,7 @@ namespace EarleyParserForGreedyGrammarInduction
         // Array elements may be null if no rules exist for that LHS.
         public readonly List<Rule>[] RulesByLHS;
 
-        // Cached array of non-null rule lists — avoids null-skipping scan and enumerator overhead on every traversal.
+        // Cached array of non-null rule lists - avoids null-skipping scan and enumerator overhead on every traversal.
         private readonly List<Rule>[] _nonNullRuleLists;
 
         // Backward compatibility property - creates dictionary on-demand (avoid in hot paths!)
@@ -56,7 +57,7 @@ namespace EarleyParserForGreedyGrammarInduction
 
         public static HashSet<int> PartsOfSpeech;
 
-        // ── Per-thread scratch pools for hot-path allocations ──────────────────────
+        // -- Per-thread scratch pools for hot-path allocations ----------------------
         // Cleared on acquisition; returned content must be consumed before the next
         // scratch-using call on the same thread, or copied out if it escapes.
         [ThreadStatic] private static HashSet<int> t_scratchNts;          // CollectAllNonterminals target
@@ -88,7 +89,7 @@ namespace EarleyParserForGreedyGrammarInduction
         [ThreadStatic] private static List<(int lhs, int yIdx)> t_scratchUnitRules;
         [ThreadStatic] private static Stack<HashSet<ulong>> t_ulongSetPool;
 
-        // Cached POS→compact-index mapping. PartsOfSpeech is reassigned at lexicon load
+        // Cached POS-to-compact-index mapping. PartsOfSpeech is reassigned at lexicon load
         // (effectively once per run). We key the cache by reference identity; if it ever
         // changes, the cache rebuilds under the lock.
         private static HashSet<int> s_cachedPosSource;
@@ -293,7 +294,7 @@ namespace EarleyParserForGreedyGrammarInduction
 
         /// <summary>
         /// Finds all recursive nonterminals directly from a rules list, without constructing a Grammar object.
-        /// Builds a lightweight adjacency map (LHS → RHS NTs) and performs per-NT DFS cycle detection.
+        /// Builds a lightweight adjacency map (LHS to RHS NTs) and performs per-NT DFS cycle detection.
         /// Use this in hot paths to avoid the overhead of Grammar construction (RulesByLHS array allocation).
         /// </summary>
         public static HashSet<int> FindAllRecursiveNonterminals(List<Rule> rules)
@@ -544,7 +545,7 @@ namespace EarleyParserForGreedyGrammarInduction
         /// <summary>
         /// Computes min derivation lengths for all nonterminals and checks that every
         /// non-terminal is productive (can derive a finite terminal string).
-        /// This is the cheap first phase of GetGrammarShape — use it as an early filter
+        /// This is the cheap first phase of GetGrammarShape - use it as an early filter
         /// before CalculateLambda, then pass the minLengths into GetGrammarShape to skip
         /// redundant recomputation.
         /// </summary>
@@ -713,7 +714,7 @@ namespace EarleyParserForGreedyGrammarInduction
                 return (false, true, null);
 
             // If the grammar's deepest rule is first exercised at a length beyond the evidence window,
-            // the grammar is guaranteed to generate strings at that length — strings with no evidence
+            // the grammar is guaranteed to generate strings at that length - strings with no evidence
             // support. Reject immediately without running the DP.
             if (maxRuleLength > maxEvidenceByLength.Length - 1)
                 return (true, false, null);
@@ -1111,7 +1112,7 @@ namespace EarleyParserForGreedyGrammarInduction
         // Returns null if the grammar generates more distinct strings of some length l than maxEvidenceByLength[l].
         private int[] GenerateAllStringsCore(int maxLen, HashSet<int> nonterminals, int[] maxEvidenceByLength)
         {
-            // Fast path: compact ulong encoding — each POS tag gets a compact index and is packed
+            // Fast path: compact ulong encoding - each POS tag gets a compact index and is packed
             // into a ulong positionally. Zero allocation in the inner loop, O(1) hash per string.
             int posAlphabetSize = Grammar.PartsOfSpeech.Count;
             // posToIndex and bitsPerSymbol depend only on PartsOfSpeech (invariant across the search);
@@ -1130,7 +1131,7 @@ namespace EarleyParserForGreedyGrammarInduction
             var symbolTable = SymbolTable.Instance;
             int StartSymbolId = symbolTable.GetId(Grammar.StartSymbol);
 
-            // Opt #2: Pre-classify rules once into typed lists — avoids rescanning all rules per length.
+            // Opt #2: Pre-classify rules once into typed lists - avoids rescanning all rules per length.
             var fbEpsilonLhsList = new List<int>();
             var fbTerminalRules = new List<(int lhsId, string termStr)>();
             var fbBinaryRules = new List<(int lhsId, int yId, int zId)>();
@@ -1307,7 +1308,7 @@ namespace EarleyParserForGreedyGrammarInduction
             foreach (int nt in nonterminals)
                 ntToIdx[nt] = ntToIdx.Count;
 
-            // ── Rent per-thread DP scratch (jagged arrays + inner HashSets and Lists) ────────
+            // -- Rent per-thread DP scratch (jagged arrays + inner HashSets and Lists) --------
             // dp[ntIdx][length] = set of ulong-encoded strings of that exact length derivable from that NT.
             // The outer arrays are grown on demand; inner HashSet<ulong>/List<int> are rented from pools.
             if (t_scratchDp == null || t_scratchDpSize < N || t_scratchDpMaxLen < maxLen + 1)
@@ -1427,7 +1428,7 @@ namespace EarleyParserForGreedyGrammarInduction
                 }
 
                 // Step 2: Binary rules X -> Y Z (l > 0)
-                // Opt #4: cache dp[lhs] row and dest before the split loop — no repeated array indexing inside.
+                // Opt #4: cache dp[lhs] row and dest before the split loop - no repeated array indexing inside.
                 // Opt #5: iterate populatedLengths[yIdx] (sorted, non-null only) instead of scanning 0..l.
                 if (l > 0)
                 {

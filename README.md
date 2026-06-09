@@ -1,15 +1,13 @@
-<!-- Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission. -->
 # Greedy Grammar Induction
 
-This repository is the review artifact for the manuscript **"Greedy Grammar
-Induction with Indirect Negative Evidence"** submitted to the Journal of Machine
-Learning Research (JMLR).
+This repository accompanies the arXiv preprint **"Greedy Grammar Induction
+with Indirect Negative Evidence"**.
 
 It contains the console runner, core learner, parser/grammar machinery,
-experiment configurations, and documentation needed for peer-review
-reproducibility. Development-only Web API and React UI projects are intentionally
-omitted from this artifact because they are not required to reproduce the
-manuscript's computational claims.
+experiment configurations, and documentation needed for reproducibility.
+Development-only Web API and React UI projects are intentionally
+omitted because they are not required to reproduce the manuscript's
+computational claims.
 
 ## Overview
 
@@ -36,9 +34,9 @@ The main pipeline is:
 On Ubuntu, install the .NET SDK using Microsoft's official Linux package
 instructions: <https://learn.microsoft.com/dotnet/core/install/linux-ubuntu>.
 
-The review artifact does not require Node.js, npm, a browser, or a web server.
+This repository does not require Node.js, npm, a browser, or a web server.
 
-This artifact includes packaged native nauty wrapper binaries for Windows x64
+This repository includes packaged native nauty wrapper binaries for Windows x64
 and Linux x64:
 
 - Windows x64: `GreedyGrammarInduction/runtimes/win-x64/native/`, including
@@ -48,7 +46,7 @@ and Linux x64:
 The Linux x64 binary was built and tested under Ubuntu on WSL2. The full
 `TestSuiteFixedSeed.json` batch was validated from a clean clone of the
 `JMLRPreparation` branch using the packaged Linux native binary. macOS is not
-packaged with this artifact.
+packaged with this repository.
 
 To build a replacement native wrapper, compile
 `GreedyGrammarInduction/nauty_wrapper.c` against a local nauty source
@@ -89,15 +87,15 @@ The command should print a `10.x` SDK version. Install the SDK, not only the
 
 ## Quick Start
 
-Clone the review artifact and check out the submitted tag:
+Clone the repository and check out the release tag:
 
 ```bash
 git clone https://github.com/JosephPotashnik/GreedyGrammarInduction-JMLR.git
 cd GreedyGrammarInduction-JMLR
-git checkout jmlr-submission-2026-06-01
+git checkout v1.0
 ```
 
-If using the submitted ZIP archive instead of Git, unpack it and change into the
+If using a ZIP archive instead of Git, unpack it and change into the
 unpacked repository root. The repository root is the directory containing
 `GreedyGrammarInduction.sln`.
 
@@ -341,9 +339,16 @@ and exact nauty canonicalization is used only on collisions.
 - [ARCHITECTURE.md](docs/ARCHITECTURE.md) - project organization, data flow,
   and search pipeline
 
+
+## Citation
+
+If you use this code or benchmark suite, please cite:
+
+```text
+Joseph Potashnik. Greedy Grammar Induction with Indirect Negative Evidence.
+arXiv:2312.15321, 2026.
+```
+
 ## License
 
-This repository is provided under the confidentiality and limited-use terms in
-[LICENSE.txt](LICENSE.txt). It is submitted as supplementary material for JMLR
-peer review and reproducibility evaluation. Do not distribute or use it outside
-that limited review purpose without permission.
+This repository is licensed under the MIT License. See [LICENSE.txt](LICENSE.txt) for details.

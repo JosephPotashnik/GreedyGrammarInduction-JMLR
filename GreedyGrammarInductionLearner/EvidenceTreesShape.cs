@@ -1,4 +1,5 @@
-﻿// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+// Copyright (c) 2026 Joseph Potashnik.
+// Licensed under the MIT License. See LICENSE.txt for details.
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -196,7 +197,7 @@ namespace GreedyGrammarInductionLearner
                     ArrayCompressor.DecompressInto(previousParsedCompressed, parsed); // Zero allocations!
                 }
 
-                // Recognizer does not mutate the grammar — no need to copy
+                // Recognizer does not mutate the grammar - no need to copy
                 var currentHypothesis = currentGrammar;
 
                 var toParse = _reusableToParseList.Value;
@@ -224,7 +225,7 @@ namespace GreedyGrammarInductionLearner
                 }
 
                 // Build rule tables once for the grammar, shared across all sentence recognizers.
-                // Avoids redundant BuildRuleTables calls (one per sentence → one per grammar).
+                // Avoids redundant BuildRuleTables calls (one per sentence to one per grammar).
                 CKYSharedTables sharedTables = null;
                 if (_recognisers[laneIndex][0] is CKYRecognizer)
                     sharedTables = CKYSharedTables.Build(currentHypothesis);
@@ -524,7 +525,7 @@ namespace GreedyGrammarInductionLearner
                     listOfPreviousParsed = [compressionOFEmptyParsed];
                 }
 
-                // Structural rules don't change across previousPosMappings iterations —
+                // Structural rules don't change across previousPosMappings iterations -
                 // build shared CKY POS tables once for the entire call.
                 var posSharedTables = _posAssigners[laneIndex][0] != null
                     ? CKYPOSSharedTables.Build(coreRules, ruleSpace)

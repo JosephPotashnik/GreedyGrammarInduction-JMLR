@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+// Copyright (c) 2026 Joseph Potashnik.
+// Licensed under the MIT License. See LICENSE.txt for details.
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.ObjectPool;
 

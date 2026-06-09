@@ -1,4 +1,5 @@
-﻿// Copyright (c) 2026 Joseph Potashnik. Submitted for peer review to JMLR. Do not distribute or use without permission.
+// Copyright (c) 2026 Joseph Potashnik.
+// Licensed under the MIT License. See LICENSE.txt for details.
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -40,7 +41,7 @@ internal class ParetoManager
 
     /// <summary>
     /// Creates a lightweight snapshot of the Pareto front for lock-free ShouldPrune checks.
-    /// Only copies (depth, lambda) — the ushort[] sets are not needed for pruning decisions.
+    /// Only copies (depth, lambda) - the ushort[] sets are not needed for pruning decisions.
     /// </summary>
     public (int depth, double lambda)[] CreateSnapshot()
     {
@@ -122,7 +123,7 @@ internal class ParetoManager
             }
         }
 
-        // When thickness > 0: keep all globals — no rejection, no removal.
+        // When thickness > 0: keep all globals - no rejection, no removal.
         // The ribbon controls search pruning (ShouldPrune) but not which solutions to keep.
 
         ParetoFront.Add((newCandidate, depth, lambda));

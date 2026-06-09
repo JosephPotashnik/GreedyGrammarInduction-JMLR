@@ -1,46 +1,21 @@
-CONFIDENTIALITY AND LIMITED USE LICENSE
-Copyright (c) 2026 Joseph Potashnik. All Rights Reserved.
+MIT License
 
-PROJECT: Bounded Structural Grammar Induction Framework
-DATE: May 2026
+Copyright (c) 2026 Joseph Potashnik
 
-1. TERMS OF USE AND PURPOSE
-This software, including all source code, documentation, scripts, and data files
-(collectively, the "Software"), is proprietary and confidential information belonging
-strictly to the copyright holder, Joseph Potashnik.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This Software is provided solely and exclusively as "Supplementary Material" to the
-Journal of Machine Learning Research (JMLR) for the express purpose of academic
-peer review and reproducibility evaluation of the accompanying manuscript titled:
-"Greedy Grammar Induction with Indirect Negative Evidence".
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. RESTRICTIONS
-Any individual accessing this Software (including but not limited to Action Editors,
-Reviewers, and Journal Staff associated with the evaluation of the manuscript) is
-strictly bound by the following restrictions:
-
-* NO DISTRIBUTION: You may not distribute, disclose, publish, share, sell,
-  sub-license, or otherwise transfer this Software, in whole or in part, to any
-  third party.
-* NO COPYING: You may not clone, duplicate, or reproduce this Software except
-  for localized, temporary execution strictly necessary to verify the empirical
-  claims made in the manuscript.
-* NO USE OR EXPLOITATION: You may not use this Software, its underlying
-  algorithms, or its logical architecture for any commercial or non-commercial
-  purposes, personal projects, secondary research, or spin-off publications.
-* NO DERIVATIVE WORKS: You may not translate, adapt, modify, reverse-engineer,
-  or create derivative works based upon this Software.
-
-3. INTELLECTUAL PROPERTY AND PRIOR ART
-The submission of this Software to the journal's peer-review tracking system establishes
-a permanent electronic record and time-stamped proof of prior art. The copyright holder
-retains absolute ownership and all intellectual property rights inherent to this Software.
-
-4. TERMINATION OF LICENSE
-This limited evaluation license automatically expires upon completion of the peer-review
-cycle for the associated manuscript. Following final evaluation, all localized copies
-of this Software must be permanently deleted from the reviewer's storage systems.
-
-THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
-OR IMPLIED. ANY UNAUTHORIZED USE OR DISCLOSURE OF THIS SOFTWARE CONSTITUTES A
-BREACH OF CONFIDENTIALITY AND AN INFRINGEMENT OF INTERNATIONAL COPYRIGHT LAW.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
