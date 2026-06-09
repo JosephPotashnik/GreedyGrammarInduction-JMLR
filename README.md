@@ -1,10 +1,12 @@
 # Greedy Grammar Induction
 
-This repository accompanies the arXiv preprint **"Greedy Grammar Induction
-with Indirect Negative Evidence"**.
+This repository accompanies the arXiv preprint
+[**"Greedy Grammar Induction with Indirect Negative Evidence"**](https://arxiv.org/abs/2312.15321).
+It is prepared as the public reproducibility repository for journal review.
 
-It contains the console runner, core learner, parser/grammar machinery,
-experiment configurations, and documentation needed for reproducibility.
+It contains the C# implementation of the learner, parser and grammar machinery,
+benchmark configurations, fixed-seed test-suite logs, packaged native nauty
+wrappers, and documentation needed for reproducibility.
 Development-only Web API and React UI projects are intentionally
 omitted because they are not required to reproduce the manuscript's
 computational claims.
