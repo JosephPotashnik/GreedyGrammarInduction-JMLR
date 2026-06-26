@@ -1,6 +1,7 @@
 # Greedy Grammar Induction
 
-This repository accompanies the arXiv preprint [**"Greedy Grammar Induction with Indirect Negative Evidence"**](https://arxiv.org/abs/2312.15321). It is prepared as the public reproducibility repository for journal review.
+This repository accompanies the JMLR submission of *Greedy Grammar Induction with Indirect Negative Evidence*. It contains the implementation, fixed-seed benchmark configurations, and learner logs used for reproducibility review. The manuscript version to be reviewed is the PDF submitted through the JMLR submission system. Any arXiv preprint or public manuscript linked from this repository may lag behind the submitted JMLR version.
+
 
 It contains the C# implementation of the learner, parser and grammar machinery, benchmark configurations, fixed-seed test-suite logs, packaged native nauty wrappers, and documentation needed for reproducibility.
 
